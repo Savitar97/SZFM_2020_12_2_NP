@@ -14,4 +14,13 @@ Az épület modern stílúsú, légkondicionált, egyedi dekorációkkal és ép
 Ételválasztékunkban nemzetközi ételspecialitásokat is kínálunk.
 Éttermünk minden héten változatos menükkel, és az a'la carte étlap mellett a séfünk külön ajánlatokkal kedveskedve várja a vendégeket. A megújuló
 kínálatban szereplő fogásaink megalkotásánál kiemelten fontos figyelmet fordítottunk a szezonális és a minőségi alapanyagok 
-megtalálására és alkalmazására.
+megtalálására és alkalmazására. Az ételekhez felszolgált péksütemények frissességéről a pékmestereink gondoskodnak, tehát a péksüteményeink is helyben készülnek.
+Mindemellett a desszertek minőségét saját cukrászaink garantálják.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Mivel üzletünk nagyon gyors ütemben fejlődött ezért a raktári tevékenységek és készletek kezdenek átláthatatlanok lenni.
+Mostanában gyakrabban fordul elő, hogy a rossz készletnyilvántartás miatt a megrendelt ételt nem tudják elkészíteni. Így egyre rosszabb éttermünk értékelése, az elégedettlenül
+távozó vendégeink miatt. Ezen szeretnénk javítani. Illetve jelenleg csak helyben fogyasztási és helyből elvihető lehetőséget nyújt éttermünk, ezt szeretnénk fejleszteni 
+házhozszállítási lehetőséggel. Ezen felül éttermünk még nem rendelkezik weboldallal, ahol a leendő vengédeink naprakész információt kaphatnának a jelenleg elérhető menüről és
+lehetővé tenné számukra a rendelést és asztalfoglalást. Ezeket a fejlesztéseket muszáj meglépnünk, hogy képesek legyünk tartani a lépést a piaci versenytársakkal és ezzel egy
+újfajta vevőkört is kialakíthatunk, mivel bővítjük a kínálatunkat. A jelenlegi vírushelyzet, miatt megnőtt a kereslet a házhozszállításos éttermek iránt,tehát egy új rés nyílt a
+piacon.

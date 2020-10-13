@@ -23,7 +23,8 @@ Jelenleg üzletünkben készpénzes és készpénzkímélő fizetési formákkal
 Mostanában gyakrabban fordul elő, hogy a rossz készletnyilvántartás miatt a megrendelt ételt nem tudják elkészíteni újra felkell becsülnünk az optimális készeltszintünket, amely a
 papíron vezetett leltár miatt hosszú sok időt, munkaerőt és költséget felölelő feladat. A pontos becslés nélkül pedig túl magasra is tehetjük a készletszintünket,amely megnövekedett
 raktárköltségeket és nagyobb később feleslegessé váló készletek aránya(explicit és implicit költségek). Ha nem teszünk valamit a helyuet ellen egyre rosszabb lesz éttermünk értékelése, 
-az elégedettlenül távozó vendégeink miatt. Ezt mindenképp megkell állítanunk. 
+az elégedettlenül távozó vendégeink miatt. Ezt mindenképp megkell állítanunk.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Illetve jelenleg csak helyben fogyasztási és helyből elvihető lehetőséget nyújt éttermünk, ezt szeretnénk 
 fejleszteni házhozszállítási lehetőséggel. Ezen felül éttermünk még nem rendelkezik weboldallal, ahol a leendő vengédeink naprakész információt kaphatnának a jelenleg elérhető menüről 
 és lehetővé tenné számukra a rendelést és asztalfoglalást. Ezeket a fejlesztéseket muszáj meglépnünk, hogy képesek legyünk tartani a lépést a piaci versenytársakkal és ezzel egy

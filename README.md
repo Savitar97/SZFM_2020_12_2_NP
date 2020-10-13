@@ -1,5 +1,5 @@
 # SZFM_2020_12_2_NP
-Ez a repository tartalmazza az UFO Team nagyprojektjét.
+Ez a repository tartalmazza az UFO Team nagyprojektjét.::alien::
 
 A verzió követést itt githubon, míg a projekt menedzselést Trello-n(https://trello.com/b/1UQb6CHa/project2) fogjuk végezni.
 

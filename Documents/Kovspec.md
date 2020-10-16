@@ -45,6 +45,9 @@ Ha egy saját weboldallal rendelkezünk, akkor a világ minden egyes pontján el
 ## 4. Igényelt üzleti folyamatok
  - Egyedi, kifejezetten az étterem számára készített program
  - Menü elemek hozzáadásának lehetősége (alkalmazottak részére)
+ - A vendégek / rendelők számára a menü megjelenítése
+ - A jobb nyomonkövethetőség / átláthatóság érdekében a hozzávalókhoz raktár készítése
+ - A raktárba az alkalmazottak feltölthessék a rendelkezésre álló hozzávalók nevét és mennyiségét
 
 ## Követelménylista
 

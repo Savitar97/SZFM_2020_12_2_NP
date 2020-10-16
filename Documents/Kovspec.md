@@ -82,3 +82,9 @@ A túl magas készletszint sem jó, mert plusz költségekkel jár a vállalatna
 **11. Leltározás fogalma:** olyan tevékenység, amelynek során a gazdálkodó szervezet hitelesen megállapítja a leltározás körébe bevont vagyon valóságban meglévő mennyiségét, minőségét és értékét.
 
 **12. A leltár:** olyan részletes tételes kimutatás, amely a valóságos vagyon mennyiségét, minőségét és értékét tartalmazza felsorolásokkal és összesítésekkel. Mindig fordulónapra készül, a mérleghitelesítő bizonylata.
+
+**13. Weboldal:** Olyan számítógépes dokumentum, mely megfelel a World Wide Web számára, és alkalmas arra, hogy egy webböngésző megjelenítse.
+
+**14. Webböngésző:** Webböngészőnek nevezzük azon programokat, amelyekkel az interneten található tartalmakat – legtöbbször weblapokat – lehet megtekinteni, illetve az interneten keresztül elérhető szolgáltatásokat használni.
+
+**15. Online:** Az interneten keresztül működő.

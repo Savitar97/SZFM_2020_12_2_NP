@@ -38,21 +38,21 @@ Ha egy saját weboldallal rendelkezünk, akkor a világ minden egyes pontján el
 ## Követelménylista
 
 ### Weboldal követelményei: 
-  K01: Weboldal létrehozása
-  K02: Online elérhető menü és ajánlatok
-  K03: Online asztalfoglalás
-  K04: Online rendelés
-  K05: Házhozszállítás lehetősége, fizetési módok kiválasztása, lakcím megadása
-  K06: Átlátható, menüpontokba rendszerezett elrendezés
+ - K01: Weboldal létrehozása
+ - K02: Online elérhető menü és ajánlatok
+ - K03: Online asztalfoglalás
+ - K04: Online rendelés
+ - K05: Házhozszállítás lehetősége, fizetési módok kiválasztása, lakcím megadása
+ - K06: Átlátható, menüpontokba rendszerezett elrendezés
   
 ### Készletnyilvántartó program követelményei:
-  K07: A weboldallal létező összeköttetés
-  K08: Alacsony készlet jelzése
-  K09: Adott termékből hány darab készíthető el még
-  K10: Hiányzó készlet egyszerű beszerzése
-  K11: Átlátható felépítés, ineffektív készletnyilvántartás elkerülése érdekében
-  K12: Készletigény becslés
-  K13: A papíron való adatvezetés átvétele
+ - K07: A weboldallal létező összeköttetés
+ - K08: Alacsony készlet jelzése
+ - K09: Adott termékből hány darab készíthető el még
+ - K10: Hiányzó készlet egyszerű beszerzése
+ - K11: Átlátható felépítés, ineffektív készletnyilvántartás elkerülése érdekében
+ - K12: Készletigény becslés
+ - K13: A papíron való adatvezetés átvétele
 
 
 ## Fogalomszótár

@@ -48,6 +48,10 @@ Ha egy saját weboldallal rendelkezünk, akkor a világ minden egyes pontján el
  - A vendégek / rendelők számára a menü megjelenítése
  - A jobb nyomonkövethetőség / átláthatóság érdekében a hozzávalókhoz raktár készítése
  - A raktárba az alkalmazottak feltölthessék a rendelkezésre álló hozzávalók nevét és mennyiségét
+ - Egy "Utánpótlás" vagy "Berendelésre vár" opció hpzzáadása
+ - Amennyiben egy alapanyagból túl kevés hozzávaló áll rendelkezésre, akkor az kerüljön át az "Utánpótlás" vagy "Berendelésre vár" részre
+ - Amennyiben a vendég nem szeretne személyesen bemenni az étterembe, arra az esetre rendelési lehetőség biztosítása
+ - A vendégek weblapon keresztül adhassák le a rendelésüket az étteremnek
 
 ## Követelménylista
 

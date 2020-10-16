@@ -52,6 +52,12 @@ Ha egy saját weboldallal rendelkezünk, akkor a világ minden egyes pontján el
  - Amennyiben egy alapanyagból túl kevés hozzávaló áll rendelkezésre, akkor az kerüljön át az "Utánpótlás" vagy "Berendelésre vár" részre
  - Amennyiben a vendég nem szeretne személyesen bemenni az étterembe, arra az esetre rendelési lehetőség biztosítása
  - A vendégek weblapon keresztül adhassák le a rendelésüket az étteremnek
+ 
+## 5. A rendszerre vonatkozó szabályok
+ - Java, minimum 13-as verzió
+ - Javafx 14-es verzió
+ - Saját adatbázis: MySql, Apache és XSAMPP
+ - Adatkezelés: GDPR
 
 ## Követelménylista
 

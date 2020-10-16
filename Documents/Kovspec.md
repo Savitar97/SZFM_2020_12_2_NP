@@ -35,6 +35,11 @@ piacon.
 Az internetes jelenlét tehát ma már nem csak egy óriási előny, hanem a partnerek számára is egy alapvető elvárás.
 Ha egy saját weboldallal rendelkezünk, akkor a világ minden egyes pontján elérhetővé válunk. 
 
+## 2.Vágyálomrendszer
+
+## 3.Jelenlegi üzleti folyamatok
+&nbsp;&nbsp;&nbsp;&nbsp;Általánosságban beszélve is egy étteremben nagyon sok olyan folyamat megy végbe egy időben, ami mégis valamilyen nyomon követést igényel. Ezt nézhetjük több szemszögből is, a főnökéből is, aki az éttermet irányítja, a szakácsokéból és segédeikből, akik elkészítik az ételeket és a felszolgálókéból is megnézhetjük, hiszen rajtuk keresztül jutnak el a rendelések a konyhához. És persze még sok más embert is fel lehetne ide sorolni, mivel egy étterem nagyon összetett és "oljaozott gépezetként" kell működnie egész nap. Részletezve kicsit az előbb említett folyamatokat. A pincérek általában megjegyzik, vagy egy cetlire írják fel a vendégek kívánságait, és azt továbbítják a konyhára. Ezután pedig jön az a rész, ahol ez nem biztos, hogy a legjobb megoldásnak számít.
+
 ## Követelménylista
 
 ### Weboldal követelményei: 

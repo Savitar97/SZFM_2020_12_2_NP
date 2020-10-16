@@ -53,11 +53,13 @@ Ha egy saját weboldallal rendelkezünk, akkor a világ minden egyes pontján el
  - Amennyiben a vendég nem szeretne személyesen bemenni az étterembe, arra az esetre rendelési lehetőség biztosítása
  - A vendégek weblapon keresztül adhassák le a rendelésüket az étteremnek
  
-## 5. A rendszerre vonatkozó szabályok
+## 5. A rendszerre vonatkozó szabályok (törvények, rendeletek és szabványok egyaránt)
  - Java, minimum 13-as verzió
  - Javafx 14-es verzió
  - Saját adatbázis: MySql, Apache és XSAMPP
  - Adatkezelés: GDPR
+ - A szabványhozó szervezetek által eddig bevezetett szabványok betartása
+ - Például néhány nagyobb szervezet: W3C, ECMA, IETF, WHATWG
 
 ## Követelménylista
 

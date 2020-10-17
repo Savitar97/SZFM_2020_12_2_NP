@@ -25,11 +25,13 @@ papíron vezetett leltár miatt hosszú sok időt, munkaerőt és költséget fe
 raktárköltségeket és nagyobb később feleslegessé váló készletek aránya(explicit és implicit költségek). Ha nem teszünk valamit a helyuet ellen egyre rosszabb lesz éttermünk értékelése, 
 az elégedettlenül távozó vendégeink miatt. Ezt mindenképp megkell állítanunk.
 
+&nbsp;&nbsp;&nbsp;&nbsp;Mindezen felül a papíron tárolt recepteket hatékony lenne digitalizálni és monitorok segítségével megjeleníteni, a szakácsaink előtt, így időtspórolva nekik, hogy ne kelljen keresgélniük a papír alapú receptek között ezzel is gyorsítva és egyszerűsítve a munkát. A papíron tárolt receptek másik nagy problémája a konyhában könnyen víz érheti illetve egyéb hatásoknak van kitéve. Így fentáll a veszélye a receptek megsemmisülésének. A többszörös újra nyomtatást elkerülve pedig digitálisan egyszerűen egy rendszerből elérve meglehetne oldani. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;Illetve jelenleg csak helyben fogyasztási és helyből elvihető lehetőséget nyújt éttermünk, ezt szeretnénk 
 fejleszteni házhozszállítási lehetőséggel. Ezen felül éttermünk még nem rendelkezik weboldallal, ahol a leendő vengédeink naprakész információt kaphatnának a jelenleg elérhető menüről 
 és lehetővé tenné számukra a rendelést és asztalfoglalást. Ezeket a fejlesztéseket muszáj meglépnünk, hogy képesek legyünk tartani a lépést a piaci versenytársakkal és ezzel egy
 újfajta vevőkört is kialakíthatunk, mivel bővítjük a kínálatunkat. A jelenlegi vírushelyzet, miatt megnőtt a kereslet a házhozszállításos éttermek iránt,tehát egy új rés nyílt a
-piacon.
+piacon, amelyet kihasználva nem esik vissza a profitunk még ezekben az időkben sem.
 
 &nbsp;&nbsp;&nbsp;&nbsp;A saját weblapot azért is fontos számunkra mivel az utóbbi években az Internet használatával rengeteg új reklámlehetőség vált elérhetővé, egy nyomtatott hirdetés árának töredékéért. 
 Az internetes jelenlét tehát ma már nem csak egy óriási előny, hanem a partnerek számára is egy alapvető elvárás.

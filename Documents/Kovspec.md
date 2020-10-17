@@ -48,6 +48,11 @@ Az internetes jelenlét tehát ma már nem csak egy óriási előny, hanem a par
 Ha egy saját weboldallal rendelkezünk, akkor a világ minden egyes pontján elérhetővé válunk. 
 
 ## 2.Vágyálomrendszer
+&nbsp;&nbsp;&nbsp;&nbsp;Az étterem forgalma az utóbbi idöben egyre növekszik, folyamatosan új arcok alkalmazására van szükség, naponta akár több száz ember is megfordul ebben a vendéglátóipari egységben. Ilyen nagy arányokkal pedig nehéz dolgozni, több munkafolyamat hektikussá válik, a pincéreket és szakácsokat pedig felesleges stressz éri emiatt nap mint nap.
+Ezért lenne az étteremnek szüksége egy olyan informatikai rendszerre, amely megkönnyítené és felpörgetné a munkát, valamint emellett lehetővé tenné, hogy az energiáját mindenki optimálisan tudja felhasználni.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Első körben a menü és az ételek receptjeinek digitalizálása lenne fontos, hiszen így ez könnyen elérhetővé válik majd mind az alkalmazottaknak, mind a vendégek számára. "Egy jó szakácsnak fejből kellene már tudni a recepteket", mondhatják egyesek, amivel az étterem vezetősége részben egyetért, hiszen a sok évnyi tapasztalat nem vész kárba, de ugyanakkor a néha előforduló tévedések és a kapkodás okozta hibák elkerülése érdekében célszerűbb, ha a konyhán digitális formában elérhető lenne minden fontos információ a dolgozók számára. A menüsor digitalizálásának köszönhetően pedig az étterem menedzsere a tulajdonosokkal együtt sokkal átláthatóbban szerkeszthetné a menüt kedvük szerint.
+
 
 ## 3. Jelenlegi üzleti folyamatok
 &nbsp;&nbsp;&nbsp;&nbsp;Általánosságban beszélve is egy étteremben nagyon sok olyan folyamat megy végbe egy időben, ami mégis valamilyen nyomon követést igényel.

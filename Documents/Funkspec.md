@@ -20,6 +20,8 @@ Tehát az optimális készeltszintünk felbecsüléséhez mindenképp fontos, a 
 ## 4. Jelenlegi üzleti folyamatokmodellje
 ## 5. Igényelt üzleti folyamatok modellje
 ## 6. Követelménylista
+ - Legyen egyszerűen kezelhető az alkalmazottak és a vendégek számára egyaránt
+ - Legyen könnyen áltáltható az alkalmazottak és a vendégek számára egyaránt
 ## 7. Használati esetek
 ## 8. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 9. Képernyő tervek

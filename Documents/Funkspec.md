@@ -32,8 +32,41 @@ A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés mia
 
 ## 3. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások
 ## 4. Jelenlegi üzleti folyamatokmodellje
+### 4.1 Raktár kezelése:
+4.1.1 Alkalmazott=>Alapanyagok megszámolása=>Feljegyzés papírra
+
+4.1.2 Alkalmazott=>Receptek felírása=>Papírra,keményfedelű jegyzetfüzetbe
+
+4.1.3 Alkalmazott=>Feljegyzett készletek=>Hiányzó készletek meghatározása=>Áru rendelése
+
+### 4.2 Interakciók az ügyfelekkel
+4.2.1 Étterem=>Televízió,rádió,hirdetőfelület=>Hirdetés
+
+4.2.2 Ügyfél=>Asztalfoglalás=>Személyesen az étteremben
+
+4.2.3 Ügyfél=>Étel rendelés=>Személyesen az étteremben=>Evitelre vagy helyben fogyasztva
+
+4.2.4 Alkalmazott=>Ügyfél=>Asztalfoglalás bejegyzése
+
+4.2.5 Alkalmazott=>Ügyfél=>Rendelés felvétele
+
 ## 5. Igényelt üzleti folyamatok modellje
-Az első modellen a felhasználó-raktár-receptek kapcsolata látható.
+## 5.1 Alkalmazott-Leltár-Recept
+5.1.1 Alkalmazott=>Alkalmazás=>Leltár feltöltése
+
+5.1.2 Alkalmazott=>Alkalmazás=>Elgépelt érték javítása
+
+5.1.3 Alkalmazott=>Alkalmazás=>Alapanyag törlése
+
+5.1.4 Alkalmazott=>Alkalmazás=>Alapanyagok listázása
+
+5.1.5 Alkalmazott=>Alkalmazás=>Recept feltöltése
+
+5.1.6 Alkalmazott=>Alkalmazás=>Recept módosítása
+
+5.1.7 Alkalmazott=>Alkalmazás=>Recept törlése
+
+5.1.8 Alkalmazott=>Alkalmazás=>Receptek lekérdezése
 
 ![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/elsodiagram.png)
 ## 6. Követelménylista
@@ -49,3 +82,5 @@ Az első modellen a felhasználó-raktár-receptek kapcsolata látható.
 ## 10. Forgatókönyvek
 ## 11. Funkció –követelmény megfeleltetés
 ## 12. Fogalomszótár
+
+

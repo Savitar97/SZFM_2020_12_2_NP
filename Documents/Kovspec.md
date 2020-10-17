@@ -116,3 +116,7 @@ A túl magas készletszint sem jó, mert plusz költségekkel jár a vállalatna
 **14. Webböngésző:** Webböngészőnek nevezzük azon programokat, amelyekkel az interneten található tartalmakat – legtöbbször weblapokat – lehet megtekinteni, illetve az interneten keresztül elérhető szolgáltatásokat használni.
 
 **15. Online:** Az interneten keresztül működő.
+
+**16. Digitalizálás:** Az a folyamat, amikor egy fizikai mennyiséget valamilyen módon számítógéppel feldolgozhatóvá teszünk.
+
+**17. Profit:** A profit vagy nyereség valamely gazdasági tevékenység során felmerült, számszerűen kifejezett bevételek és költségek különbsége. 

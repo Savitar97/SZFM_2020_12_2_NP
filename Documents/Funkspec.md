@@ -33,6 +33,8 @@ A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés mia
 ## 3. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások
 ## 4. Jelenlegi üzleti folyamatokmodellje
 ## 5. Igényelt üzleti folyamatok modellje
+Az első modellen a felhasználó-raktár-receptek kapcsolata látható.
+![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/elsodiagram.png)
 ## 6. Követelménylista
  - Legyen egyszerűen kezelhető az alkalmazottak és a vendégek számára egyaránt
  - Legyen könnyen áltáltható az alkalmazottak és a vendégek számára egyaránt

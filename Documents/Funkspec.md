@@ -36,6 +36,10 @@ A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés mia
 ## 6. Követelménylista
  - Legyen egyszerűen kezelhető az alkalmazottak és a vendégek számára egyaránt
  - Legyen könnyen áltáltható az alkalmazottak és a vendégek számára egyaránt
+ - Az adatok tárolása adatbázisban törtéjen
+ - Weboldalon keresztül követhető legyen
+ - Weboldalon keresztül történő rendelések leadása
+ - A felmerülő hibák kezelése megállítással vagy figyelmeztetéssel
 ## 7. Használati esetek
 ## 8. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 9. Képernyő tervek

@@ -34,3 +34,27 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
 - A projekt határideje: 2020. december 7.
 - A dokumentáció elkészültének határideje: 2020. október 19.
 - Demó bemutatása: 2020. november 2.
+
+# Követelmények
+
+## Funkcionális követelmények
+
+ - A rendszerbe feltöltött adatok ponttos tárolása.
+ - A felhasználó nem kaphat hamis adatot vagy eredményt.
+ - Az inputok helyes kezelése.
+ - Amennyiben egy művelet nem sikerül, arról a felhasználó kapjon tájékoztatást.
+ - Egyéb esetben az előző pontot szegjük meg.
+ - Felhasználóbarát élmény nyújtása az alkalmazást és weboldalt használók számára.
+ 
+## Nem funkcionális követelmények
+
+ - Letisztult grafikus felületet kell biztosítani.
+ - Olyan személynek se jelentsen gondot a használat, aki informatikai alapismeretekkel nem igazán rendelkezik.
+ - Felesleges adatokat ne kapjanak a felhasználók, tehát csak azok az adatok kerüljenek megjelenítésre, amelyekre ténylegesen szükségük is van a használathoz.
+ - Csak az aktuális információk megjelenítése.
+ - A törölt bejegyzések valóban tűnjenek el.
+ - Amennyiben módosítanak egy bejegyzést, akkor az rögtön váljon elérhetőve.
+ 
+## Jogi követelmények
+ - A projekt során felhasznált illusztrációk, képek vagy egyéb grafikai elemek a projekt készítői által lettek elkészítve, vagy No Copyright licenccel lettek ellátva, ami által 
+szabadon felhasználhatóak.

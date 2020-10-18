@@ -188,5 +188,29 @@ elérnie, és azt, hogy a folyamat sorrán milyen eszközöket és eljárásokat
  
  **5. Piaci rés:** A piaci rés abban az esetben fordul elő, amennyiben nagyobb a kereslet mint a kínálat, tehát a a kínálat egyáltalán nem, vagy csak részben áll rendelkezésre, 
  de akkor sem annyira, mint amennyire szükség lenne rá. A cégek ezt igyekeznek kihasználni.
+ 
+ **6. Szabvány:** A szabvány egy elismert szervezet által alkotott vagy jóváhagyott, közmegegyezéssel elfogadott dokumentum.
+ 
+ **7. Java fogalma:** A Java általános célú, objektumorientált programozási nyelv, amelyet a Sun Microsystems fejlesztett a 90-es évektől egészen 2009-ig, amikor a céget 
+ felvásárolta az Oracle. Azóta az Oracle neve alatt adják ki az újításokat.
+
+ **8. JavaFX fogalma:** A JavaFX egy szkriptnyelv, amelyet 2006-ban adtak ki egy Java változatként. Egyszerűnek szánták, amellyel könnyen lehet aasztali alkalmazást készíteni, 
+ és alkalmas grafika, videó, animáció audió és különböző szövegfunkciók elkészítésére.
+
+ **9. JDK fogalma:** A JDK a Java Development Kit rövidítése, amely a Java fordítót, futtató környezetét és fejlesztői eszközeit tartalmazza. 2019. áprilisa óta megszűnt a nyílt 
+ letöltése, azonban ennek kiküszöbölésére OpenJDK-ként azóta is teljesen ingyenes.
+
+ **10. MySQL:** A MySQL egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver.
+
+ **11. XAMPP:** A XAMPP egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag.
+ 
+ **12. HTML:** A HTML a HyperText Markup Language rövidítése, amely a weboldalak fejlesztéséhez készült leíró nyelv. Mára már szabvánnyá vált az internet világában, és a W3C 
+ támogatja. Aktuális verziója: 5.
+ 
+ **13. CSS:** A CSS a Cascading Style Sheets rövidítése, stílusleíró nyelv, amely HTML vagy XHTML dokumentumok megjelenítéséért felel.
+ 
+ **14. PHP:** A PHP egy szerveroldali szkriptnyelv, amely weblapok elkészítésére szolgál.
+
+ **15. GDPR:** A GDPR az Európai Unió és a Tanács által elfogadott rendelet, amely a személyes adatok védelmét és szabad áramlását szabályozza.
 
 

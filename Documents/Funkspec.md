@@ -81,6 +81,11 @@ Kicsit részletesebben kifejtve ezek a következők:
  - JavaFX, ahol a használt verzió: 14-es
  - Adatbáziskezelés a háttérben: MySQL, Apache és XSAMPP
  
+### 3.2 A weblap kidolgozásához minimum szükségesek az alábbiak:
+ - HTML használata
+ - PHP használata
+ - Adatbáziskezeléshez szükséges: XSAMPP
+ 
 
 
 

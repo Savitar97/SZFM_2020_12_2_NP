@@ -90,7 +90,7 @@ A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés mia
 4.2.5 Alkalmazott=>Ügyfél=>Rendelés felvétele
 
 ## 5. Igényelt üzleti folyamatok modellje
-## 5.1 Alkalmazott-Leltár-Recept
+### 5.1 Alkalmazott-Leltár-Recept
 5.1.1 Alkalmazott=>Alkalmazás=>Leltár feltöltése
 
 5.1.2 Alkalmazott=>Alkalmazás=>Elgépelt érték javítása

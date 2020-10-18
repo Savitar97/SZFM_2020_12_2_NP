@@ -1,5 +1,20 @@
 # Funkcionális specifikáció
 ## 1. Rendszer céljai és nem céljai
+
+###A rendszer céljai a következők:
+
+####Asztali alkalmazás esetében:
+
+#####A weboldal esetében:
+
+
+###A rendszernek nem céljai a következők:
+
+####Asztali alkalmazás esetében:
+
+#####A weboldal esetében:
+
+
 ## 2. [Jelenlegi helyzet leírása](Kovspec.md#1-jelenlegi-helyzet)
 
 &nbsp;&nbsp;&nbsp;&nbsp;A jelenlegi helyzet az, hogy az étterem a gyors ütemű fejlődése miatt kinőtte az eddig megszokott papír alapú leltár készítését.

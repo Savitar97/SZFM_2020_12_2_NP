@@ -75,7 +75,13 @@ Ide az úgynevezett "szabályokat" sorolhatjuk, amelyek, ha kifejtjük, akkor az
 kiadott szabványokat és ajánlásokat jelentik, illetve az általunk megfogalmazott kikötések a program / alkalmazás szempontjából tekintve, amelyek befolyásolják a kapott
 végkimenetelt.
 Kicsit részletesebben kifejtve ezek a következők:
+
+### 3.1 Az applikáció kidolgozásához a következőkre van szükség:
+ - Java, ahol megkötés a verziószámban: minimum 13-as
+ - JavaFX, ahol a használt verzió: 14-es
+ - Adatbáziskezelés a háttérben: MySQL, Apache és XSAMPP
  
+
 
 
 ## 4. Jelenlegi üzleti folyamatokmodellje

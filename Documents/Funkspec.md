@@ -89,7 +89,7 @@ Kicsit részletesebben kifejtve ezek a következők:
  - Adatbáziskezeléshez szükséges: XAMPP
  
 ### 3.3 Jogi háttér:
-Ahhoz, hogy elkészülhessen az alkalmazás és a weblap is, más követelmény nem lenne.
+&nbsp;&nbsp;&nbsp;&nbsp;Ahhoz, hogy elkészülhessen az alkalmazás és a weblap is, más követelmény nem lenne.
 Azonban ahhoz, hogy ezek legálisan használhatóvá is váljanak, és megkaphassa az étterem, mindenképp figyelmet kell fordítani a jogi megkötésekre.
 Tehát figyelni kell:
 
@@ -98,10 +98,10 @@ Tehát figyelni kell:
  
 Kicsit jobban részletezve:
 
-Az adatvédelemre 2 okból is szükség van, hiszen egy weboldal kezelhet személyes adatokat, amit a felhasználó nem biztos, hogy ki szeretne adni például egy harmadik fél  
-számára is, a másik pedig, az ehhez köthető süti (cookie) kezelés, ami alapjáraton tárolási és figyelmeztetési céllal szolgálna, ugyanis az előre kitöltött adatokat, amiket  
-visszatérő látogatóként lát a felhasználó, azokat a sütik töltik ki, illetve fontos jogi követelmény szabályozás miatt, hogy a most már kötelezőként felugró süti használatra  
-figyelmeztető ablakok megjelenjenek.
+Az adatvédelemre 2 okból is szükség van, hiszen egy weboldal kezelhet személyes adatokat, amit a felhasználó nem biztos, hogy ki szeretne adni például egy harmadik fél számára 
+is, a másik pedig, az ehhez köthető süti (cookie) kezelés, ami alapjáraton tárolási és figyelmeztetési céllal szolgálna, ugyanis az előre kitöltött adatokat, amiket visszatérő 
+látogatóként lát a felhasználó, azokat a sütik töltik ki, illetve fontos jogi követelmény szabályozás miatt, hogy a most már kötelezőként felugró süti használatra figyelmeztető 
+ablakok megjelenjenek.
 A mi esetünkben az adatvédelem fontos, hiszen egy étterem számára készítjük az alkalmazást, akik csak saját felhasználásra, pontosabban a rendelések elkészítéséhez és 
 kiszállításához szeretnék az adatokat felhasználni. Emiatt pedig úgy döntöttünk, hogy az étterem felé kötelező adatvédelmet a nemrég kiadott EU-s adatvédelem határozza meg és a 
 GDPR határozza meg.

@@ -162,6 +162,8 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
  - Welapon látható legyen az étlap
  - Weboldalon keresztül történő rendelések leadása
  - Akár több rendelést is lehessen egyszerre leadni
+ - A rendelés mellett látható legyen a szállítási díj is, amennyiben van
+ - Amennyiben nagyjából kalkulálható, akkor a szállítási idő megadása
  - Weboldalon keresztül lehessen asztalt foglalni
  - A felmerülő hibák kezelése megállítással vagy figyelmeztetéssel
 ## 7. Használati esetek
@@ -170,5 +172,21 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 ## 10. Forgatókönyvek
 ## 11. Funkció –követelmény megfeleltetés
 ## 12. Fogalomszótár
+
+**1. Adatbázis:** Az adatbázis más néven Database, számítógépen tárolt adatok összessége, amelyet egy tárolására, lekérdezésére és szerkesztésére alkalmas adatbázis kezelő 
+rendszer, más néven DBMS : Database Management System kezel.
+
+**2. Rendszer:** A rendszer fogalma a mai napig nincs pontosan meghatározva. Azonban a rendszer tartalmának meghatározásához meg kell mondanunk, hogy a rendszernek mit kell 
+elérnie, és azt, hogy a folyamat sorrán milyen eszközöket és eljárásokat használ annak érdekében, hogy elérje a kívánt célt.
+
+**3. Kliens:** 2 jelentése van: 
+ - A kliens lehet egy ügyfél megnevezése, aki egy szolgáltatás igénybe vevője, vagy valakinek / valaminek a megbízója.
+ - A kliens lehet egy számítógép, vagy egy azon futó program, amely hozzáfér egy másik hozzáférést nyújtó számítógép hálózat, vagy egy másik számítógép (más néven: szerver) 
+ által nyújtott (akár távoli) szolgáltatáshoz.
+ 
+ **4. Specialitás:** A specialitás más néven sajátosság.
+ 
+ **5. Piaci rés:** A piaci rés abban az esetben fordul elő, amennyiben nagyobb a kereslet mint a kínálat, tehát a a kínálat egyáltalán nem, vagy csak részben áll rendelkezésre, 
+ de akkor sem annyira, mint amennyire szükség lenne rá. A cégek ezt igyekeznek kihasználni.
 
 

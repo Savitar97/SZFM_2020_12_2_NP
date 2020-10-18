@@ -123,7 +123,7 @@ Addig viszont egy gyorsan megoldható, mégis működő rendszerre van szükség
 ## 5. A rendszerre vonatkozó szabályok (törvények, rendeletek és szabványok egyaránt)
  - Java, minimum 13-as verzió
  - Javafx 14-es verzió
- - Saját adatbázis: MySql, Apache és XSAMPP
+ - Saját adatbázis: MySql, Apache és XAMPP
  - Adatkezelés: GDPR
  - A szabványhozó szervezetek által eddig bevezetett szabványok betartása
  - Például néhány nagyobb szervezet: W3C, ECMA, IETF, WHATWG

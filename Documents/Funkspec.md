@@ -1,18 +1,42 @@
 # Funkcionális specifikáció
 ## 1. Rendszer céljai és nem céljai
 
-###A rendszer céljai a következők:
+### A rendszer céljai a következők:
 
-####Asztali alkalmazás esetében:
+- megbízhatóság;
+- átláthatóság;
+- könnyű kezelhetőség;
+- szemrevaló, letisztult felhasználói felület;
 
-#####A weboldal esetében:
+#### Asztali alkalmazás esetében:
+
+- a rendszer saját adatbázissal kell, hogy rendelkezzen;
+- a rendszernek tárolnia kell az egyes alapanayagokat és ezek raktáron levő mennyiségét. Ezeket a mennyiségeket egységekben kell mérni, ahol egy egységhez magyarázat kell tartozzon (például egy egység liszt jelenthet egy kilogrammot);
+- a rendszerben szerepelnie kell az aktuális menüsornak és az árlistának;
+- a rendszernek valamilyen módon jeleznie kell, ha az egyes alapnyagok készlethiányba fognak kerülni (például, ha tíz egység lisztnél kevesebb van, akkor ez felkerülhet egy figyelmeztető listára);
+
+##### A weboldal esetében:
+
+- a weboldalnak is hozzá kell férnie a központi adatbázishoz;
+- a felhasználó számára elérhető kell, hogy legyen a teljes menüsor, valamint az árlista;
+- a menüben fel kell tüntetni az egyes ételek alapanyagait, hogy a kliensek megbizonyosodjanak róla, nem kapnak olyan ételt, amelybe olyan alapanyag kerülhet, ami esetleges allergiás reakciót válthatna ki;
+- a rendelés leadásakor a felhasználó kiválaszthatja, hogy átvételkor készpénzzel vagy kártyával szeretne fizetni;
+- a weboldalon szerepelnie kell az étterem telefonszámának, abban az esetben, ha a kliens telefonon szeretné leadni rendelését;
+- fel kell tűntetni, hogy kb. mennyi időbe telik a kiszállítás;
+- fel kell tűntetni azt is, hogy mennyibe kerül a kiszállítás;
 
 
-###A rendszernek nem céljai a következők:
+### A rendszernek nem céljai a következők:
 
-####Asztali alkalmazás esetében:
+#### Asztali alkalmazás esetében:
 
-#####A weboldal esetében:
+- készlethiány esetén az alkalmazás nem ad le automatikusan rendelést a szükséges alapanyagokra, csupán egy figyelmeztetést biztosít a beszerzéssel foglalkozó személyzetnek
+- az alkalmazás nem foglalkozik a kasszagépben levő pénzmennyiségekkel;
+
+##### A weboldal esetében:
+
+- a rendszer nem tárolja a felhasználó által megadott személyes adatokat, pontosabban a kliens nevéről, telefonszámáról és lakcíméről van itt szó;
+- házhoz rendeléskor készpénzes fizetés lehetséges, kártyás fizetés is csak helyben, mobil terminálon keresztül, tehát a weboldal nem kell, hogy biztosítsa az online fizetés lehetőségét. Innentől kezdve nem kezelünk érzékeny bankkártya adatokat;
 
 
 ## 2. [Jelenlegi helyzet leírása](Kovspec.md#1-jelenlegi-helyzet)

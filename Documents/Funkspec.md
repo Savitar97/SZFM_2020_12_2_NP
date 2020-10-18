@@ -69,7 +69,15 @@ Illetve ha úton vannak akkor is a Google keresővel telefonon fogják keresni a
 A digitalizálása a recepteknek meggyorsíthatja a konyhai dolgozóink munkáját. Könnyebben kereshetőek. 
 A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés miatt.
 
-## 3. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások
+## 3. A rendszerre vonatkozó szabályok
+
+Ide az úgynevezett "szabályokat" sorolhatjuk, amelyek, ha kifejtjük, akkor az aktuális törvényi megszorításokat és rendeleteket, a különböző ezzel foglalkozó szerezetek által
+kiadott szabványokat és ajánlásokat jelentik, illetve az általunk megfogalmazott kikötések a program / alkalmazás szempontjából tekintve, amelyek befolyásolják a kapott
+végkimenetelt.
+Kicsit részletesebben kifejtve ezek a következők:
+ 
+
+
 ## 4. Jelenlegi üzleti folyamatokmodellje
 ### 4.1 Raktár kezelése:
 4.1.1 Alkalmazott=>Alapanyagok megszámolása=>Feljegyzés papírra

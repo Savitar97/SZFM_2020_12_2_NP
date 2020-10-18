@@ -90,16 +90,20 @@ hiszen rajtuk keresztül jutnak el a rendelések a konyhához.
 Részletezve kicsit az előbb említett folyamatokat.
 A pincérek általában megjegyzik, vagy egy cetlire írják fel a vendégek kívánságait, és azt továbbítják a konyhára.
 Ezután pedig jön az a rész, ahol ez nem biztos, hogy a legjobb megoldásnak számít.
-A konyhában ezek a cetlik összekeveredhetnek, ha esetleg lemaradt róluk az asztalszám, vagy a nagy forgatagban 1-1 el is tűnhet (például ha leesik, vagy beesik a pult alá), amivel 
+A konyhában ezek a cetlik összekeveredhetnek, ha esetleg lemaradt róluk az asztalszám, vagy a nagy forgatagban 1-1 el is tűnhet (például ha leesik, vagy beesik a pult alá),
+amivel 
 időt buknak, és lehet, hogy a vendég sem fog visszajárni a későbbiekben egy ilyen baki miatt, tehát van tétje a precizitásnak.
 A konyhán másik lényeges dolog, a folyamatos tisztaság, ami szintén alkalmas figyelemelterelésre, ezzel újabb hibalehetőséget biztosítva a séfnek.
-A tapasztalt szakácsok már csak érzésből pakolják a hozzávalókat az ételek nagy részébe, a kezdők viszont elnézhetik, és túlzásokba eshetnek véletlenül is (túl sózza pl az ételt, 
+A tapasztalt szakácsok már csak érzésből pakolják a hozzávalókat az ételek nagy részébe, a kezdők viszont elnézhetik, és túlzásokba eshetnek véletlenül is (túl sózza pl az
+ételt, 
 vagy pont ellenkezőleg, és túl kevés lesz belőle).
 Innen is jött az ötlet, hogy a menü és a hozzávalók is nyomon követhetőek legyenek mindkét fél számára.
-Így a szakácsnak is könnyebb a dolga, ha egyel kevesebbre kell figyelni, illetve az esetleges allergiás reakciók is elkerülhetőek arra az esetre, ha a vendég elfelejtené az elején 
+Így a szakácsnak is könnyebb a dolga, ha egyel kevesebbre kell figyelni, illetve az esetleges allergiás reakciók is elkerülhetőek arra az esetre, ha a vendég elfelejtené az
+elején 
 megkérdezni a pincért.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Az aktuális helyzet szerintem eléggé befolyásolja az éttermek működését, mivel a vírushelyzet miatt rengeteg olyan törvényt hoztak, ami az embereket védi, de 
+&nbsp;&nbsp;&nbsp;&nbsp;Az aktuális helyzet szerintem eléggé befolyásolja az éttermek működését, mivel a vírushelyzet miatt rengeteg olyan törvényt hoztak, ami az embereket
+védi, de 
 ezzel együtt az éttermek személyzetének sok fejfájást okoz, nem beszélve a hatalmas bevétel kiesésről a kevesebb vendég miatt.
 Ennek az enyhítésére jött az ötlet: rendeléseket is lehessen felvenni.
 Azt, hogy ezt szeretnék e megtartani vagy sem a vírushelyzet után, már csak ők tudják.

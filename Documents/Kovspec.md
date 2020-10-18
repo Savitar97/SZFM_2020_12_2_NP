@@ -205,3 +205,19 @@ A precíz mérés eredménye reprodukálható.
 **21. Rendszer:** A rendszer fogalma a mai napig nincs pontosan meghatározva. 
 Azonban a rendszer tartalmának meghatározásához meg kell mondanunk, hogy a rendszernek mit kell elérnie, és azt, hogy a folyamat sorrán milyen eszközöket és eljárásokat használ 
 annak érdekében, hogy elérje a kívánt célt.
+
+**22. Java fogalma:** A Java általános célú, objektumorientált programozási nyelv, amelyet a Sun Microsystems fejlesztett a 90-es évektől egészen 2009-ig, amikor a céget 
+felvásárolta az Oracle. 
+Azóta az Oracle neve alatt adják ki az újításokat.
+
+**23. JavaFX fogalma:** A JavaFX egy szkriptnyelv, amelyet 2006-ban adtak ki egy Java változatként. Egyszerűnek szánták, amellyel könnyen lehet aasztali alkalmazást készíteni, 
+és alkalmas grafika, videó, animáció audió és különböző szövegfunkciók elkészítésére.
+
+**24. JDK fogalma:** A JDK a Java Development Kit rövidítése, amely a Java fordítót, futtató környezetét és fejlesztői eszközeit tartalmazza. 2019. áprilisa óta megszűnt a nyílt 
+letöltése, azonban ennek kiküszöbölésére OpenJDK-ként azóta is teljesen ingyenes.
+
+**25. MySQL:** A MySQL egy többfelhasználós, többszálú, SQL-alapú relációs adatbázis-kezelő szerver.
+
+**26. XAMPP:** A XAMPP egy szabad és nyílt forrású platformfüggetlen webszerver-szoftvercsomag.
+
+**27. GDPR:** A GDPR az Európai Unió és a Tanács által elfogadott rendelet, amely a személyes adatok védelmét és szabad áramlását szabályozza.

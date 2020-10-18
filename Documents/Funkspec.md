@@ -89,7 +89,7 @@ Kicsit részletesebben kifejtve ezek a következők:
  - Adatbáziskezeléshez szükséges: XAMPP
  
 ### 3.3 Jogi háttér:
-Ahhoz, hogy elkészülhessen az alkalmazás és a weblap is, más követelmény nem lenne.
+&nbsp;&nbsp;&nbsp;&nbsp;Ahhoz, hogy elkészülhessen az alkalmazás és a weblap is, más követelmény nem lenne.
 Azonban ahhoz, hogy ezek legálisan használhatóvá is váljanak, és megkaphassa az étterem, mindenképp figyelmet kell fordítani a jogi megkötésekre.
 Tehát figyelni kell:
 
@@ -98,10 +98,10 @@ Tehát figyelni kell:
  
 Kicsit jobban részletezve:
 
-Az adatvédelemre 2 okból is szükség van, hiszen egy weboldal kezelhet személyes adatokat, amit a felhasználó nem biztos, hogy ki szeretne adni például egy harmadik fél  
-számára is, a másik pedig, az ehhez köthető süti (cookie) kezelés, ami alapjáraton tárolási és figyelmeztetési céllal szolgálna, ugyanis az előre kitöltött adatokat, amiket  
-visszatérő látogatóként lát a felhasználó, azokat a sütik töltik ki, illetve fontos jogi követelmény szabályozás miatt, hogy a most már kötelezőként felugró süti használatra  
-figyelmeztető ablakok megjelenjenek.
+Az adatvédelemre 2 okból is szükség van, hiszen egy weboldal kezelhet személyes adatokat, amit a felhasználó nem biztos, hogy ki szeretne adni például egy harmadik fél számára 
+is, a másik pedig, az ehhez köthető süti (cookie) kezelés, ami alapjáraton tárolási és figyelmeztetési céllal szolgálna, ugyanis az előre kitöltött adatokat, amiket visszatérő 
+látogatóként lát a felhasználó, azokat a sütik töltik ki, illetve fontos jogi követelmény szabályozás miatt, hogy a most már kötelezőként felugró süti használatra figyelmeztető 
+ablakok megjelenjenek.
 A mi esetünkben az adatvédelem fontos, hiszen egy étterem számára készítjük az alkalmazást, akik csak saját felhasználásra, pontosabban a rendelések elkészítéséhez és 
 kiszállításához szeretnék az adatokat felhasználni. Emiatt pedig úgy döntöttünk, hogy az étterem felé kötelező adatvédelmet a nemrég kiadott EU-s adatvédelem határozza meg és a 
 GDPR határozza meg.
@@ -148,6 +148,34 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 5.1.8 Alkalmazott=>Alkalmazás=>Receptek lekérdezése
 
 ![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/elsodiagram.png)
+### 5.2 Weboldal-Applikáció
+5.2.1 User=>Weboldal=>Étlap megtekintése
+
+5.2.2 User=>Weboldal=>Rendelés
+
+5.2.3 User=>Weboldal=>Asztalfoglalás
+
+5.2.4 Weboldal=>User=>Étlap listázása
+
+5.2.5 Weboldal=>Rendelés feltöltése=>Adatbázis
+
+5.2.6 Weboldal=>Foglalás feltöltése=>Adatbázis
+
+5.2.7 Adatbázis=>Rendelhető ételek listázása=>Weboldal
+
+5.2.8 Adatbázis=>Rendelt ételek listázása=>Alkalmazás
+
+5.2.9 Adatbázis=>Asztalfoglalás listázása=>Alkalmazás
+
+5.2.10 Alkalmazás=>Foglalások megjlenítése=>Alkalmazott
+
+5.2.11 Alkalmazás=>Rendelések megjlenítése=>Alkalmazott
+
+5.2.12 Alkalmazott=>Foglalások megtekintése=>Alkalmazás
+
+5.2.13 Alkalmazott=>Rendelések megtekintése=>Alkalmazás
+
+![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/masodik.png)
 ## 6. Követelménylista
  - Legyen egyszerűen kezelhető az alkalmazottak és a vendégek számára egyaránt
  - Legyen könnyen áltáltható az alkalmazottak és a vendégek számára egyaránt

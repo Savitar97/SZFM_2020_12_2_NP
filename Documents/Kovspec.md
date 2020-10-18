@@ -191,3 +191,17 @@ keresztül elérhető szolgáltatásokat használni.
 **16. Digitalizálás:** Az a folyamat, amikor egy fizikai mennyiséget valamilyen módon számítógéppel feldolgozhatóvá teszünk.
 
 **17. Profit:** A profit vagy nyereség valamely gazdasági tevékenység során felmerült, számszerűen kifejezett bevételek és költségek különbsége. 
+
+**18. Folyamat:** A folyamat egy tevékenység sorozatot ír le.
+
+**19. Nyomonkövethetőség:** A nyomonkövethetőség egy képesség, amellyel valaminek az útját, a helyét, a hozzá tartozó folyamat lépéseit, és a szintén a folyamathoz szereplőit 
+azonosítók használatával, illetve az azonosítók közötti kapcsolatok ismeretével vissza tudjuk vezetni.
+
+**20. Precizitás:** A pontosság és a precizitás nem azonos, viszont összefüggő fogalom. A pontosság egy mérés vagy észlelés értékét hasonlítja össze egy jelenség valódi 
+értékével. Ebből következik, hogy a precizitást pedig az észlelés vagy mérés többszöri megismétlése határozza meg. Amennyiben az észlelés vagy mérés a többszöri ismétlés után 
+hasonló eredményt ad, akkor precizitásról beszélünk. 
+A precíz mérés eredménye reprodukálható.
+
+**21. Rendszer:** A rendszer fogalma a mai napig nincs pontosan meghatározva. 
+Azonban a rendszer tartalmának meghatározásához meg kell mondanunk, hogy a rendszernek mit kell elérnie, és azt, hogy a folyamat sorrán milyen eszközöket és eljárásokat használ 
+annak érdekében, hogy elérje a kívánt célt.

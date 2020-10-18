@@ -86,7 +86,14 @@ Kicsit részletesebben kifejtve ezek a következők:
  - PHP használata
  - Adatbáziskezeléshez szükséges: XSAMPP
  
+### 3.3 Jogi háttér:
+Ahhoz, hogy elkészülhessen az alkalmazás és a weblap is, más követelmény nem lenne.
+Azonban ahhoz, hogy ezek legálisan használhatóvá is váljanak, és megkaphassa az étterem, mindenképp figyelmet kell fordítani a jogi megkötésekre.
+Tehát figyelni kell:
 
+ - Az adatvédelemre
+ - Az eddig kiadott szabványokra
+ 
 
 
 ## 4. Jelenlegi üzleti folyamatokmodellje

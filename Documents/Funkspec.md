@@ -175,7 +175,7 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 
 5.2.13 Alkalmazott=>Rendelések megtekintése=>Alkalmazás
 
-![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/elsodiagram.png)
+![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/masodik.png)
 ## 6. Követelménylista
  - Legyen egyszerűen kezelhető az alkalmazottak és a vendégek számára egyaránt
  - Legyen könnyen áltáltható az alkalmazottak és a vendégek számára egyaránt

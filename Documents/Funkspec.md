@@ -112,12 +112,16 @@ A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés mia
  - Legyen egyszerűen kezelhető az alkalmazottak és a vendégek számára egyaránt
  - Legyen könnyen áltáltható az alkalmazottak és a vendégek számára egyaránt
  - Az adatok tárolása adatbázisban törtéjen
+ - Az alkalmazottak számára kerüljön megjelenítésre az alkalmazásban a leadott rendelések
+ - Az alkalmazottak láthatják a berendelésre váró alapanyagok listáját az alkalmazásban
+ - Mindemellett láthatják az étlapot
  - Az étlapon jelenjenek meg a ételekben szereplő alapanyagok
  - Az étlapon lehessen látni az egyes ételek árát
  - Az étlapon (a könnyebb rendelés érdekében) legyen látható sorszámozás az ételek mellett
  - Weboldalon keresztül követhető legyen
+ -  welapon látható legyen az étlap
  - Weboldalon keresztül történő rendelések leadása
- - Akár több rendelést is lehessen leadni
+ - Akár több rendelést is lehessen egyszerre leadni
  - Weboldalon keresztül lehessen asztalt foglalni
  - A felmerülő hibák kezelése megállítással vagy figyelmeztetéssel
 ## 7. Használati esetek

@@ -71,21 +71,22 @@ A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés mia
 
 ## 3. A rendszerre vonatkozó szabályok
 
-Ide az úgynevezett "szabályokat" sorolhatjuk, amelyek, ha kifejtjük, akkor az aktuális törvényi megszorításokat és rendeleteket, a különböző ezzel foglalkozó szerezetek által
-kiadott szabványokat és ajánlásokat jelentik, illetve az általunk megfogalmazott kikötések a program / alkalmazás szempontjából tekintve, amelyek befolyásolják a kapott
-végkimenetelt.
+&nbsp;&nbsp;&nbsp;&nbsp;Ide az úgynevezett "szabályokat" sorolhatjuk, amelyek, ha kifejtjük, akkor az aktuális törvényi megszorításokat és rendeleteket, a különböző ezzel 
+foglalkozó szerezetek által kiadott szabványokat és ajánlásokat jelentik, illetve az általunk megfogalmazott kikötések a program / alkalmazás szempontjából tekintve, amelyek 
+befolyásolják a kapott végkimenetelt.
+
 Kicsit részletesebben kifejtve ezek a következők:
 
 ### 3.1 Az applikáció kidolgozásához a következőkre van szükség:
  - Java, ahol megkötés a verziószámban: minimum 13-as
  - JavaFX, ahol a használt verzió: 14-es
- - Adatbáziskezelés a háttérben: MySQL, Apache és XSAMPP
+ - Adatbáziskezelés a háttérben: MySQL, Apache és XAMPP
  
 ### 3.2 A weblap kidolgozásához minimum szükségesek az alábbiak:
  - HTML használata
  - CSS használata
  - PHP használata
- - Adatbáziskezeléshez szükséges: XSAMPP
+ - Adatbáziskezeléshez szükséges: XAMPP
  
 ### 3.3 Jogi háttér:
 Ahhoz, hogy elkészülhessen az alkalmazás és a weblap is, más követelmény nem lenne.

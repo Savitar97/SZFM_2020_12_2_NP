@@ -119,7 +119,7 @@ A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés mia
  - Az étlapon lehessen látni az egyes ételek árát
  - Az étlapon (a könnyebb rendelés érdekében) legyen látható sorszámozás az ételek mellett
  - Weboldalon keresztül követhető legyen
- -  welapon látható legyen az étlap
+ - Welapon látható legyen az étlap
  - Weboldalon keresztül történő rendelések leadása
  - Akár több rendelést is lehessen egyszerre leadni
  - Weboldalon keresztül lehessen asztalt foglalni

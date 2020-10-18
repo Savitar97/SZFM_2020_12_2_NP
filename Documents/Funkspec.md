@@ -148,6 +148,34 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 5.1.8 Alkalmazott=>Alkalmazás=>Receptek lekérdezése
 
 ![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/elsodiagram.png)
+### 5.2 Weboldal-Applikáció
+5.2.1 User=>Weboldal=>Étlap megtekintése
+
+5.2.2 User=>Weboldal=>Rendelés
+
+5.2.3 User=>Weboldal=>Asztalfoglalás
+
+5.2.4 Weboldal=>User=>Étlap listázása
+
+5.2.5 Weboldal=>Rendelés feltöltése=>Adatbázis
+
+5.2.6 Weboldal=>Foglalás feltöltése=>Adatbázis
+
+5.2.7 Adatbázis=>Rendelhető ételek listázása=>Weboldal
+
+5.2.8 Adatbázis=>Rendelt ételek listázása=>Alkalmazás
+
+5.2.9 Adatbázis=>Asztalfoglalás listázása=>Alkalmazás
+
+5.2.10 Alkalmazás=>Foglalások megjlenítése=>Alkalmazott
+
+5.2.11 Alkalmazás=>Rendelések megjlenítése=>Alkalmazott
+
+5.2.12 Alkalmazott=>Foglalások megtekintése=>Alkalmazás
+
+5.2.13 Alkalmazott=>Rendelések megtekintése=>Alkalmazás
+
+![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/elsodiagram.png)
 ## 6. Követelménylista
  - Legyen egyszerűen kezelhető az alkalmazottak és a vendégek számára egyaránt
  - Legyen könnyen áltáltható az alkalmazottak és a vendégek számára egyaránt

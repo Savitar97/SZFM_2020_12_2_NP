@@ -83,6 +83,7 @@ Kicsit részletesebben kifejtve ezek a következők:
  
 ### 3.2 A weblap kidolgozásához minimum szükségesek az alábbiak:
  - HTML használata
+ - CSS használata
  - PHP használata
  - Adatbáziskezeléshez szükséges: XSAMPP
  
@@ -94,7 +95,19 @@ Tehát figyelni kell:
  - Az adatvédelemre
  - Az eddig kiadott szabványokra
  
+Kicsit jobban részletezve:
 
+Az adatvédelemre 2 okból is szükség van, hiszen egy weboldal kezelhet személyes adatokat, amit a felhasználó nem biztos, hogy ki szeretne adni például egy harmadik fél  
+számára is, a másik pedig, az ehhez köthető süti (cookie) kezelés, ami alapjáraton tárolási és figyelmeztetési céllal szolgálna, ugyanis az előre kitöltött adatokat, amiket  
+visszatérő látogatóként lát a felhasználó, azokat a sütik töltik ki, illetve fontos jogi követelmény szabályozás miatt, hogy a most már kötelezőként felugró süti használatra  
+figyelmeztető ablakok megjelenjenek.
+A mi esetünkben az adatvédelem fontos, hiszen egy étterem számára készítjük az alkalmazást, akik csak saját felhasználásra, pontosabban a rendelések elkészítéséhez és 
+kiszállításához szeretnék az adatokat felhasználni. Emiatt pedig úgy döntöttünk, hogy az étterem felé kötelező adatvédelmet a nemrég kiadott EU-s adatvédelem határozza meg és a 
+GDPR határozza meg.
+
+A korábban említett szabványok használata pedig szintén erősen ajánlott, hiszen ezeket sem véletlenül találták ki, hanem komoly céllal, mint például a hatékonyabb, gyorsabb és 
+olcsóbb működés vagy üzeeltetés. A Követelmény specifikációban már megemlítettük ezeket, de itt is fel szeretnénk hívni a figyelmet a fontosságukra. A nagyobb, internetre 
+szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 
 ## 4. Jelenlegi üzleti folyamatokmodellje
 ### 4.1 Raktár kezelése:

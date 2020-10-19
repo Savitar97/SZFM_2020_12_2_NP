@@ -68,5 +68,18 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
  - Reszponzív webdesing.
  
 ## Jogi követelmények
+
+Ahhoz, hogy a projektünk valóban felhasználható legyen, és ne veszítse értelmét az egész, léteznek jogi követelmények, amelyeket be kell tartanunk. Ilyenek például a szerői 
+jogok, amely arra szolgál, hogy a szerző eldönthesse, hogy az általa létrehozott (akár szellemi) termék hogyan legyen felhasználható. Ez általában úgy néz ki, hogy a termék vagy 
+a szerző külön engedélyével használható, vagy ingyen használható, amennyiben meg van jelölve az eredeti szerző, vagy a szerző a terméket No Copyright lincenccel látja el, amely 
+értelmében a termék szabadon felhasználható (de lehetne még sorolni). Összgezve: a szerző maga dönti el, hogy hogyan használhatják fel más felhasználók az általa létrehozott 
+terméket.
+
+Jelen esetben viszont a Bambusz Étterem számára készítjük az applikációt és a weblapot, amiért felelősséggel tartozik egy részről a fejlesztői csapat is, más részről pedig az 
+étterem, és az alkalmazottjai is. Emiatt lényegessé váltak a következő lépések a projekt elkészítése során, hiszen a célunk egy jól alkalmazható, támogatott és igény esetében 
+fejleszthető alkalmazás és weboldal elkészítése:
+
  - A projekt során felhasznált illusztrációk, képek vagy egyéb grafikai elemek a projekt készítői által lettek elkészítve, vagy No Copyright licenccel lettek ellátva, ami által 
 szabadon felhasználhatóak.
+ - A felhasználók adatainak védelme.
+ - Az eddig kiadott szabványoknak történő megfelelés.

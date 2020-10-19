@@ -41,10 +41,20 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
 
  - A rendszerbe feltöltött adatok ponttos tárolása.
  - A felhasználó nem kaphat hamis adatot vagy eredményt.
+ - Az adatok adatvédelem szerint történő tárolása.
  - Az inputok helyes kezelése.
- - Amennyiben egy művelet nem sikerül, arról a felhasználó kapjon tájékoztatást.
- - Egyéb esetben az előző pontot szegjük meg.
- - Felhasználóbarát élmény nyújtása az alkalmazást és weboldalt használók számára.
+ - Amennyiben egy művelet nem sikerül az alkalmazásban, arról az alkalmazott kapjon tájékoztatást.
+ - Amennyiben egy művelet nem sikerül a weblapon, arról a felhasználó kapjon tájékoztatást.
+ - Egyéb esetben az előző 2 pontot szegjük meg.
+ - Az alkalmazás és weboldal adatbázisában szereplő adatok átfedőek legyenek.
+ - Felhasználóbarát élmény nyújtása az alkalmazást használó alkalmazottak számára.
+ - Az alkalmazottak számára elérhető legyen az étlap és a receptek.
+ - Az alkalmazottaknak legyen lehetősége módosítani az étlapon és a recepteken.
+ - Felhasználóbarát élmény nyújtása a weblapot meglátogató, és használó felhasználók számára.
+ - A weblap felhasználói láthassák a weblapon az étlapot és a recepteket.
+ - A weblap felhasználóinak legyen lehetősége rendelni.
+ - A weblap felhasználóinak legyen lehetősége esetleges megjegyzést fűzni a rendelésükhöz.
+ - A weblapon keresztül is legyen lehetőség asztalfoglalásra.
  
 ## Nem funkcionális követelmények
 

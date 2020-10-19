@@ -16,4 +16,20 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: "Satisfy", sans-serif;
   }
+
+  #topbar.topbar-transparent {
+    background: transparent;
+  }
+  
+  #topbar.topbar-scrolled {
+    top: -50px;
+  }
+  
+  #topbar i {
+    color: #ffb03b;
+  }
+  
+  #topbar i + i {
+    margin-left: 15px;
+  }
   

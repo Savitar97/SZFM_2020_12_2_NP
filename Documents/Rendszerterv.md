@@ -54,6 +54,8 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
  - Csak az aktuális információk megjelenítése.
  - A törölt bejegyzések valóban tűnjenek el.
  - Amennyiben módosítanak egy bejegyzést, akkor az rögtön váljon elérhetőve.
+ - Platformfüggetlennek kell lennie.
+ - Reszponzív webdesing.
  
 ## Jogi követelmények
  - A projekt során felhasznált illusztrációk, képek vagy egyéb grafikai elemek a projekt készítői által lettek elkészítve, vagy No Copyright licenccel lettek ellátva, ami által 

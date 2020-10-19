@@ -35,6 +35,10 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
 - A dokumentáció elkészültének határideje: 2020. október 19.
 - Demó bemutatása: 2020. november 2.
 
+# Adatbázis terv
+
+![db modell](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/dbmodel.png)
+
 # Követelmények
 
 ## Funkcionális követelmények

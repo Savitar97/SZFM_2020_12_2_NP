@@ -14,3 +14,10 @@
         <link href="accessories/css/style.css" rel="stylesheet">
     </head>
     <body>
+    <!-- ======= Top Bar ======= -->
+        <section id="topbar" class="d-none d-lg-flex align-items-center fixed-top topbar-transparent">
+            <div class="container text-right">
+            <i class="fa fa-phone-square" aria-hidden="true"></i> +36 558 554
+            <i class="fa fa-clock-o" aria-hidden="true"></i> Hétfőtől-Péntekig: 11:00 - 23:00
+            </div>
+        </section>

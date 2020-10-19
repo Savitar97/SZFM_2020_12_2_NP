@@ -30,3 +30,16 @@
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
+
+        <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.php">Kezdőoldal</a></li>
+          <li><a href="#about">Rólunk</a></li>
+          <li><a href="#menu">Menü</a></li>
+          <li><a href="#contact">Kapcsolat</a></li>
+
+          <li class="book-a-table text-center"><a href="#book-a-table">Asztalfoglalás</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>

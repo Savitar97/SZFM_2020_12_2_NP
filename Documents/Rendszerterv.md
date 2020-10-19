@@ -106,3 +106,11 @@ fejleszthető alkalmazás és weboldal elkészítése:
 szabadon felhasználhatóak.
  - A felhasználók adatainak védelme.
  - Az eddig kiadott szabványoknak történő megfelelés.
+ 
+A licenccelést az előbb említettem, szóval áttérnék a másik két pontra. A felhasználók adatainak védelme nagyon fontos számunkra is, és az étterem számára is, mivel nem 
+szeretnének elégedetlen vendégeket, akik, ha kikerültek adataik az étterem felhasználásán kívülre, jobb esetben csak idegesítő vagy zavaró körleveket kapnak, azonban rosszabb 
+esetben vissza is élhetnek csalók ezekkel az adatokkal, aminek komoly következményei lehetnek mind a felhasználó, mind az étterem számára. Ugyanis a felhasználót ezáltal akár 
+meg is lophatják, vagy illetéktelenül használhatják az adataikat, az étterem szempontjából viszont egy jogi pert kockáztathatnak meg, ami nem csak kliens vesztéssel járna, hanem 
+akár az étterem bezárását is eredményezheti. Tehát a tét nem kicsi.
+
+A következő lényeges dolog, amire még érdemes figyelni, az a szabványok használata, hiszen ezeket sem véletlenül találták ki, hanem fontos feladatot látnak el.

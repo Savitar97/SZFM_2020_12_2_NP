@@ -87,9 +87,21 @@ A MENU és a MEAL tábla között one-to-many kapcsolat áll fenn.
 - MEALID: az étel azonosítója
 Ez külső kulcs a MEAL tábla elsődleges kulcsára
 
-RECIPES tábla:
+RECIPES tábla: az alapanyagok és az ételek many-to-many kapcsolótáblája
+
+- INGREDIENTID: az alapanyag azonosítója
+Ez egy külső kulcs az INGREDIENT tábla elsődleges kulcsára
+- MEALID: az étel azonosítója
+Ez egy külső kulcs a MEAL tábla elsődleges kulcsára
+- amount: az alapanyagból szükséges mennyiség
 
 RESERVATION sziggetábla:
+
+- ID: automatikusan generált elsődleges kulcs
+- name: a foglaló kliens neve
+- phone_number: a kliens telefonszáma
+- date: a foglalás időpontja
+- number_of_people: a személyek száma
 
 # Követelmények
 

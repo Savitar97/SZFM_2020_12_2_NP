@@ -21,3 +21,12 @@
             <i class="fa fa-clock-o" aria-hidden="true"></i> Hétfőtől-Péntekig: 11:00 - 23:00
             </div>
         </section>
+    <!-- ======= Header ======= -->
+        <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center">
+
+        <div class="logo mr-auto">
+            <h1 class="text-light"><a href="index.html"><span>Bambusz Étterem</span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>

@@ -194,7 +194,11 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
  - Amennyiben nagyjából kalkulálható, akkor a szállítási idő megadása
  - Weboldalon keresztül lehessen asztalt foglalni
  - A felmerülő hibák kezelése megállítással vagy figyelmeztetéssel
+ 
 ## 7. Használati esetek
+
+![Weboldal használati eset](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/usecase1.png)
+
 ## 8. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 9. Képernyő tervek
 ## 10. Forgatókönyvek

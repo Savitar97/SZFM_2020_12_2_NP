@@ -44,13 +44,25 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
 
 A fenti ábrán látható a rendszer adatbázisának relációs modellje, amely hét táblát tartalmaz, ezek leírása a következő:
 
-INGREDIENT tábla:
+INGREDIENT tábla: az alapanyagok táblája
 
-ORDER tábla:
+- ID: automatikusan generált érték, elsődleges kulcs
+- name: az alapanyag neve
+- amount: az alapanyag mennyisége
+- unit: az alapanyag mennyiségének mértékegysége
 
-ORDER_MEAL tábla:
+ORDER tábla: a rendeléseket tartalmazza
+
+- ID: automatikusan generált elsődleges kulcs
+- name: a kliens neve
+- phone_number: a kliens telefonos elérhetősége
+- address: szállítási cím
+- methof_of_payment: fizetési mód 
+- comment: opcionális megjegyzés
 
 MEAL tábla:
+
+ORDER_MEAL tábla:
 
 MENU tábla:
 

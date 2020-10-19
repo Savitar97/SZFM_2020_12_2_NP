@@ -19,8 +19,13 @@ allergiás reakciót válthatna ki;
 - a weboldalon fel kell tűntetni a kiszállítás idejének egy időintervallumát;
 - a weboldalon fel kell tűntetni a kiszállítás árárt;
 - a weboldalon meg kell jelenjen a vendéglátóipari egység telefonos elérhetősége is;
+- a weboldalon lehetőség kell, hogy legyen asztalfoglalásra;
 
 ## Nem célok:
+
+- a weboldalon keresztül nem lehetséges online bankkártyás fizetés, tehát nem kezelünk érzékeny banki adatokat;
+- az étterem nem használhatja fel a kliensek érzékeny személyes adatait a későbbiekben;
+- az asztali alkalmazás nem kezeli az alapanyagok rendelését, csak egy listát szolgáltat a beszerzéssel foglalkozó személyzetnek a kifogyóban levő alapanyagokról;
 
 # Projekt terv
 

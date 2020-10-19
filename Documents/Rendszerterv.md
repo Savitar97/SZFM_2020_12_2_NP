@@ -67,11 +67,27 @@ ORDER tábla: a rendeléseket tartalmazza
 
 MEAL tábla:
 
-ORDER_MEAL tábla:
+- ID: automatikusan generált elsődleges kulcs
+- name: az étel neve
+- price: az étel ára
 
-MENU tábla:
+ORDER_MEAL tábla: a rendelések és az ételek közötti many-to-many kapcsolótábla
 
-ORDER tábla:
+- ORDERID: a rendelés azonosítója
+Ez egy külső kulcs az ORDER tábla elsődleges kulcsára
+- MEALID: az étel azonosítója
+Ez egy külső kulcs a MEAL tábla elsődleges kulcsára
+A fenti két attribútum együtt alkotja a tábla elsődleges kulcsát.
+- amount: az ételből rendelt mennyiség
+
+MENU tábla: az étlapot tartalmazza
+A MENU és a MEAL tábla között one-to-many kapcsolat áll fenn.
+
+- ID: elsődleges kulcs
+- MEALID: az étel azonosítója
+Ez külső kulcs a MEAL tábla elsődleges kulcsára
+
+RECIPES tábla:
 
 RESERVATION sziggetábla:
 

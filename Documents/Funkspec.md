@@ -204,6 +204,44 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 10. Képernyő tervek
 ## 11. Forgatókönyvek
+
+### Raktár alkalmazás
+Az étterem raktár alkalmazásához tartozó használati lehetőségek leírása, mely a rendelés adatbázissal áll összeköttetésben. Az alkalmazott megnyitja az alkalmazást a további 
+
+használathoz. A lentebbi célok az alkalmazott lehetőségei
+
+#### Cél: Rendelések megtekintése
+ - Az alkalmazott a Rendelések gombra kattintva megtekinti a leadott rendeléseket
+
+#### Cél: Foglalások megtekintése
+ - Az alkalmazott a Rendelések gombra kattintva megtekinti a foglalásokat
+ 
+#### Cél: Alapanyagok megtekintése, törlése
+ - Az alkalmazott az egyik alapanyagra kattint
+ - A raktár készletét módosíthatja és törölheti manuálisan
+ 
+#### Cél: Receptek hozzáadaása, módosítása, törlése
+- Az alkalmazott a 'receptek' gombra kattint
+- Hozzáadhat, vagy receptet kijelölve módosíthat illetve törölhet létezó elemet
+ 
+### Weboldal
+A vásárló által a weboldal használatát leíró folyamatok. Minden folyamathoz először a vásárló a saját számítógépén egy webböngésző hasnználatával el kell hogy érje a 
+
+weboldalt.  A weboldal a rendelés adatbázison keresztül rögzíti az adatokat a raktár alkalmazásba. Az alábbi célok a vásárló lehetőségei.
+
+#### Cél: Étlap megtekintés
+ - A vásárló a weboldal fő oldalán az étlap menüpontra kattintva elérheti az étlapot.
+ 
+#### Cél: Étel rendelés
+ - Az étlapról kiválasztja a rendelni kívánt ételt
+ - Megadja a lakcímét, a fizetési módot és egyéb kívánságait.
+ - A Rendelés véglegesítésével, az étterem megkapja a rendelési értesítést.
+ 
+#### Cél: Asztalfoglalás
+ - A vásárló a 'Foglalás' gombra kattint
+ - Kijelöli a foglalni kívánt asztalt
+ - Megadja a fogalás időpontját
+ - Véglegesíti a foglalást, amiről az étterem az alkalmazáson értesítést kap
 ## 12. Funkció –követelmény megfeleltetés
 ## 13. Fogalomszótár
 

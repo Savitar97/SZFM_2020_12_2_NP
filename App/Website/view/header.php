@@ -42,4 +42,4 @@
         </ul>
       </nav><!-- .nav-menu -->
 
-    </div>
+    </div><!-- End Header -->

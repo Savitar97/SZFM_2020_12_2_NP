@@ -159,3 +159,14 @@ meg is lophatják, vagy illetéktelenül használhatják az adataikat, az étter
 akár az étterem bezárását is eredményezheti. Tehát a tét nem kicsi.
 
 A következő lényeges dolog, amire még érdemes figyelni, az a szabványok használata, hiszen ezeket sem véletlenül találták ki, hanem fontos feladatot látnak el.
+
+## Funkcionális terv
+
+A készítendő weboldal könnyen átlátható, modern megoldásokkal biztosítsuk az átláthatóságot.A vendégek innen fogják elérni menüpontokon kereszült a napi menüt,
+itt fognak tudni asztalt foglalni, illetve rendelni. Mindezek menüpontokon keresztül lesznek elérhetőek egy főmenün keresztül ami az oldal tetején fog megjelenni.
+Emellett az oldal információkat fog közölni az éttermünkről. A felhasználóknak nem kell bejelentkezni az oldalunk megtekintéséhez illetve a rendelés sincs
+regisztrációhoz kötve.
+
+Az asztali alkalmazás az étterem dolgozóinak fog készülni, hogy meggyorsítsuk és megkönnyítsük a munkáikat. Ehhez könnyen kezelhetőnek, nagy szaktudást nem
+igénylőnek kell lennie. Egy főmenüt fogunk tervezni, amelyből eltudunk navigálni a rendszer minden funkcionalitásához.A felhasználó nem bonyolult sql parancsokkal
+hanem egyszerű, megszokott gombokkal szövegmezőkkel fog találkozni.

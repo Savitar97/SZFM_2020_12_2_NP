@@ -69,7 +69,9 @@ Illetve ha úton vannak akkor is a Google keresővel telefonon fogják keresni a
 A digitalizálása a recepteknek meggyorsíthatja a konyhai dolgozóink munkáját. Könnyebben kereshetőek. 
 A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés miatt.
 
-## 3. A rendszerre vonatkozó szabályok
+## 3. Vágyálomrendszer
+
+## 4. A rendszerre vonatkozó szabályok
 
 &nbsp;&nbsp;&nbsp;&nbsp;Ide az úgynevezett "szabályokat" sorolhatjuk, amelyek, ha kifejtjük, akkor az aktuális törvényi megszorításokat és rendeleteket, a különböző ezzel 
 foglalkozó szerezetek által kiadott szabványokat és ajánlásokat jelentik, illetve az általunk megfogalmazott kikötések a program / alkalmazás szempontjából tekintve, amelyek 
@@ -77,18 +79,18 @@ befolyásolják a kapott végkimenetelt.
 
 Kicsit részletesebben kifejtve ezek a következők:
 
-### 3.1 Az applikáció kidolgozásához a következőkre van szükség:
+### 4.1 Az applikáció kidolgozásához a következőkre van szükség:
  - Java, ahol megkötés a verziószámban: minimum 13-as
  - JavaFX, ahol a használt verzió: 14-es
  - Adatbáziskezelés a háttérben: MySQL, Apache és XAMPP
  
-### 3.2 A weblap kidolgozásához minimum szükségesek az alábbiak:
+### 4.2 A weblap kidolgozásához minimum szükségesek az alábbiak:
  - HTML használata
  - CSS használata
  - PHP használata
  - Adatbáziskezeléshez szükséges: XAMPP
  
-### 3.3 Jogi háttér:
+### 4.3 Jogi háttér:
 &nbsp;&nbsp;&nbsp;&nbsp;Ahhoz, hogy elkészülhessen az alkalmazás és a weblap is, más követelmény nem lenne.
 Azonban ahhoz, hogy ezek legálisan használhatóvá is váljanak, és megkaphassa az étterem, mindenképp figyelmet kell fordítani a jogi megkötésekre.
 Tehát figyelni kell:
@@ -110,73 +112,73 @@ A korábban említett szabványok használata pedig szintén erősen ajánlott, 
 olcsóbb működés vagy üzeeltetés. A Követelmény specifikációban már megemlítettük ezeket, de itt is fel szeretnénk hívni a figyelmet a fontosságukra. A nagyobb, internetre 
 szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 
-## 4. Jelenlegi üzleti folyamatokmodellje
-### 4.1 Raktár kezelése:
-4.1.1 Alkalmazott=>Alapanyagok megszámolása=>Feljegyzés papírra
+## 5. Jelenlegi üzleti folyamatokmodellje
+### 5.1 Raktár kezelése:
+5.1.1 Alkalmazott=>Alapanyagok megszámolása=>Feljegyzés papírra
 
-4.1.2 Alkalmazott=>Receptek felírása=>Papírra,keményfedelű jegyzetfüzetbe
+5.1.2 Alkalmazott=>Receptek felírása=>Papírra,keményfedelű jegyzetfüzetbe
 
-4.1.3 Alkalmazott=>Feljegyzett készletek=>Hiányzó készletek meghatározása=>Áru rendelése
+5.1.3 Alkalmazott=>Feljegyzett készletek=>Hiányzó készletek meghatározása=>Áru rendelése
 
 ### 4.2 Interakciók az ügyfelekkel
-4.2.1 Étterem=>Televízió,rádió,hirdetőfelület=>Hirdetés
+5.2.1 Étterem=>Televízió,rádió,hirdetőfelület=>Hirdetés
 
-4.2.2 Ügyfél=>Asztalfoglalás=>Személyesen az étteremben
+5.2.2 Ügyfél=>Asztalfoglalás=>Személyesen az étteremben
 
-4.2.3 Ügyfél=>Étel rendelés=>Személyesen az étteremben=>Evitelre vagy helyben fogyasztva
+5.2.3 Ügyfél=>Étel rendelés=>Személyesen az étteremben=>Evitelre vagy helyben fogyasztva
 
-4.2.4 Alkalmazott=>Ügyfél=>Asztalfoglalás bejegyzése
+5.2.4 Alkalmazott=>Ügyfél=>Asztalfoglalás bejegyzése
 
-4.2.5 Alkalmazott=>Ügyfél=>Rendelés felvétele
+5.2.5 Alkalmazott=>Ügyfél=>Rendelés felvétele
 
-## 5. Igényelt üzleti folyamatok modellje
-### 5.1 Alkalmazott-Leltár-Recept
-5.1.1 Alkalmazott=>Alkalmazás=>Leltár feltöltése
+## 6. Igényelt üzleti folyamatok modellje
+### 6.1 Alkalmazott-Leltár-Recept
+6.1.1 Alkalmazott=>Alkalmazás=>Leltár feltöltése
 
-5.1.2 Alkalmazott=>Alkalmazás=>Elgépelt érték javítása
+6.1.2 Alkalmazott=>Alkalmazás=>Elgépelt érték javítása
 
-5.1.3 Alkalmazott=>Alkalmazás=>Alapanyag törlése
+6.1.3 Alkalmazott=>Alkalmazás=>Alapanyag törlése
 
-5.1.4 Alkalmazott=>Alkalmazás=>Alapanyagok listázása
+6.1.4 Alkalmazott=>Alkalmazás=>Alapanyagok listázása
 
-5.1.5 Alkalmazott=>Alkalmazás=>Recept feltöltése
+6.1.5 Alkalmazott=>Alkalmazás=>Recept feltöltése
 
-5.1.6 Alkalmazott=>Alkalmazás=>Recept módosítása
+6.1.6 Alkalmazott=>Alkalmazás=>Recept módosítása
 
-5.1.7 Alkalmazott=>Alkalmazás=>Recept törlése
+6.1.7 Alkalmazott=>Alkalmazás=>Recept törlése
 
-5.1.8 Alkalmazott=>Alkalmazás=>Receptek lekérdezése
+6.1.8 Alkalmazott=>Alkalmazás=>Receptek lekérdezése
 
 ![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/elsodiagram.png)
-### 5.2 Weboldal-Applikáció
-5.2.1 User=>Weboldal=>Étlap megtekintése
+### 6.2 Weboldal-Applikáció
+6.2.1 User=>Weboldal=>Étlap megtekintése
 
 5.2.2 User=>Weboldal=>Rendelés
 
-5.2.3 User=>Weboldal=>Asztalfoglalás
+6.2.3 User=>Weboldal=>Asztalfoglalás
 
-5.2.4 Weboldal=>User=>Étlap listázása
+6.2.4 Weboldal=>User=>Étlap listázása
 
-5.2.5 Weboldal=>Rendelés feltöltése=>Adatbázis
+6.2.5 Weboldal=>Rendelés feltöltése=>Adatbázis
 
-5.2.6 Weboldal=>Foglalás feltöltése=>Adatbázis
+6.2.6 Weboldal=>Foglalás feltöltése=>Adatbázis
 
-5.2.7 Adatbázis=>Rendelhető ételek listázása=>Weboldal
+6.2.7 Adatbázis=>Rendelhető ételek listázása=>Weboldal
 
-5.2.8 Adatbázis=>Rendelt ételek listázása=>Alkalmazás
+6.2.8 Adatbázis=>Rendelt ételek listázása=>Alkalmazás
 
-5.2.9 Adatbázis=>Asztalfoglalás listázása=>Alkalmazás
+6.2.9 Adatbázis=>Asztalfoglalás listázása=>Alkalmazás
 
-5.2.10 Alkalmazás=>Foglalások megjlenítése=>Alkalmazott
+6.2.10 Alkalmazás=>Foglalások megjlenítése=>Alkalmazott
 
-5.2.11 Alkalmazás=>Rendelések megjlenítése=>Alkalmazott
+6.2.11 Alkalmazás=>Rendelések megjlenítése=>Alkalmazott
 
-5.2.12 Alkalmazott=>Foglalások megtekintése=>Alkalmazás
+6.2.12 Alkalmazott=>Foglalások megtekintése=>Alkalmazás
 
-5.2.13 Alkalmazott=>Rendelések megtekintése=>Alkalmazás
+6.2.13 Alkalmazott=>Rendelések megtekintése=>Alkalmazás
 
 ![Felhasználó,raktár,recept](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/masodik.png)
-## 6. Követelménylista
+## 7. Követelménylista
  - Legyen egyszerűen kezelhető az alkalmazottak és a vendégek számára egyaránt
  - Legyen könnyen áltáltható az alkalmazottak és a vendégek számára egyaránt
  - Az adatok tárolása adatbázisban törtéjen
@@ -194,12 +196,54 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
  - Amennyiben nagyjából kalkulálható, akkor a szállítási idő megadása
  - Weboldalon keresztül lehessen asztalt foglalni
  - A felmerülő hibák kezelése megállítással vagy figyelmeztetéssel
-## 7. Használati esetek
-## 8. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
-## 9. Képernyő tervek
-## 10. Forgatókönyvek
-## 11. Funkció –követelmény megfeleltetés
-## 12. Fogalomszótár
+ 
+## 8. Használati esetek
+
+![Weboldal használati eset](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/usecase1.png)
+
+## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
+## 10. Képernyő tervek
+## 11. Forgatókönyvek
+
+### Raktár alkalmazás
+Az étterem raktár alkalmazásához tartozó használati lehetőségek leírása, mely a rendelés adatbázissal áll összeköttetésben. Az alkalmazott megnyitja az alkalmazást a további 
+
+használathoz. A lentebbi célok az alkalmazott lehetőségei
+
+#### Cél: Rendelések megtekintése
+ - Az alkalmazott a Rendelések gombra kattintva megtekinti a leadott rendeléseket
+
+#### Cél: Foglalások megtekintése
+ - Az alkalmazott a Rendelések gombra kattintva megtekinti a foglalásokat
+ 
+#### Cél: Alapanyagok megtekintése, törlése
+ - Az alkalmazott az egyik alapanyagra kattint
+ - A raktár készletét módosíthatja és törölheti manuálisan
+ 
+#### Cél: Receptek hozzáadaása, módosítása, törlése
+- Az alkalmazott a 'receptek' gombra kattint
+- Hozzáadhat, vagy receptet kijelölve módosíthat illetve törölhet létezó elemet
+ 
+### Weboldal
+A vásárló által a weboldal használatát leíró folyamatok. Minden folyamathoz először a vásárló a saját számítógépén egy webböngésző hasnználatával el kell hogy érje a 
+
+weboldalt.  A weboldal a rendelés adatbázison keresztül rögzíti az adatokat a raktár alkalmazásba. Az alábbi célok a vásárló lehetőségei.
+
+#### Cél: Étlap megtekintés
+ - A vásárló a weboldal fő oldalán az étlap menüpontra kattintva elérheti az étlapot.
+ 
+#### Cél: Étel rendelés
+ - Az étlapról kiválasztja a rendelni kívánt ételt
+ - Megadja a lakcímét, a fizetési módot és egyéb kívánságait.
+ - A Rendelés véglegesítésével, az étterem megkapja a rendelési értesítést.
+ 
+#### Cél: Asztalfoglalás
+ - A vásárló a 'Foglalás' gombra kattint
+ - Kijelöli a foglalni kívánt asztalt
+ - Megadja a fogalás időpontját
+ - Véglegesíti a foglalást, amiről az étterem az alkalmazáson értesítést kap
+## 12. Funkció –követelmény megfeleltetés
+## 13. Fogalomszótár
 
 **1. Adatbázis:** Az adatbázis más néven Database, számítógépen tárolt adatok összessége, amelyet egy tárolására, lekérdezésére és szerkesztésére alkalmas adatbázis kezelő 
 rendszer, más néven DBMS : Database Management System kezel.

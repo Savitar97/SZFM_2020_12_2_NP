@@ -212,3 +212,4 @@ Webtárhely:
 - Ingyenes webtárhelynek az atw.hu-t és a 000webhostot ajánljuk.
 - A 000webhostnál választható PHP-verziók vannak, köztük naprakészen a legfrissebbek is szerepelnek.
 - Mindemellett a 000webhostnál alapból telepítve van a mysql adatbázis
+- Tehát az ingyenesek közül inkább a 000webhostot javasoljuk

@@ -37,8 +37,8 @@
                 <li><a href="#about">Rólunk</a></li>
                 <li><a href="#menu">Menü</a></li>
                 <li><a href="#contact">Kapcsolat</a></li>
-
                 <li class="book-a-table text-center"><a href="#book-a-table">Asztalfoglalás</a></li>
+                <li class="order text-center"><a href="#book-a-table"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                 </ul>
             </nav><!-- .nav-menu -->
             

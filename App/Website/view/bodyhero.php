@@ -21,7 +21,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-2.jpg);">
+          <div class="carousel-item" style="background: url(resources/images/slide/masodik.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
@@ -35,7 +35,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg);">
+          <div class="carousel-item" style="background: url(resources/images/slide/harmadik.jpg);">
             <div class="carousel-background"><img src="assets/img/slide/slide-3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">

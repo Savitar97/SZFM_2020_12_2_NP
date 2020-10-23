@@ -1,6 +1,8 @@
-# Rendszer céljai és nem céljai
+# Rendszerterv
 
-## Célok:
+## Rendszer céljai és nem céljai
+
+### Célok:
 
 - a rendszernek saját adatbázissal kell rendelkeznie, amelyhez hozzáférhet mind az asztali alkalmazás és az étterem weboldala is;
 - az adatbázisban tárolva legyenek a raktáron levő alapanyagok;
@@ -21,13 +23,13 @@ allergiás reakciót válthatna ki;
 - a weboldalon meg kell jelenjen a vendéglátóipari egység telefonos elérhetősége is;
 - a weboldalon lehetőség kell, hogy legyen asztalfoglalásra;
 
-## Nem célok:
+### Nem célok:
 
 - a weboldalon keresztül nem lehetséges online bankkártyás fizetés, tehát nem kezelünk érzékeny banki adatokat;
 - az étterem nem használhatja fel a kliensek érzékeny személyes adatait a későbbiekben;
 - az asztali alkalmazás nem kezeli az alapanyagok rendelését, csak egy listát szolgáltat a beszerzéssel foglalkozó személyzetnek a kifogyóban levő alapanyagokról;
 
-# Projekt terv
+## Projekt terv
 
 A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorrend szerint a következők:
 
@@ -36,14 +38,14 @@ A projekten négy programtervező informatikus hallgató dolgozik, ábécé sorr
 - Orosz Máté
 - Tóth Attila
 
-## Mérföldkövek, ütemterv:
+### Mérföldkövek, ütemterv:
 
 - A projekt kezdete: 2020. október 5.
 - A projekt határideje: 2020. december 7.
 - A dokumentáció elkészültének határideje: 2020. október 19.
 - Demó bemutatása: 2020. november 2.
 
-# Adatbázis terv
+## Adatbázis terv
 
 ![db modell](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/dbmodel.png)
 
@@ -103,9 +105,9 @@ RESERVATION sziggetábla:
 - date: a foglalás időpontja
 - number_of_people: a személyek száma
 
-# Követelmények
+## Követelmények
 
-## Funkcionális követelmények
+### Funkcionális követelmények
 
  - A rendszerbe feltöltött adatok ponttos tárolása.
  - A felhasználó nem kaphat hamis adatot vagy eredményt.
@@ -124,7 +126,7 @@ RESERVATION sziggetábla:
  - A weblap felhasználóinak legyen lehetősége esetleges megjegyzést fűzni a rendelésükhöz.
  - A weblapon keresztül is legyen lehetőség asztalfoglalásra.
  
-## Nem funkcionális követelmények
+### Nem funkcionális követelmények
 
  - Letisztult grafikus felületet kell biztosítani.
  - Olyan személynek se jelentsen gondot a használat, aki informatikai alapismeretekkel nem igazán rendelkezik.
@@ -135,7 +137,7 @@ RESERVATION sziggetábla:
  - Platformfüggetlennek kell lennie.
  - Reszponzív webdesing.
  
-## Jogi követelmények
+### Jogi követelmények
 
 Ahhoz, hogy a projektünk valóban felhasználható legyen, és ne veszítse értelmét az egész, léteznek jogi követelmények, amelyeket be kell tartanunk. Ilyenek például a szerői 
 jogok, amely arra szolgál, hogy a szerző eldönthesse, hogy az általa létrehozott (akár szellemi) termék hogyan legyen felhasználható. Ez általában úgy néz ki, hogy a termék vagy 
@@ -172,3 +174,5 @@ igénylőnek kell lennie. Egy főmenüt fogunk tervezni, amelyből eltudunk navi
 hanem egyszerű, megszokott gombokkal szövegmezőkkel fog találkozni.
 
 ### Képernyőtervek
+#### Weboldal
+#### Applikáció

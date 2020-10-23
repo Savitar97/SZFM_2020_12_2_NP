@@ -27,4 +27,11 @@ public class MealDataModel {
     @Column(nullable = false)
     private Long price;
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(Long price) {
+        this.price = price;
+    }
 }

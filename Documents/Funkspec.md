@@ -213,6 +213,14 @@ A kezdőoldalt könnyen kezelhetőre próbáljuk meg tervezni a fent lévő men�
 elérhessék, amit szeretnének. Mivel ha egy felhasználó fellép a weboldalunkra és nem tud célirányosan navigálni akkor nagy valószínűséggel elhagyja az oldalt.
 A háttérben egy bootstrap hero fog működni, ami képeket fog megjeleníteni. Emellett az oldalon szerepelni fog egy rövid leírás az éttermünkről.
 Illetve a kapcsolat, hogy hogyan képesek elérni az oldalunkat.
+
+Asztalfoglalás:
+
+![Asztalfoglalás weboldalon](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/New%20Wireframe%207.png)
+
+Az asztalfoglalásnál a megszokott input textek fogadnak. A foglaláshoz megkell adni a nevet, telefonszámot, dátumot ezen kívül, hogy hány főre szeretnénk foglalni
+és még írhatunk hozzá megjegyzést is, majd a Foglalás gombra kattintva elküldhetjük a foglalásunkat.
+
 ### Applikáció
 ![Launcher terv](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/New%20Wireframe%202.png)
 

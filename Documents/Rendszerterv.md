@@ -170,3 +170,5 @@ regisztrációhoz kötve.
 Az asztali alkalmazás az étterem dolgozóinak fog készülni, hogy meggyorsítsuk és megkönnyítsük a munkáikat. Ehhez könnyen kezelhetőnek, nagy szaktudást nem
 igénylőnek kell lennie. Egy főmenüt fogunk tervezni, amelyből eltudunk navigálni a rendszer minden funkcionalitásához.A felhasználó nem bonyolult sql parancsokkal
 hanem egyszerű, megszokott gombokkal szövegmezőkkel fog találkozni.
+
+### Képernyőtervek

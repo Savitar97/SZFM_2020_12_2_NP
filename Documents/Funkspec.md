@@ -203,6 +203,24 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 10. Képernyő tervek
+### Weboldal
+![Kezdőoldal terv](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/New%20Wireframe%201.png)
+
+A kezdőoldalt könnyen kezelhetőre próbáljuk meg tervezni a fent lévő menüből lehet majd elnavigálni az oldal egyes részeire, hogy a felhasználók könnyen
+elérhessék, amit szeretnének. Mivel ha egy felhasználó fellép a weboldalunkra és nem tud célirányosan navigálni akkor nagy valószínűséggel elhagyja az oldalt.
+A háttérben egy bootstrap hero fog működni, ami képeket fog megjeleníteni. Emellett az oldalon szerepelni fog egy rövid leírás az éttermünkről.
+Illetve a kapcsolat, hogy hogyan képesek elérni az oldalunkat.
+### Applikáció
+![Launcher terv](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/New%20Wireframe%202.png)
+
+A launcher letisztult lesz egy főmenüvel índítunk induláskor. Innen ellehet majd navigálni a lényeges menüpontokra.
+
+![Alapanyag felvétel terv](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/New%20Wireframe%203.png)
+
+Alapanyag felvétel egyszerűen fog történni a hozzáadra kattintva egy felugró menüben egy formot kell kitöltenünk majd, az adatbázisban szereplő oszlopok alapján.
+Itt lehetőség lesz módosítani ha esetleg elírás történt, vagy esetleg törölni adott esetben. Illetve a gombok mellett az adatbázis jelenlegi tartalmát lehet majd
+megtekinteni.
+
 ## 11. Forgatókönyvek
 
 ### Raktár alkalmazás

@@ -231,6 +231,12 @@ Receptek felvétele a következőképpen fog kinézni:
 
 Kiválasztjuk az ételt a legördülő listából, amihez megszeretnénk adni a receptet majd a hozzáad gombbal felvesszük a szükséges alapanyagokat hozzá.
 
+Ételek felvétele a következőképp fog kinézni:
+
+![Étel felvétel](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/New%20Wireframe%205.png)
+
+Egyszerűen megadjuk majd az ételt és az árát.
+
 ## 11. Forgatókönyvek
 
 ### Raktár alkalmazás

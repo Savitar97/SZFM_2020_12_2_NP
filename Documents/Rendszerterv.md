@@ -165,6 +165,9 @@ A következő lényeges dolog, amire még érdemes figyelni, az a szabványok ha
 A szabványok segítségével mindenki azonos szabályokat követ, amivel pedig elérhetjük, hogy az oldalak fenntartása olcsóbb legyen, hatékonyabban, megbízhatóbb és gyorsabban 
 működjön. A nagyobb, internetre szabványokat kiadó szervezetek példul: W3C, ECMA, IETF, WHATWG.
 
+A weboldal elkészítésénél nézhetjük az egyik legaktuálisabb szabványt is, a HTTPS protokollt. Alapja a jól ismert HTTP protokoll, ami ki lett egészítve egy SSL vagy TLS 
+réteggel, amely titkosítási célt szolgál, pontosabban kommunikáció titkosításit.
+
 ## Funkcionális terv
 
 A készítendő weboldal könnyen átlátható, modern megoldásokkal biztosítsuk az átláthatóságot.A vendégek innen fogják elérni menüpontokon kereszült a napi menüt,

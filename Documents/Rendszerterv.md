@@ -176,3 +176,23 @@ hanem egyszerű, megszokott gombokkal szövegmezőkkel fog találkozni.
 ### Képernyőtervek
 #### Weboldal
 #### Applikáció
+
+## Telepítési terv
+
+### Felhasználói oldal
+
+Szükséges:
+
+- Internet kapcsolat
+- Telepített operációs rendszer
+- Telepített webböngésző
+- Saját webtárhely bérlése
+- Saját domain cím bérlése
+
+### A cég részéről
+
+- XAMPP feltelepítése
+- Megfelelő java verzió feltelepítése
+- Webtárhelyen a szükséges konfigurációk beállítása
+
+

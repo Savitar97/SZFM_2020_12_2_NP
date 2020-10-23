@@ -195,4 +195,20 @@ Szükséges:
 - Megfelelő java verzió feltelepítése
 - Webtárhelyen a szükséges konfigurációk beállítása
 
+XAMPP:
+- Ingyenes webszerver csomag
+- Tartalmazza a MySQL adatbázis szervert
+- Apache webszervert tartalmaz
+- Tartalmazza a PHP és Perl nyelvek végrehajtó rendszereit
+- Nyílt forráskódú(Open source)
+- Ideális kis és közepes vállalatoknak
+- Integrált keretrendszer
+- A csomag tartalmaz mindent, ami a webes alkalmazásokhoz szükséges lehet
 
+Java verzió:
+- 13 és afölött lévő verziókat támogat a programunk
+
+Webtárhely:
+- Ingyenes webtárhelynek az atw.hu-t és a 000webhostot ajánljuk.
+- A 000webhostnál választható PHP-verziók vannak, köztük naprakészen a legfrissebbek is szerepelnek.
+- Mindemellett a 000webhostnál alapból telepítve van a mysql adatbázis

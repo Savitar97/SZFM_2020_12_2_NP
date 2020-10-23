@@ -43,14 +43,17 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;A jelenlegi helyzet az, hogy az étterem a gyors ütemű fejlődése miatt kinőtte az eddig megszokott papír alapú leltár készítését.
 Tehát átláthatatlanok, visszanyomozhatatlanok lettek az alapanyag felhasználások és a raktári tevékenységek.
-Az étterem sok különböző alapanyagot használ. Mindemellett az ételek is választékosak: modern,hagyományos ételspecialitások ötvözve a hazai(magyar) és nemzetközi konyhát.
+Az étterem sok különböző alapanyagot használ. Mindemellett az ételek is választékosak: modern,hagyományos ételspecialitások ötvözve a hazai(magyar) és nemzetközi 
+konyhát.
 Emellett az étterem magába foglal egy pékséget és egy cukrászdát is. 
 Tehát péksütemény és sütemény receptek is rendelkezésre állnak és az ezek elkészítéséhez szükséges alapanyagok.
-Minden héten különböző menük érhetőek el, de vannak visszatérő ételek illetve a'la carte, amely a hét minden napján elérhető, emellett hetente van egy séf ajánlata is az adott hétre.
+Minden héten különböző menük érhetőek el, de vannak visszatérő ételek illetve a'la carte, amely a hét minden napján elérhető, emellett hetente van egy séf 
+ajánlata is az adott hétre.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Az átláthatatlan leltárvezetés miatt azonban egyre többször fordult elő, hogy az alapanyag előbb fogyott el mint szükséges lett volna. 
 Mivel a papír alapú leltáron még szerepelt az adott nyersanyag, emiatt nem rendeltek még belőle árut.
-Ezen okokból kifolyólag egyre gyakrabban fordult elő az, hogy egy adott étel az adott nap hamarabb lekerült az étlapról, vagy rendelés érkezett, de sajnos már csak annyit tudtunk 
+Ezen okokból kifolyólag egyre gyakrabban fordult elő az, hogy egy adott étel az adott nap hamarabb lekerült az étlapról, vagy rendelés érkezett, de sajnos már 
+csak annyit tudtunk 
 mondani, hogy sajnáljuk, de már nincs elég alapanyag az elkészítéséhez. 
 Emiatt egyre több negatív értékelést kap az éttermünk, amit minél előbb orvosolni kell. 
 Különben elveszítjük a vendégeinket. Ez kezdetben bevételkieséshez, de később akár az éttermünk bezárásához is vezethez. 
@@ -220,6 +223,13 @@ A launcher letisztult lesz egy főmenüvel índítunk induláskor. Innen ellehet
 Alapanyag felvétel egyszerűen fog történni a hozzáadra kattintva egy felugró menüben egy formot kell kitöltenünk majd, az adatbázisban szereplő oszlopok alapján.
 Itt lehetőség lesz módosítani ha esetleg elírás történt, vagy esetleg törölni adott esetben. Illetve a gombok mellett az adatbázis jelenlegi tartalmát lehet majd
 megtekinteni.
+
+
+Receptek felvétele a következőképpen fog kinézni:
+
+![Recept felvétel terv](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/New%20Wireframe%204.png)
+
+Kiválasztjuk az ételt a legördülő listából, amihez megszeretnénk adni a receptet majd a hozzáad gombbal felvesszük a szükséges alapanyagokat hozzá.
 
 ## 11. Forgatókönyvek
 

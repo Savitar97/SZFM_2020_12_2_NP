@@ -8,7 +8,7 @@
 - az adatbázisban tárolva legyenek a raktáron levő alapanyagok;
 - az adatbázisban tárolva lesz minden alapanyag raktáron levő mennyisége;
 - az adatbázisban tárolva lesz az étterem menüsora;
-- tárolni kell az ételekben szereplő alapnayagokat;
+- tárolni kell az ételekben szereplő alapnanyagokat;
 - tárolni kell a menü mellett az árlistát is;
 - az alapanyagok mennyiségét egységekben kell kifejezni, ahol az egység minden termék esetében mást fog jelenteni (pl egy kg liszt egy egységnek számít), ehhez pedig magyarázat 
 fog tartozni;

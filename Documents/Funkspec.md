@@ -237,6 +237,14 @@ Kiválasztjuk az ételt a legördülő listából, amihez megszeretnénk adni a 
 
 Egyszerűen megadjuk majd az ételt és az árát.
 
+Asztal foglalás:
+
+![Étel felvétel](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/New%20Wireframe%205.png)
+
+Az asztalfoglaláshoz az adatok a webes felületről fognak érkezni az adatbázisba viszont képesnek kell lenniük az alkalmazottaknak személyesen is felvenni
+a foglalásokat. Illetve szükség esetén módosítani vagy törölni. Ez majd hasonlóképp fog megvalósulni a programunkban.
+
+
 ## 11. Forgatókönyvek
 
 ### Raktár alkalmazás

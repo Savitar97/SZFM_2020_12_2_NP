@@ -162,6 +162,9 @@ akár az étterem bezárását is eredményezheti. Tehát a tét nem kicsi.
 
 A következő lényeges dolog, amire még érdemes figyelni, az a szabványok használata, hiszen ezeket sem véletlenül találták ki, hanem fontos feladatot látnak el.
 
+A szabványok segítségével mindenki azonos szabályokat követ, amivel pedig elérhetjük, hogy az oldalak fenntartása olcsóbb legyen, hatékonyabban, megbízhatóbb és gyorsabban 
+működjön. A nagyobb, internetre szabványokat kiadó szervezetek példul: W3C, ECMA, IETF, WHATWG.
+
 ## Funkcionális terv
 
 A készítendő weboldal könnyen átlátható, modern megoldásokkal biztosítsuk az átláthatóságot.A vendégek innen fogják elérni menüpontokon kereszült a napi menüt,

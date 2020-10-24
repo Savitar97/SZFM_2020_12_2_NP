@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controller.Launch"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #172333;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Launch">
+    <children>
+        <Button layoutX="100.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#goToIngredients" prefHeight="152.0" prefWidth="436.0" text="Alapanyagok" />
+        <Button layoutX="100.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#goToRecipes" prefHeight="152.0" prefWidth="436.0" text="Receptek" />
+        <Button layoutX="100.0" layoutY="366.0" mnemonicParsing="false" onMouseClicked="#goToFoods" prefHeight="152.0" prefWidth="436.0" text="Ételek" />
+        <Button layoutX="100.0" layoutY="552.0" mnemonicParsing="false" onMouseClicked="#goToMenus" prefHeight="152.0" prefWidth="436.0" text="Menük" />
+        <Button layoutX="765.0" layoutY="36.0" mnemonicParsing="false" onMouseClicked="#goToOrders" prefHeight="152.0" prefWidth="436.0" text="Rendelések" />
+        <Button layoutX="767.0" layoutY="284.0" mnemonicParsing="false" onMouseClicked="#goToReservations" prefHeight="152.0" prefWidth="436.0" text="Foglalások" />
+        <Button layoutX="767.0" layoutY="554.0" mnemonicParsing="false" onMouseClicked="#goToOutOfStocks" prefHeight="152.0" prefWidth="436.0" text="Készlethiány" />
+    </children>
 </AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.Orders"
+            prefHeight="720.0" prefWidth="1280.0">
+    <children>
+        <Pane prefHeight="720.0" prefWidth="120.0" style="-fx-background-color: #172333;">
+            <children>
+                <Button id="purple" layoutX="20.0" layoutY="304.0" mnemonicParsing="false"  prefHeight="40.0" prefWidth="80.0" text="Módosít" />
+                <Button id="green" layoutX="20.0" layoutY="194.0" mnemonicParsing="false"  prefHeight="40.0" prefWidth="80.0" text="Hozzáad" />
+                <Button id="red" layoutX="20.0" layoutY="250.0" mnemonicParsing="false"  prefHeight="40.0" prefWidth="80.0" text="Töröl" />
+                <Button id="exit" layoutX="19.0" layoutY="705.0" mnemonicParsing="false" onMouseClicked="#returnMainMenu" prefHeight="48.0" prefWidth="80.0" text="Vissza" />
+            </children>
+        </Pane>
+        <Pane layoutX="117.0" prefHeight="98.0" prefWidth="1163.0" style="-fx-background-color: #172333;">
+        </Pane>
+    </children>
+</AnchorPane>

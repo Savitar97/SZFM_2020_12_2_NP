@@ -27,6 +27,7 @@ allergiás reakciót válthatna ki;
 - a weboldalon szerepelnie kell az étterem telefonszámának, abban az esetben, ha a kliens telefonon szeretné leadni rendelését;
 - fel kell tűntetni, hogy kb. mennyi időbe telik a kiszállítás;
 - fel kell tűntetni azt is, hogy mennyibe kerül a kiszállítás;
+- a weboldalon asztalfoglalást is meg kell valósítani;
 
 
 ### A rendszernek nem céljai a következők:
@@ -83,6 +84,20 @@ időt spórol. A
 rendszerben lennie kell egy átlátható és stílusos asztali alkalmazásnak, amelyhez a dolgozók fognak majd hozzáférni. Ebben a rendszerben tárolható kell, hogy legyen minden 
 alapanyag és azoknak raktáron levő mennyiségei. Emellett célszerű lenne, ha a beszerzésért felelős alkalmazottak könnyen hozzá tudnának férni a hiánycikkek listájához és ne a 
 teljes alapanyagok listájából kelljen kibogarászniuk, hogy aktuálisan milyen hozzávalók vannak kifogyóban.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Az alapanyagok mellett szükség van az ételek receptjeinek tárolására, ezzel is modernizálva az étterem menedzsmentjét. Ez a korszerű digitalizásció azt 
+is elősegítené, hogy az étterem menüsora folyamatosan szerekeszthető, változatos legyen. Ezek mellett az alkalmazás képes kell, hogy legyen megjeleníteni az étterem házhoz 
+rendeléseit és asztalfoglalásait is.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Az étterem informatikai rendszerében szükség van egy weboldalra is, hiszen ebben a mai modern világban ez nagy forgalmat és reklámot jelenthet egy ilyen 
+kaliberű vendéglátóipari egységnek. A weboldalnak két fő funkcióval kell rendelkeznie:
+
+&nbsp;&nbsp;&nbsp;&nbsp;Az egyik az az, hogy a kliensek tudjanak leadni rendelést, amelyet az étterem házhoz szállít. Az ügyfélnek csupán ki kell választania, hogy milyen 
+ételeket szeretne és azokból mennyit, majd a szükséges információkat megadva (mint például a neve, telefonszáma, a cím, amelyre a szállítást kéri) gyorsan és könnyen leadhassa 
+rendelését. Ekkor az étteremnek egy szükséges feltétel az, hogy a kliens előre jelezze, hogy átvételkor milyen módon kíván fizetni, kártyával vagy készpénzzel.
+
+&nbsp;&nbsp;&nbsp;&nbsp;A másik lényeges funkció az az asztalfoglalás lehetősége, ahol az ügyfél kiválaszthatja az időpontot és megintcsak a szükséges információkat megadva 
+foglalhat magának előre asztalt.
 
 ## 4. A rendszerre vonatkozó szabályok
 

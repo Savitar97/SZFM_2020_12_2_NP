@@ -11,15 +11,18 @@
 #### Asztali alkalmazás esetében:
 
 - a rendszer saját adatbázissal kell, hogy rendelkezzen;
-- a rendszernek tárolnia kell az egyes alapanayagokat és ezek raktáron levő mennyiségét. Ezeket a mennyiségeket egységekben kell mérni, ahol egy egységhez magyarázat kell tartozzon (például egy egység liszt jelenthet egy kilogrammot);
+- a rendszernek tárolnia kell az egyes alapanayagokat és ezek raktáron levő mennyiségét. Ezeket a mennyiségeket egységekben kell mérni, ahol egy egységhez magyarázat kell 
+tartozzon (például egy egység liszt jelenthet egy kilogrammot);
 - a rendszerben szerepelnie kell az aktuális menüsornak és az árlistának;
-- a rendszernek valamilyen módon jeleznie kell, ha az egyes alapnyagok készlethiányba fognak kerülni (például, ha tíz egység lisztnél kevesebb van, akkor ez felkerülhet egy figyelmeztető listára);
+- a rendszernek valamilyen módon jeleznie kell, ha az egyes alapnyagok készlethiányba fognak kerülni (például, ha tíz egység lisztnél kevesebb van, akkor ez felkerülhet egy 
+figyelmeztető listára);
 
 ##### A weboldal esetében:
 
 - a weboldalnak is hozzá kell férnie a központi adatbázishoz;
 - a felhasználó számára elérhető kell, hogy legyen a teljes menüsor, valamint az árlista;
-- a menüben fel kell tüntetni az egyes ételek alapanyagait, hogy a kliensek megbizonyosodjanak róla, nem kapnak olyan ételt, amelybe olyan alapanyag kerülhet, ami esetleges allergiás reakciót válthatna ki;
+- a menüben fel kell tüntetni az egyes ételek alapanyagait, hogy a kliensek megbizonyosodjanak róla, nem kapnak olyan ételt, amelybe olyan alapanyag kerülhet, ami esetleges 
+allergiás reakciót válthatna ki;
 - a rendelés leadásakor a felhasználó kiválaszthatja, hogy átvételkor készpénzzel vagy kártyával szeretne fizetni;
 - a weboldalon szerepelnie kell az étterem telefonszámának, abban az esetben, ha a kliens telefonon szeretné leadni rendelését;
 - fel kell tűntetni, hogy kb. mennyi időbe telik a kiszállítás;
@@ -36,7 +39,8 @@
 ##### A weboldal esetében:
 
 - a rendszer nem tárolja a felhasználó által megadott személyes adatokat, pontosabban a kliens nevéről, telefonszámáról és lakcíméről van itt szó;
-- házhoz rendeléskor készpénzes fizetés lehetséges, kártyás fizetés is csak helyben, mobil terminálon keresztül, tehát a weboldal nem kell, hogy biztosítsa az online fizetés lehetőségét. Innentől kezdve nem kezelünk érzékeny bankkártya adatokat;
+- házhoz rendeléskor készpénzes fizetés lehetséges, kártyás fizetés is csak helyben, mobil terminálon keresztül, tehát a weboldal nem kell, hogy biztosítsa az online fizetés 
+lehetőségét. Innentől kezdve nem kezelünk érzékeny bankkártya adatokat;
 
 
 ## 2. [Jelenlegi helyzet leírása](Kovspec.md#1-jelenlegi-helyzet)
@@ -203,6 +207,13 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 ## 8. Használati esetek
 
 ![Weboldal használati eset](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/usecase1.png)
+
+### Weboldal használata esetén:
+
+- a kliens éhes, ekkor megnyitja az étterem weboldalát, itt ketté ágazódnak a lehetőségek:
+
+- 1. Asztalfoglalás opció kiválasztása => időpont megadása => név, telefonszám és emberek számának a megadása => asztalfoglalás megtörtént
+- 2. Házhoz rendelés opció kiválasztása => ételek kiválasztása => kosár => név, cím, telefonszám és fizetési mód megadása => rendelés megtörtént
 
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 10. Képernyő tervek

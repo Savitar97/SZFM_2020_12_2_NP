@@ -136,6 +136,16 @@ Az ábra a rendelési folyamatot mutatja be üzleti modell formályában.
  - A rendelés leadásához a felhasználó tudjon megadni adatokat, ami alapján hozzá társítható a rendelés
  - Az adatbázzisban az adatok megfelelő kezelése
 
+### Üzleti szereplők
+ - Az alkalmazást kezelő alkalmazottak
+ - Alkalmazottak: az étterem teljes személyzete
+ - A kliensek/felhasználók, akik a weblapot látogatják és használják
+ - Kliensek/felhasználók: mindenki, aki a weblapot használja
+ 
+### Üzleti entitás(ok)
+ - Userek
+ - A userek jelen esetben a felhasználók és az alkalmazottak
+ 
 
 ## Követelmények
 

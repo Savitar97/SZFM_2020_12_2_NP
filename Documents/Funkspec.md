@@ -78,6 +78,12 @@ A látási viszonyokhoz állíthatóak a monitoron történő megjelenítés mia
 
 ## 3. Vágyálomrendszer
 
+&nbsp;&nbsp;&nbsp;&nbsp;Az étteremnek egy olyan új informatikai rendszerre lenne szüksége, amely megkönnyítené az alkalmazottak mindennapjait, optimalizálná a munkafolyamatokat, 
+időt spórol. A 
+rendszerben lennie kell egy átlátható és stílusos asztali alkalmazásnak, amelyhez a dolgozók fognak majd hozzáférni. Ebben a rendszerben tárolható kell, hogy legyen minden 
+alapanyag és azoknak raktáron levő mennyiségei. Emellett célszerű lenne, ha a beszerzésért felelős alkalmazottak könnyen hozzá tudnának férni a hiánycikkek listájához és ne a 
+teljes alapanyagok listájából kelljen kibogarászniuk, hogy aktuálisan milyen hozzávalók vannak kifogyóban.
+
 ## 4. A rendszerre vonatkozó szabályok
 
 &nbsp;&nbsp;&nbsp;&nbsp;Ide az úgynevezett "szabályokat" sorolhatjuk, amelyek, ha kifejtjük, akkor az aktuális törvényi megszorításokat és rendeleteket, a különböző ezzel 

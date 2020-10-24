@@ -219,3 +219,15 @@ Webtárhely:
 - A 000webhostnál választható PHP-verziók vannak, köztük naprakészen a legfrissebbek is szerepelnek.
 - Mindemellett a 000webhostnál alapból telepítve van a mysql adatbázis
 - Tehát az ingyenesek közül inkább a 000webhostot javasoljuk
+
+# Fogalomszótár
+
+## Adatbázis fogalmai nagyvonalakban
+
+- relációs modell: olyan adatmodell, amely egy logikai adatbázis kereteit határozza meg; definiálja az adatbázis adatszerkezeteit és az azok között fennálló kapcsolatokat, 
+relációkat;
+- adatbázis tábla: egy valós világbeli entitás absztrakcióval;
+- attribútum: egy modellezett objektum olyan tulajdonsága,a mely jelentőséggel bír az adatbázisban;
+- elsődleges kulcs: egyedileg azonosítja  atáblában található rekordokat;
+- külső kulcs: olyan mező, amely egy másik tábla elsődleges kulcsára hivatkozik, ezzel összekapcsolva  akét táblát;
+- szigettábla: olyan tábla, amelynek nincs kapcsolata más táblákkal, tehát nem függ más tábláktól;

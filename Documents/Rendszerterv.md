@@ -105,6 +105,25 @@ RESERVATION sziggetábla:
 - date: a foglalás időpontja
 - number_of_people: a személyek száma
 
+
+## Üzleti folyamatok modellje
+
+![uzleti modell](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/uzleti1.jpg)
+
+Az ábra az alkalmazottakra tartozó üzleti folyamatokat mutatja be, pontosabban a teljes folyamat listát, amelyet végrehajthatnak az alkalmazottak a számukra elkészített 
+alkalmazásban.
+
+
+![uzleti modell](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/uzleti2.jpg)
+
+Az ábra a kliensekre, weblapot meglátogató felhasználókra vonatkozik.
+
+
+![uzleti modell](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/uzleti3.jpg)
+
+Az ábra a rendelési folyamatot mutatja be üzleti modell formályában.
+
+
 ## Követelmények
 
 ### Funkcionális követelmények

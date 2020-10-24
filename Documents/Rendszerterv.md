@@ -123,6 +123,19 @@ Az ábra a kliensekre, weblapot meglátogató felhasználókra vonatkozik.
 
 Az ábra a rendelési folyamatot mutatja be üzleti modell formályában.
 
+### Megvalósítandó üzleti folyamatok
+ - Az alkalmazottak a receptek listájában bármikor hajthassanak végre műveleteket
+ - Az alkalmazottak hozzávalókat tudjanak hozzáadni
+ - Megjegyzés hozzáadási lehetőség
+ - Bejegyzés hozzáadási lehetőség
+ - Módosítási lehetőség
+ - A weblapon a felhasználó nézegethesse az étlapot/kínálatot
+ - A felhasználó számára asztalfoglalási lehetőség
+ - Asztalfoglaláshoz a felhasználó tudjon megadni adatokat, ami alapján hozzá társítható a foglalás
+ - A felhasználó számára rendelésilehetőség
+ - A rendelés leadásához a felhasználó tudjon megadni adatokat, ami alapján hozzá társítható a rendelés
+ - Az adatbázzisban az adatok megfelelő kezelése
+
 
 ## Követelmények
 

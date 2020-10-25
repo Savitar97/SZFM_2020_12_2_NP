@@ -23,7 +23,7 @@ public class Launch {
     }
 
     public void goToFoods(MouseEvent mouseEvent) throws IOException {
-        navigation(mouseEvent,"/fxml/foods.fxml");
+        navigation(mouseEvent, "/fxml/meals.fxml");
     }
 
     public void goToMenus(MouseEvent mouseEvent) throws IOException {

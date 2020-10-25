@@ -12,7 +12,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/launch.fxml"));
-        stage.setTitle("EtteremControll");
+        stage.setTitle("Etterem Monitoring");
         stage.setResizable(false);
         stage.setScene(new Scene(root));
         stage.getIcons().add(new Image(getClass().getResource("/images/icon.png").toExternalForm()));

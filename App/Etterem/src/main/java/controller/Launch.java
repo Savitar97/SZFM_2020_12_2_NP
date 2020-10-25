@@ -35,7 +35,7 @@ public class Launch {
     }
 
     public void goToReservations(MouseEvent mouseEvent) throws IOException {
-        navigation(mouseEvent,"/fxml/reservation.fxml");
+        navigation(mouseEvent,"/fxml/reservations.fxml");
     }
 
     public void goToOutOfStocks(MouseEvent mouseEvent) throws IOException {

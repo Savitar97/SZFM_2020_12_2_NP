@@ -5,12 +5,11 @@ import javax.persistence.Embeddable;
 import java.io.Serializable;
 
 @Embeddable
-public class RecipeCompositeKey implements Serializable {
+public class MealOrderCompositeKey implements Serializable {
 
     @Column
     private Long MealId;
 
     @Column
-    private Long IngredientId;
-
+    private Long OrderId;
 }

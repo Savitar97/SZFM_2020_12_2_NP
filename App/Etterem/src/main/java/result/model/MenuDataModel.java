@@ -23,7 +23,7 @@ public class MenuDataModel {
     private Long id;
 
     @OneToMany
-    
+
     private Set<MealDataModel> meals;
 
 

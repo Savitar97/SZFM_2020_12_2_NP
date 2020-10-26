@@ -22,19 +22,19 @@ public class OrderDataModel {
     @GeneratedValue
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name="name",nullable = false)
     private String name;
 
-    @Column(nullable = false)
+    @Column(name="phone_number",nullable = false)
     private Long phoneNumber;
 
-    @Column(nullable = false)
+    @Column(name="address",nullable = false)
     private String address;
 
-    @Column(nullable = false)
+    @Column(name="method_of_payment",nullable = false)
     private String methodOfPayment;
 
-    @Column
+    @Column(name="comment")
     private String comment;
 
     public void setName(String name) {

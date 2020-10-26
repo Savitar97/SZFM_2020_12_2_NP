@@ -19,16 +19,16 @@ public class ReservationDataModel {
     @GeneratedValue
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name="name",nullable = false)
     private String name;
 
-    @Column(nullable = false)
+    @Column(name="phone_number",nullable = false)
     private Long phoneNumber;
 
-    @Column
+    @Column(name="amount_of_people")
     private Long amountOfPeople;
 
-    @Column(nullable = false)
+    @Column(name="date",nullable = false)
     private ZonedDateTime date;
 
     public void setName(String name) {

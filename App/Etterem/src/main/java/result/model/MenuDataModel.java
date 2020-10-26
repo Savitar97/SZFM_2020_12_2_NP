@@ -22,8 +22,7 @@ public class MenuDataModel {
     @GeneratedValue
     private Long id;
 
-    @OneToMany
-
+    @OneToMany(mappedBy = "menu")
     private Set<MealDataModel> meals;
 
 

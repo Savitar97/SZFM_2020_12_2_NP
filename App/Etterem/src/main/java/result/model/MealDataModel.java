@@ -5,10 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Builder
 @Data
@@ -26,6 +23,9 @@ public class MealDataModel {
 
     @Column(name="price",nullable = false)
     private Long price;
+
+    @ManyToOne
+    private MenuDataModel menu;
 
     public void setName(String name) {
         this.name = name;

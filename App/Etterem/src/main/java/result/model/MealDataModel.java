@@ -21,10 +21,10 @@ public class MealDataModel {
     @GeneratedValue
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name="name",nullable = false)
     private String name;
 
-    @Column(nullable = false)
+    @Column(name="price",nullable = false)
     private Long price;
 
     public void setName(String name) {

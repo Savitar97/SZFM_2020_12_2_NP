@@ -24,7 +24,7 @@ public class IngredientDataModel {
     @Column(nullable = false)
     private String name;
 
-    @Column
+    @Column(nullable = false)
     private Long amount;
 
     @Column(nullable = false)

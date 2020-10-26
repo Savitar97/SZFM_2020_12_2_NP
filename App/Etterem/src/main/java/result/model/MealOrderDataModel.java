@@ -19,6 +19,6 @@ public class MealOrderDataModel {
     @EmbeddedId
     private MealOrderCompositeKey id;
 
-    @Column(nullable = false)
+    @Column(name ="amount", nullable = false)
     private Long amount;
 }

@@ -25,6 +25,7 @@ public class MealDataModel {
     private Long price;
 
     @ManyToOne
+    @JoinColumn(name="menu_id", nullable=false)
     private MenuDataModel menu;
 
     public void setName(String name) {

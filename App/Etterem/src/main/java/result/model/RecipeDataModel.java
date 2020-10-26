@@ -5,9 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.EmbeddedId;
-import javax.persistence.Entity;
+import javax.persistence.*;
 
 @Builder
 @Data
@@ -18,6 +16,14 @@ public class RecipeDataModel {
 
     @EmbeddedId
     private RecipeCompositeKey id;
+
+    @ManyToOne
+    @JoinColumn(name = "meal_id")
+    private MealDataModel meal;
+
+    @ManyToOne
+    @JoinColumn(name = "ingredient_id")
+    private IngredientDataModel ingredient;
 
     @Column(name="amount",nullable = false)
     private Long amount;

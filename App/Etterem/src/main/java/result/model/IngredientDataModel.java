@@ -21,13 +21,13 @@ public class IngredientDataModel {
     @GeneratedValue
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name = "name",nullable = false)
     private String name;
 
-    @Column(nullable = false)
+    @Column(name = "amount", nullable = false)
     private Long amount;
 
-    @Column(nullable = false)
+    @Column(name = "unit",nullable = false)
     private String unit;
 
 

@@ -7,10 +7,10 @@ import java.io.Serializable;
 @Embeddable
 public class RecipeCompositeKey implements Serializable {
 
-    @Column
+    @Column(name= "meal_id")
     private Long MealId;
 
-    @Column
+    @Column(name = "ingredient_id")
     private Long IngredientId;
 
 }

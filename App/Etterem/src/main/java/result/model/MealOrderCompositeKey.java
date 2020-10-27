@@ -2,17 +2,18 @@ package result.model;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Embeddable;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Embeddable
 @Data
 public class MealOrderCompositeKey implements Serializable {
 
-    @Column(name="meal_id", nullable = false)
-    private Long MealId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="meal_id",referencedColumnName = "id")
+    private MealDataModel meal;
 
-    @Column(name="order_id", nullable = false)
-    private Long OrderId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="order_id",referencedColumnName = "id")
+    private OrderDataModel order;
 }

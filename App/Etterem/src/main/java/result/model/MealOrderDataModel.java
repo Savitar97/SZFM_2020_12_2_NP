@@ -17,13 +17,6 @@ public class MealOrderDataModel {
     @EmbeddedId
     private MealOrderCompositeKey id;
 
-    @ManyToOne
-    @JoinColumn(name = "meal_id")
-    private MealDataModel meal;
-
-    @ManyToOne
-    @JoinColumn(name = "order_id")
-    private OrderDataModel order;
 
     @Column(name ="amount", nullable = false)
     private Long amount;

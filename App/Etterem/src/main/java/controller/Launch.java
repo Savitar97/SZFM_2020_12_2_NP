@@ -6,12 +6,14 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+import result.IngredientDao;
 
 import java.io.IOException;
 
 public class Launch {
+    private IngredientDao dataDao;
     public void initialize(){
-
+        dataDao = IngredientDao.getInstance();
     }
 
     public void goToIngredients(MouseEvent mouseEvent) throws IOException {

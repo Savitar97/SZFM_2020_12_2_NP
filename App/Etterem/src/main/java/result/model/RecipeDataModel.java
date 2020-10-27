@@ -17,14 +17,6 @@ public class RecipeDataModel {
     @EmbeddedId
     private RecipeCompositeKey id;
 
-    @ManyToOne
-    @JoinColumn(name = "meal_id")
-    private MealDataModel meal;
-
-    @ManyToOne
-    @JoinColumn(name = "ingredient_id")
-    private IngredientDataModel ingredient;
-
     @Column(name="amount",nullable = false)
     private Long amount;
 

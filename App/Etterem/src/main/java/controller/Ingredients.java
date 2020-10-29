@@ -16,6 +16,7 @@ import result.IngredientDao;
 import result.model.IngredientDataModel;
 
 import java.io.IOException;
+import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.List;
 
 public class Ingredients {
@@ -58,11 +59,18 @@ public class Ingredients {
 
     @FXML
     public void goToAdd(MouseEvent mouseEvent) {
-        IngredientDataModel model=new IngredientDataModel();
-        model.setName("cukor");
-        model.setAmount(100L);
-        model.setUnit("kg");
-        ingredientDao.persist(model);
+        try {
+            IngredientDataModel model=new IngredientDataModel();
+            model.setName("cukor");
+            model.setAmount(100L);
+            model.setUnit("kg");
+            ingredientDao.persist(model);
+
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+            ingredientDao.getEntityManager().getTransaction().rollback();
+        }
+
     }
 
 
@@ -73,12 +81,13 @@ public class Ingredients {
         } catch (Exception ex) {
             System.err.println(ex.getMessage());
         }
+        refreshTable();
     }
 
 
     public void refreshTable(){
         List<IngredientDataModel> datas= ingredientDao.findAll();
-
+        System.out.println(datas);
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
         unit.setCellValueFactory(new PropertyValueFactory<>("unit"));

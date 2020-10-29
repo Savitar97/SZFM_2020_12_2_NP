@@ -11,7 +11,7 @@ public class RecipeCompositeKey implements Serializable {
     private MealDataModel meal;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "ingredient_id",referencedColumnName = "id")
+    @JoinColumn(name = "ingredient_id",referencedColumnName = "name")
     private IngredientDataModel ingredient;
 
 }

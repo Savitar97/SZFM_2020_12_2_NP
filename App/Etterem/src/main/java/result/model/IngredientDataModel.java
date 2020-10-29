@@ -15,10 +15,6 @@ import javax.persistence.*;
 public class IngredientDataModel {
 
     @Id
-    @GeneratedValue
-    @Column
-    private Long id;
-
     @Column(name = "name",nullable = false)
     private String name;
 

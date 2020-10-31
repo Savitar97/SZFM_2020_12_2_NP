@@ -325,6 +325,26 @@ weboldalt.  A weboldal a rendelés adatbázison keresztül rögzíti az adatokat
  - Megadja a fogalás időpontját
  - Véglegesíti a foglalást, amiről az étterem az alkalmazáson értesítést kap
 ## 12. Funkció –követelmény megfeleltetés
+
+A követelmények a Követelményspecifikációban megadott formátumot követik
+
+### Weboldal követelményei:
+-K01: Weboldal létrehozva
+-K02: Menü és ajánlatok online megtekinthetők
+-K03: Online asztalfoglalás lehetősége biztosítva
+-K04: Online rendelés lehetősége biztosítva
+-K05: Házhozszállítás biztosítva és az ahhoz szükséges adatok bekérve
+-K06: Átlátható, egyszerűen értelmezhető elrendezés
+
+### észletnyilvántartó program követelményei:
+-K07: Weboldal és program összekötve
+-K08: Alacsony készlet jelezve az étterem felé
+-K09: Termék elkészítésének mennyisége jelezve
+-K10: Hiányzó készlet pár kattintással beszerezhető
+-K11: Egyszerű és átlátható felépítés
+-K12: Készlet igyény becslése előző adatok alapján
+-K13: A papíron való adatvezetés teljes mértékben szükségtelen
+
 ## 13. Fogalomszótár
 
 **1. Adatbázis:** Az adatbázis más néven Database, számítógépen tárolt adatok összessége, amelyet egy tárolására, lekérdezésére és szerkesztésére alkalmas adatbázis kezelő 

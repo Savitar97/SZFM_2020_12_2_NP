@@ -336,7 +336,7 @@ A követelmények a Követelményspecifikációban megadott formátumot követik
 - K05: Házhozszállítás biztosítva és az ahhoz szükséges adatok bekérve
 - K06: Átlátható, egyszerűen értelmezhető elrendezés
 
-### észletnyilvántartó program követelményei:
+### Készletnyilvántartó program követelményei:
 - K07: Weboldal és program összekötve
 - K08: Alacsony készlet jelezve az étterem felé
 - K09: Termék elkészítésének mennyisége jelezve

@@ -357,10 +357,13 @@ relációkat;
 - szigettábla: olyan tábla, amelynek nincs kapcsolata más táblákkal, tehát nem függ más tábláktól;
 
 ## Üzleti folyamatok modelljéhez és a követelményekhez tartozó fogalmak
--  Kliens: 2 jelentése van:
- - A kliens lehet egy ügyfél megnevezése, aki egy szolgáltatás igénybe vevője, vagy valakinek / valaminek a megbízója.
- - A kliens lehet egy számítógép, vagy egy azon futó program, amely hozzáfér egy másik hozzáférést nyújtó számítógép hálózat, vagy egy másik számítógép (más néven: szerver) 
+- Kliens: 2 jelentése van:
+  - A kliens lehet egy ügyfél megnevezése, aki egy szolgáltatás igénybe vevője, vagy valakinek / valaminek a megbízója.
+  - A kliens lehet egy számítógép, vagy egy azon futó program, amely hozzáfér egy másik hozzáférést nyújtó számítógép hálózat, vagy egy másik számítógép (más néven: szerver) 
  által nyújtott (akár távoli) szolgáltatáshoz.
 - Rendszer: A rendszer fogalma a mai napig nincs pontosan meghatározva. Azonban a rendszer tartalmának meghatározásához meg kell mondanunk, hogy a rendszernek mit kell elérnie, 
 és azt, hogy a folyamat sorrán milyen eszközöket és eljárásokat használ annak érdekében, hogy elérje a kívánt célt.
 - Szabvány: A szabvány egy elismert szervezet által alkotott vagy jóváhagyott, közmegegyezéssel elfogadott dokumentum.
+- GDPR: A GDPR az Európai Unió és a Tanács által elfogadott rendelet, amely a személyes adatok védelmét és szabad áramlását szabályozza.
+- Input: Adatbemenet, vagy beviteli adatnak is nevezhetjük másképp.
+- HTTP: HyperText Transfer Protocol, amely egy információáviteli protokoll elosztott információs rendszerekhez.

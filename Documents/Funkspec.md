@@ -386,5 +386,9 @@ elérnie, és azt, hogy a folyamat sorrán milyen eszközöket és eljárásokat
  **14. PHP:** A PHP egy szerveroldali szkriptnyelv, amely weblapok elkészítésére szolgál.
 
  **15. GDPR:** A GDPR az Európai Unió és a Tanács által elfogadott rendelet, amely a személyes adatok védelmét és szabad áramlását szabályozza.
+ 
+ **16. Input:** Adatbemenet, vagy beviteli adatnak is nevezhetjük másképp.
+ 
+ **17. Launcher:** A rendszer kezelőfelülete, vagyis a felület, amelyen keresztül a felhasználó irányíthatja a rendszert.
 
 

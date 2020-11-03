@@ -12,11 +12,11 @@
                <Font size="18.0" />
             </font></Label>
             <Label layoutX="95.0" layoutY="135.0" text="Alapanyag:" />
-            <TextField fx:id="amount" layoutX="179.0" layoutY="131.0" />
+            <TextField fx:id="name" layoutX="179.0" layoutY="131.0" />
             <Label layoutX="95.0" layoutY="203.0" text="Mennyiség:" />
-            <TextField fx:id="description" layoutX="179.0" layoutY="199.0" />
+            <TextField fx:id="amount" layoutX="179.0" layoutY="199.0" />
             <Label layoutX="86.0" layoutY="275.0" text="Mértékegység:" />
-            <TextField fx:id="comment" layoutX="179.0" layoutY="271.0" />
+            <TextField fx:id="unit" layoutX="179.0" layoutY="271.0" />
             <Button id="green" layoutX="279.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#addIngredient" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Hozzáad" />
             <Button id="green" layoutX="139.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#returnToIngredients" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
         </children></AnchorPane>

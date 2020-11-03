@@ -59,7 +59,7 @@ public class Ingredients {
 
     @FXML
     public void goToAdd(MouseEvent mouseEvent) {
-        try {
+     /*   try {
             IngredientDataModel model=new IngredientDataModel();
             model.setName("cukor");
             model.setAmount(100L);
@@ -69,7 +69,7 @@ public class Ingredients {
         }catch (Exception e){
             System.out.println(e.getMessage());
             ingredientDao.getEntityManager().getTransaction().rollback();
-        }
+        }*/
 
     }
 

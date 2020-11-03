@@ -12,6 +12,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import result.IngredientDao;
 import result.model.IngredientDataModel;
 
@@ -70,6 +71,21 @@ public class Ingredients {
             System.out.println(e.getMessage());
             ingredientDao.getEntityManager().getTransaction().rollback();
         }*/
+
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/addingredient.fxml"));
+            Parent root = fxmlLoader.load();
+
+            AddIngredient controller = fxmlLoader.getController();
+            //controller.setApp(this);
+            Stage stage = new Stage();
+            stage.setResizable(false);
+            stage.initStyle(StageStyle.UNDECORATED);
+            stage.setScene(new Scene(root, 450, 450));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 

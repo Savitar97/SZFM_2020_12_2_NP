@@ -17,7 +17,6 @@ import result.IngredientDao;
 import result.model.IngredientDataModel;
 
 import java.io.IOException;
-import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.List;
 
 public class Ingredients {
@@ -37,10 +36,10 @@ public class Ingredients {
     private IngredientDao ingredientDao;
 
 
-    public void initialize(){
+    /*public void initialize(){
         ingredientDao = IngredientDao.getInstance();
         refreshTable();
-    }
+    }*/
 
 
     @FXML

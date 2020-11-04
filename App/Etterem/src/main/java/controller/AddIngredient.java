@@ -25,11 +25,11 @@ public class AddIngredient {
         this.app = app;
     }
 
-    public void initialize(){
+   /*public void initialize(){
 
         dao=IngredientDao.getInstance();
 
-    }
+    }*/
 
     public void addIngredient(MouseEvent mouseEvent) {
     }

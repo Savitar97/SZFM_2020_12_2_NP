@@ -1,7 +1,8 @@
 package result;
 
-import jpa.GenericJPADao;
-import result.model.IngredientDataModel;
+import jpa.*;
+import result.model.*;
+import result.*;
 
 import javax.persistence.Persistence;
 

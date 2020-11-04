@@ -36,10 +36,10 @@ public class Ingredients {
     private IngredientDao ingredientDao;
 
 
-    /*public void initialize(){
+    public void initialize(){
         ingredientDao = IngredientDao.getInstance();
         refreshTable();
-    }*/
+    }
 
 
     @FXML
@@ -59,24 +59,10 @@ public class Ingredients {
 
     @FXML
     public void goToAdd(MouseEvent mouseEvent) {
-     /*   try {
-            IngredientDataModel model=new IngredientDataModel();
-            model.setName("cukor");
-            model.setAmount(100L);
-            model.setUnit("kg");
-            ingredientDao.persist(model);
-
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-            ingredientDao.getEntityManager().getTransaction().rollback();
-        }*/
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/addingredient.fxml"));
             Parent root = fxmlLoader.load();
-
-            AddIngredient controller = fxmlLoader.getController();
-            //controller.setApp(this);
             Stage stage = new Stage();
             stage.setResizable(false);
             stage.initStyle(StageStyle.UNDECORATED);

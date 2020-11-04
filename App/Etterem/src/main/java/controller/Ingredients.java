@@ -54,6 +54,18 @@ public class Ingredients {
 
     @FXML
     public void goToModify(MouseEvent mouseEvent) {
+
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/modifyIngredient.fxml"));
+            Parent root = fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setResizable(false);
+            stage.initStyle(StageStyle.UNDECORATED);
+            stage.setScene(new Scene(root, 450, 450));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 
@@ -61,7 +73,7 @@ public class Ingredients {
     public void goToAdd(MouseEvent mouseEvent) {
 
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/addingredient.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/addIngredient.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = new Stage();
             stage.setResizable(false);

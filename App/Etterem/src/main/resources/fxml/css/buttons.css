@@ -62,6 +62,7 @@
     -fx-font-size: 16px;
 }
 
+
 #normal:hover {
     -fx-background-color:
             linear-gradient(from 0% 93% to 0% 100%, aqua 0%, #000000 100%),

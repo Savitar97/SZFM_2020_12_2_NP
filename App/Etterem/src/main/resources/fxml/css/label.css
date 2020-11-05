@@ -1,0 +1,14 @@
+.label{
+    -fx-font-size:18pt;
+    -fx-font:bold 10pt"Arial";
+    -fx-text-fill: #c9c9c9;
+}
+
+#title{
+    -fx-font-size:24pt!important;
+    -fx-font:bold 10pt"Arial";
+    -fx-text-fill: ghostwhite;
+    -fx-stroke: ghostwhite;
+    -fx-stroke-width: 10;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}

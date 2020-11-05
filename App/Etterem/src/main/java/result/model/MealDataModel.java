@@ -24,7 +24,7 @@ public class MealDataModel {
     @Column(name="price",nullable = false)
     private Long price;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="menu_id", nullable=false)
     private MenuDataModel menu;
 

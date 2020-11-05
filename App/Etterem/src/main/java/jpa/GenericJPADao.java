@@ -2,9 +2,11 @@ package jpa;
 
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public abstract class GenericJPADao<T> {
     protected Class<T> entityClass;
     protected EntityManager entityManager;

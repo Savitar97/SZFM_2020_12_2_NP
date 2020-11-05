@@ -4,10 +4,10 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddIngredient">
-    <AnchorPane prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #172333;">
+<AnchorPane prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddIngredient">
+    <AnchorPane prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: #172333;">
         <children>
-            <Label layoutX="145.0" layoutY="63.0" text="Alapanyag felvétele" textFill="#c9c9c9">
+            <Label layoutX="105.0" layoutY="67.0" text="Alapanyag felvétele" textFill="#c9c9c9">
             <font>
                <Font size="24.0" />
             </font></Label>
@@ -17,7 +17,7 @@
             <TextField fx:id="amount" layoutX="179.0" layoutY="199.0" />
             <Label layoutX="72.0" layoutY="276.0" text="Mértékegység:" textFill="WHITE" />
             <TextField fx:id="unit" layoutX="179.0" layoutY="271.0" />
-            <Button id="ok" layoutX="279.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#addIngredient" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Hozzáad" />
-            <Button id="return" layoutX="139.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#returnToIngredients" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
+            <Button id="add" layoutX="265.0" layoutY="353.0" mnemonicParsing="false" onMouseClicked="#addIngredient" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Hozzáad" />
+            <Button id="return" layoutX="81.0" layoutY="353.0" mnemonicParsing="false" onMouseClicked="#returnToIngredients" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
         </children></AnchorPane>
 </AnchorPane>

@@ -1,7 +1,9 @@
 package controller;
 
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -11,8 +13,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
-import javafx.stage.Stage;
-import javafx.stage.StageStyle;
+import javafx.stage.*;
 import result.IngredientDao;
 import result.model.IngredientDataModel;
 
@@ -62,7 +63,10 @@ public class Ingredients {
             stage.setResizable(false);
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setScene(new Scene(root, 450, 450));
+            stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
+            stage.initModality(Modality.WINDOW_MODAL);
             stage.show();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -79,7 +83,10 @@ public class Ingredients {
             stage.setResizable(false);
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setScene(new Scene(root, 450, 450));
+            stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
+            stage.initModality(Modality.WINDOW_MODAL);
             stage.show();
+
         } catch (IOException e) {
             e.printStackTrace();
         }

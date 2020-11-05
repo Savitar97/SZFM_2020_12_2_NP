@@ -15,7 +15,7 @@ import javax.persistence.*;
 public class MealDataModel {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(name="name",nullable = false)

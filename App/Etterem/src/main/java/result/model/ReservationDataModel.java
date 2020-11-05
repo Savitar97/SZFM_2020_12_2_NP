@@ -16,7 +16,7 @@ import java.time.ZonedDateTime;
 public class ReservationDataModel {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(name="name",nullable = false)

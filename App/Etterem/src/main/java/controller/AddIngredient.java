@@ -42,7 +42,6 @@ public class AddIngredient {
             ingredient.setAmount(Long.parseLong(amount.getText()));
             ingredient.setUnit(unit.getText());
             dao.persist(ingredient);
-
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.close();
         } catch (Exception e) {

@@ -54,7 +54,7 @@ public class Ingredients {
 
 
     @FXML
-    public void goToModify(MouseEvent mouseEvent) {
+    private void goToModify(MouseEvent mouseEvent) {
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/modifyIngredient.fxml"));
@@ -65,6 +65,7 @@ public class Ingredients {
             stage.setScene(new Scene(root, 450, 450));
             stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
             stage.initModality(Modality.WINDOW_MODAL);
+            stage.setOnHiding(event -> refreshTable());
             stage.show();
 
         } catch (IOException e) {
@@ -74,7 +75,7 @@ public class Ingredients {
 
 
     @FXML
-    public void goToAdd(MouseEvent mouseEvent) {
+    private void goToAdd(MouseEvent mouseEvent) {
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/addIngredient.fxml"));
@@ -85,6 +86,7 @@ public class Ingredients {
             stage.setScene(new Scene(root, 450, 450));
             stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
             stage.initModality(Modality.WINDOW_MODAL);
+            stage.setOnHiding(event -> refreshTable());
             stage.show();
 
         } catch (IOException e) {
@@ -95,7 +97,7 @@ public class Ingredients {
 
 
     @FXML
-    public void removeSelected(MouseEvent mouseEvent) {
+    private void removeSelected(MouseEvent mouseEvent) {
         try {
             ingredientDao.remove(ingredientTable.getSelectionModel().getSelectedItem());
         } catch (Exception ex) {
@@ -113,9 +115,8 @@ public class Ingredients {
         unit.setCellValueFactory(new PropertyValueFactory<>("unit"));
 
         ObservableList<IngredientDataModel> observableResult = FXCollections.observableArrayList();
-
         observableResult.addAll(datas);
-
         ingredientTable.setItems(observableResult);
+        ingredientTable.refresh();
     }
 }

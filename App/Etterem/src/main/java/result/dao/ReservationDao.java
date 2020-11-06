@@ -1,8 +1,7 @@
-package result;
+package result.dao;
 
 import jpa.*;
 import result.model.*;
-import result.*;
 
 import javax.persistence.Persistence;
 import javax.transaction.Transactional;

@@ -1,9 +1,7 @@
-package controller;
+package controller.ingredient;
 
-import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -14,13 +12,13 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.*;
-import result.IngredientDao;
+import result.dao.IngredientDao;
 import result.model.IngredientDataModel;
 
 import java.io.IOException;
 import java.util.List;
 
-public class Ingredients {
+public class Ingredient {
 
     @FXML
     private TableView<IngredientDataModel> ingredientTable;

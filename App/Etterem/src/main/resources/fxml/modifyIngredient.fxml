@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ModifyIngredient">
+<AnchorPane prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ingredient.ModifyIngredient">
     <AnchorPane prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: #172333;">
         <children>
             <Label id="title" layoutX="30.0" layoutY="51.0" stylesheets="@css/label.css" text="Alapanyag módosítása" textFill="#c9c9c9">

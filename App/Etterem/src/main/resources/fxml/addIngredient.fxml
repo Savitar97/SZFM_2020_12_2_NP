@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddIngredient">
+<AnchorPane prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ingredient.AddIngredient">
     <AnchorPane prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: #172333;">
         <children>
             <Label id="title" layoutX="45.0" layoutY="48.0" stylesheets="@css/label.css" text="Alapanyag felvétele" textFill="#837a7a">

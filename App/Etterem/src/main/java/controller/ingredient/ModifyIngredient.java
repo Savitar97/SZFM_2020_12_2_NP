@@ -1,11 +1,11 @@
-package controller;
+package controller.ingredient;
 
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-import result.IngredientDao;
+import result.dao.IngredientDao;
 import result.model.IngredientDataModel;
 
 public class ModifyIngredient {

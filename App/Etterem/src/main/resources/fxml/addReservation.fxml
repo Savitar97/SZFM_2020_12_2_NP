@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.reservation.AddReservation">
+    <AnchorPane prefHeight="521.0" prefWidth="450.0" style="-fx-background-color: #172333;">
+        <children>
+            <Label id="title" layoutX="65.0" layoutY="39.0" stylesheets="@css/label.css" text="Foglalás felvétele" textFill="#837a7a">
+                <font>
+                    <Font size="28.0" />
+                </font></Label>
+            <Label layoutX="133.0" layoutY="136.0" text="Név:" textFill="WHITE">
+                <stylesheets>
+                    <URL value="@css/label.css" />
+                    <URL value="@css/label.css" />
+                </stylesheets></Label>
+            <TextField fx:id="name" layoutX="179.0" layoutY="131.0" />
+            <Label layoutX="66.0" layoutY="204.0" stylesheets="@css/label.css" text="Telefonszám:" textFill="WHITE" />
+            <TextField fx:id="amount" layoutX="179.0" layoutY="199.0" />
+            <Label layoutX="43.0" layoutY="276.0" stylesheets="@css/label.css" text="Emberek száma:" textFill="WHITE" />
+            <TextField fx:id="unit" layoutX="179.0" layoutY="271.0" />
+            <Button id="add" layoutX="265.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#addReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Hozzáad" />
+            <Button id="return" layoutX="82.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#returnToReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
+        </children></AnchorPane>
+</AnchorPane>

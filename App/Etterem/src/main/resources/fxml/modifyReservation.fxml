@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.reservation.ModifyReservation">
+    <AnchorPane prefHeight="521.0" prefWidth="450.0" style="-fx-background-color: #172333;">
+        <children>
+            <Label id="title" layoutX="30.0" layoutY="51.0" stylesheets="@css/label.css" text="Foglalás módosítása" textFill="#c9c9c9">
+                <font>
+                    <Font size="24.0" />
+                </font></Label>
+            <Label layoutX="127.0" layoutY="136.0" stylesheets="@css/label.css" text="Név:" textFill="WHITE" />
+            <TextField fx:id="newName" layoutX="179.0" layoutY="131.0" />
+            <Label layoutX="66.0" layoutY="204.0" stylesheets="@css/label.css" text="Telefonszám:" textFill="WHITE" />
+            <TextField fx:id="newAmount" layoutX="179.0" layoutY="199.0" />
+            <Label layoutX="43.0" layoutY="276.0" stylesheets="@css/label.css" text="Emberek száma:" textFill="WHITE" />
+            <TextField fx:id="newUnit" layoutX="179.0" layoutY="271.0" />
+            <Button id="modify" layoutX="265.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#modifyReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Módosít" />
+            <Button id="return" layoutX="93.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#returnToReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
+        </children></AnchorPane>
+</AnchorPane>

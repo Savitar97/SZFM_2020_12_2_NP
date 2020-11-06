@@ -1,17 +1,47 @@
 package controller.reservation;
 
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import result.dao.ReservationDao;
+import result.model.ReservationDataModel;
 
 import java.io.IOException;
+import java.time.ZonedDateTime;
 
 public class Reservation {
+
+    @FXML
+    private TableView<ReservationDataModel> reservationTable;
+
+    @FXML
+    private TableColumn<ReservationDataModel,String> name;
+
+    @FXML
+    private TableColumn<ReservationDataModel,Long> phoneNumber;
+
+    @FXML
+    private TableColumn<ReservationDataModel,Long> amountOfPeople;
+
+    @FXML
+    private TableColumn<ReservationDataModel, ZonedDateTime> date;
+
+    private ReservationDao dao;
+
+    public void initialize(){
+
+        dao = ReservationDao.getInstance();
+
+    }
+
     public void returnMainMenu(MouseEvent mouseEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/launch.fxml"));
         Parent root = fxmlLoader.load();

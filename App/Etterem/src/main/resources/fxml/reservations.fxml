@@ -15,5 +15,13 @@
         </Pane>
         <Pane layoutX="117.0" prefHeight="98.0" prefWidth="1163.0" style="-fx-background-color: #172333;">
         </Pane>
+        <TableView fx:id="ingredientTable" layoutX="120.0" layoutY="74.0" prefHeight="646.0" prefWidth="1160.0">
+            <columns>
+                <TableColumn fx:id="name" prefWidth="345.0" text="Név" />
+                <TableColumn fx:id="phoneNumber" minWidth="0.0" prefWidth="384.0" text="Telefonszám" />
+                <TableColumn fx:id="numberOfPeople" maxWidth="612.0" minWidth="-1.0" prefWidth="430.0" text="Fő" />
+                <TableColumn fx:id="date" maxWidth="612.0" minWidth="-1.0" prefWidth="430.0" text="Időpont" />
+            </columns>
+        </TableView>
     </children>
 </AnchorPane>

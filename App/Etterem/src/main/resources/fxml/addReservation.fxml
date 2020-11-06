@@ -19,9 +19,9 @@
                 </stylesheets></Label>
             <TextField fx:id="name" layoutX="179.0" layoutY="131.0" />
             <Label layoutX="66.0" layoutY="204.0" stylesheets="@css/label.css" text="Telefonszám:" textFill="WHITE" />
-            <TextField fx:id="amount" layoutX="179.0" layoutY="199.0" />
+            <TextField fx:id="phoneNumber" layoutX="179.0" layoutY="199.0" />
             <Label layoutX="43.0" layoutY="276.0" stylesheets="@css/label.css" text="Emberek száma:" textFill="WHITE" />
-            <TextField fx:id="unit" layoutX="179.0" layoutY="271.0" />
+            <TextField fx:id="numberOfPeople" layoutX="179.0" layoutY="271.0" />
             <Button id="add" layoutX="265.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#addReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Hozzáad" />
             <Button id="return" layoutX="82.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#returnToReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
         </children></AnchorPane>

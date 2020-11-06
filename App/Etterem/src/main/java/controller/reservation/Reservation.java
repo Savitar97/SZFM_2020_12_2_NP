@@ -1,5 +1,7 @@
 package controller.reservation;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -7,15 +9,18 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import result.dao.ReservationDao;
+import result.model.IngredientDataModel;
 import result.model.ReservationDataModel;
 
 import java.io.IOException;
 import java.time.ZonedDateTime;
+import java.util.List;
 
 public class Reservation {
 
@@ -23,20 +28,20 @@ public class Reservation {
     private TableView<ReservationDataModel> reservationTable;
 
     @FXML
-    private TableColumn<ReservationDataModel,String> name;
+    private TableColumn<ReservationDataModel, String> name;
 
     @FXML
-    private TableColumn<ReservationDataModel,Long> phoneNumber;
+    private TableColumn<ReservationDataModel, Long> phoneNumber;
 
     @FXML
-    private TableColumn<ReservationDataModel,Long> amountOfPeople;
+    private TableColumn<ReservationDataModel, Long> amountOfPeople;
 
     @FXML
     private TableColumn<ReservationDataModel, ZonedDateTime> date;
 
     private ReservationDao dao;
 
-    public void initialize(){
+    public void initialize() {
 
         dao = ReservationDao.getInstance();
 
@@ -61,7 +66,7 @@ public class Reservation {
             stage.setScene(new Scene(root));
             stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
             stage.initModality(Modality.WINDOW_MODAL);
-            //stage.setOnHiding(event -> refreshTable());
+            stage.setOnHiding(event -> refreshTable());
             stage.show();
 
         } catch (IOException e) {
@@ -80,7 +85,7 @@ public class Reservation {
             stage.setScene(new Scene(root));
             stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
             stage.initModality(Modality.WINDOW_MODAL);
-            //stage.setOnHiding(event -> refreshTable());
+            stage.setOnHiding(event -> refreshTable());
             stage.show();
 
         } catch (IOException e) {
@@ -89,5 +94,27 @@ public class Reservation {
     }
 
     public void removeSelected(MouseEvent mouseEvent) {
+
+        try {
+            dao.remove(reservationTable.getSelectionModel().getSelectedItem());
+        } catch (Exception ex) {
+            System.err.println(ex.getMessage());
+        }
+        refreshTable();
+
+    }
+
+    public void refreshTable() {
+        List<ReservationDataModel> datas = dao.findAll();
+        System.out.println(datas);
+        name.setCellValueFactory(new PropertyValueFactory<>("name"));
+        phoneNumber.setCellValueFactory(new PropertyValueFactory<>("phoneNumber"));
+        amountOfPeople.setCellValueFactory(new PropertyValueFactory<>("amountOfPeople"));
+        date.setCellValueFactory(new PropertyValueFactory<>("date"));
+
+        ObservableList<ReservationDataModel> observableResult = FXCollections.observableArrayList();
+        observableResult.addAll(datas);
+        reservationTable.setItems(observableResult);
+        reservationTable.refresh();
     }
 }

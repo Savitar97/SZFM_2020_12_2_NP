@@ -17,4 +17,13 @@ public class Reservations {
         stage.setScene(new Scene(root));
         stage.show();
     }
+
+    public void goToModify(MouseEvent mouseEvent) {
+    }
+
+    public void goToAdd(MouseEvent mouseEvent) {
+    }
+
+    public void removeSelected(MouseEvent mouseEvent) {
+    }
 }

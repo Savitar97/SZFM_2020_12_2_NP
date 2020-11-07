@@ -22,7 +22,11 @@
             <TextField fx:id="phoneNumber" layoutX="179.0" layoutY="199.0" />
             <Label layoutX="43.0" layoutY="276.0" stylesheets="@css/label.css" text="Emberek száma:" textFill="WHITE" />
             <TextField fx:id="amountOfPeople" layoutX="179.0" layoutY="271.0" />
-            <Button id="add" layoutX="265.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#addReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Hozzáad" />
-            <Button id="return" layoutX="82.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#returnToReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
+            <Button id="add" layoutX="265.0" layoutY="448.0" mnemonicParsing="false" onMouseClicked="#addReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Hozzáad" />
+            <Button id="return" layoutX="82.0" layoutY="448.0" mnemonicParsing="false" onMouseClicked="#returnToReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
+         <ComboBox fx:id="month" layoutX="83.0" layoutY="331.0" prefHeight="26.0" prefWidth="101.0" promptText="hónap" visibleRowCount="5" />
+         <ComboBox fx:id="day" layoutX="83.0" layoutY="383.0" prefHeight="26.0" prefWidth="101.0" promptText="nap" visibleRowCount="5" />
+         <ComboBox fx:id="hour" layoutX="249.0" layoutY="331.0" prefHeight="26.0" prefWidth="101.0" promptText="óra" />
+         <ComboBox fx:id="minutes" layoutX="249.0" layoutY="383.0" prefHeight="26.0" prefWidth="101.0" promptText="perc" />
         </children></AnchorPane>
 </AnchorPane>

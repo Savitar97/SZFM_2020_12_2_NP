@@ -9,6 +9,8 @@ import javafx.stage.Stage;
 import result.dao.ReservationDao;
 import result.model.ReservationDataModel;
 
+import java.time.ZonedDateTime;
+
 public class AddReservation {
 
     @FXML
@@ -68,6 +70,12 @@ public class AddReservation {
             reservation.setName(name.getText());
             reservation.setPhoneNumber(Long.parseLong(phoneNumber.getText()));
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
+
+            ZonedDateTime reservationDate;
+            reservationDate = ZonedDateTime.now();
+
+            reservation.setDate(reservationDate);
+
             dao.persist(reservation);
 
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();

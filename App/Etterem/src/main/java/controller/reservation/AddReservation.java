@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 import result.dao.ReservationDao;
 import result.model.ReservationDataModel;
 
+import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
 public class AddReservation {
@@ -72,7 +73,12 @@ public class AddReservation {
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
 
             ZonedDateTime reservationDate;
-            reservationDate = ZonedDateTime.now();
+            reservationDate = ZonedDateTime.of(ZonedDateTime.now().getYear(),
+                    month.getValue().intValue(),
+                    day.getValue().intValue(),
+                    hour.getValue().intValue(),
+                    minutes.getValue().intValue(), 0, 0,
+                    ZoneId.of("UTC+1"));
 
             reservation.setDate(reservationDate);
 

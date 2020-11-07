@@ -15,7 +15,6 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import result.dao.ReservationDao;
-import result.model.IngredientDataModel;
 import result.model.ReservationDataModel;
 
 import java.io.IOException;
@@ -105,15 +104,15 @@ public class Reservation {
     }
 
     public void refreshTable() {
-        List<ReservationDataModel> datas = dao.findAll();
-        System.out.println(datas);
+        List<ReservationDataModel> data = dao.findAll();
+        System.out.println(data);
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         phoneNumber.setCellValueFactory(new PropertyValueFactory<>("phoneNumber"));
         amountOfPeople.setCellValueFactory(new PropertyValueFactory<>("amountOfPeople"));
         date.setCellValueFactory(new PropertyValueFactory<>("date"));
 
         ObservableList<ReservationDataModel> observableResult = FXCollections.observableArrayList();
-        observableResult.addAll(datas);
+        observableResult.addAll(data);
         reservationTable.setItems(observableResult);
         reservationTable.refresh();
     }

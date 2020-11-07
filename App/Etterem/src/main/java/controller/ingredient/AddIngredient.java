@@ -22,12 +22,6 @@ public class AddIngredient {
 
     private IngredientDao dao;
 
-    private Application app;
-
-    public void setApp(Application app) {
-        this.app = app;
-    }
-
     public void initialize() {
 
         dao = IngredientDao.getInstance();
@@ -42,8 +36,10 @@ public class AddIngredient {
             ingredient.setAmount(Long.parseLong(amount.getText()));
             ingredient.setUnit(unit.getText());
             dao.persist(ingredient);
+
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.close();
+
         } catch (Exception e) {
             System.out.println(e.getMessage());
             dao.getEntityManager().getTransaction().rollback();

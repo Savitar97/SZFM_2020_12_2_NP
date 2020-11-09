@@ -236,6 +236,18 @@ szabványokat kiadó szervezetek példul:  W3C, ECMA, IETF, WHATWG.
 - 1. Asztalfoglalás opció kiválasztása => időpont megadása => név, telefonszám és emberek számának a megadása => asztalfoglalás megtörtént
 - 2. Házhoz rendelés opció kiválasztása => ételek kiválasztása => kosár => név, cím, telefonszám és fizetési mód megadása => rendelés megtörtént
 
+![Weboldal használati eset](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/usecase2.png)
+
+### Asztali alkalmazásban:
+
+- egy alkalmazott alapanyagokat felvehet az adatbázisba, módosíthatja azokat és törölhet is;
+- egy alkalmazott törölheti azokat az alapanyagokat a hiánycikkek listájáról, amelyeket feltöltöttek a raktáron;
+- egy alkalmazott felvehet új recepteket az adatbázisba, azokat módosíthatja és törölheti is az elavultakat;
+- egy alkalmazott hozzáadhat az adatbázishoz asztalfoglalásokat, változás esetén pedig módosíthat és törölhet is;
+- egy alkalmazott felvehet rendeléseket a rendszerbe, változás esetén pedig módosíthat és törölhet is;
+- egy alkalmazott a menübe felvehet új ételt és abból törölhet is;
+
+
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 10. Képernyő tervek
 ### Weboldal

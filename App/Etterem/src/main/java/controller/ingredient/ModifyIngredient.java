@@ -22,6 +22,7 @@ public class ModifyIngredient {
     public void initialize() {
 
         dao = IngredientDao.getInstance();
+
     }
 
     public void returnToIngredients(MouseEvent mouseEvent) {

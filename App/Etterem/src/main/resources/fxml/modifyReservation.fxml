@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.net.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
@@ -7,17 +8,25 @@
 <AnchorPane prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.reservation.ModifyReservation">
     <AnchorPane prefHeight="521.0" prefWidth="450.0" style="-fx-background-color: #172333;">
         <children>
-            <Label id="title" layoutX="30.0" layoutY="51.0" stylesheets="@css/label.css" text="Foglalás módosítása" textFill="#c9c9c9">
+            <Label id="title" layoutX="40.0" layoutY="40.0" stylesheets="@css/label.css" text="Foglalás módosítása" textFill="#837a7a">
                 <font>
-                    <Font size="24.0" />
+                    <Font size="28.0" />
                 </font></Label>
-            <Label layoutX="127.0" layoutY="136.0" stylesheets="@css/label.css" text="Név:" textFill="WHITE" />
-            <TextField fx:id="newName" layoutX="179.0" layoutY="131.0" />
+            <Label layoutX="133.0" layoutY="136.0" text="Név:" textFill="WHITE">
+                <stylesheets>
+                    <URL value="@css/label.css" />
+                    <URL value="@css/label.css" />
+                </stylesheets></Label>
+            <TextField fx:id="name" layoutX="179.0" layoutY="131.0" />
             <Label layoutX="66.0" layoutY="204.0" stylesheets="@css/label.css" text="Telefonszám:" textFill="WHITE" />
-            <TextField fx:id="newAmount" layoutX="179.0" layoutY="199.0" />
+            <TextField fx:id="phoneNumber" layoutX="179.0" layoutY="199.0" />
             <Label layoutX="43.0" layoutY="276.0" stylesheets="@css/label.css" text="Emberek száma:" textFill="WHITE" />
-            <TextField fx:id="newUnit" layoutX="179.0" layoutY="271.0" />
-            <Button id="modify" layoutX="265.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#modifyReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Módosít" />
-            <Button id="return" layoutX="93.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#returnToReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
+            <TextField fx:id="amountOfPeople" layoutX="179.0" layoutY="271.0" />
+            <Button id="add" layoutX="265.0" layoutY="448.0" mnemonicParsing="false" onMouseClicked="#modifyReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Módosít" />
+            <Button id="return" layoutX="82.0" layoutY="448.0" mnemonicParsing="false" onMouseClicked="#returnToReservation" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
+            <ComboBox fx:id="month" layoutX="83.0" layoutY="331.0" prefHeight="26.0" prefWidth="101.0" promptText="hónap" visibleRowCount="5" />
+            <ComboBox fx:id="day" layoutX="83.0" layoutY="383.0" prefHeight="26.0" prefWidth="101.0" promptText="nap" visibleRowCount="5" />
+            <ComboBox fx:id="hour" layoutX="249.0" layoutY="331.0" prefHeight="26.0" prefWidth="101.0" promptText="óra" />
+            <ComboBox fx:id="minutes" layoutX="249.0" layoutY="383.0" prefHeight="26.0" prefWidth="101.0" promptText="perc" />
         </children></AnchorPane>
 </AnchorPane>

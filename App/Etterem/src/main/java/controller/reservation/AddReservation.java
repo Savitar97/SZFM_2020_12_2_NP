@@ -11,6 +11,8 @@ import result.model.ReservationDataModel;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 
 public class AddReservation {
 
@@ -73,6 +75,7 @@ public class AddReservation {
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
 
             ZonedDateTime reservationDate;
+
             reservationDate = ZonedDateTime.of(ZonedDateTime.now().getYear(),
                     month.getValue().intValue(),
                     day.getValue().intValue(),

@@ -1,5 +1,6 @@
 package result.model;
 
+import com.sun.javafx.binding.StringFormatter;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -46,4 +47,5 @@ public class ReservationDataModel {
     public void setDate(ZonedDateTime date) {
         this.date = date;
     }
+
 }

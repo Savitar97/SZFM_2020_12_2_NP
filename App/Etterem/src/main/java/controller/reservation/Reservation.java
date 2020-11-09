@@ -1,5 +1,6 @@
 package controller.reservation;
 
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -7,6 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -18,7 +20,10 @@ import result.dao.ReservationDao;
 import result.model.ReservationDataModel;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.List;
 
 public class Reservation {
@@ -39,6 +44,8 @@ public class Reservation {
     private TableColumn<ReservationDataModel, ZonedDateTime> date;
 
     private ReservationDao dao;
+
+    private final DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm");
 
     public void initialize() {
 
@@ -110,6 +117,8 @@ public class Reservation {
         phoneNumber.setCellValueFactory(new PropertyValueFactory<>("phoneNumber"));
         amountOfPeople.setCellValueFactory(new PropertyValueFactory<>("amountOfPeople"));
         date.setCellValueFactory(new PropertyValueFactory<>("date"));
+
+
 
         ObservableList<ReservationDataModel> observableResult = FXCollections.observableArrayList();
         observableResult.addAll(data);

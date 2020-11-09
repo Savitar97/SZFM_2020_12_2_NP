@@ -1,4 +1,4 @@
-package controller;
+package controller.menu;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class OutOfStock {
+public class Menu {
     public void returnMainMenu(MouseEvent mouseEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/launch.fxml"));
         Parent root = fxmlLoader.load();

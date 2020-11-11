@@ -1,6 +1,5 @@
 package controller.ingredient;
 
-import controller.reservation.Reservation;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.TextField;
@@ -8,7 +7,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import result.dao.IngredientDao;
 import result.model.IngredientDataModel;
-import result.model.ReservationDataModel;
 
 public class ModifyIngredient {
 

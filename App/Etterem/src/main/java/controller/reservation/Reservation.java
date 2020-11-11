@@ -20,10 +20,8 @@ import result.dao.ReservationDao;
 import result.model.ReservationDataModel;
 
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
 import java.util.List;
 
 public class Reservation {
@@ -117,9 +115,23 @@ public class Reservation {
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         phoneNumber.setCellValueFactory(new PropertyValueFactory<>("phoneNumber"));
         amountOfPeople.setCellValueFactory(new PropertyValueFactory<>("amountOfPeople"));
-        date.setCellValueFactory(new PropertyValueFactory<>("date"));
+        date.setCellValueFactory(cellData -> cellData.getValue().getDateProperty());
 
+        date.setCellFactory(column -> {
+            return new TableCell<ReservationDataModel, ZonedDateTime>() {
+                @Override
+                protected void updateItem(ZonedDateTime item, boolean empty) {
+                    super.updateItem(item, empty);
 
+                    if (item == null || empty) {
+                        setText(null);
+                    } else {
+                        setText(timeFormatter.format(item));
+
+                    }
+                }
+            };
+        });
 
         ObservableList<ReservationDataModel> observableResult = FXCollections.observableArrayList();
         observableResult.addAll(data);

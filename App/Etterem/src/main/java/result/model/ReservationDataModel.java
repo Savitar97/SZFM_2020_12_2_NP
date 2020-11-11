@@ -1,6 +1,8 @@
 package result.model;
 
 import com.sun.javafx.binding.StringFormatter;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -48,4 +50,7 @@ public class ReservationDataModel {
         this.date = date;
     }
 
+    public ObjectProperty<ZonedDateTime> getDateProperty() {
+        return new SimpleObjectProperty<>(date);
+    }
 }

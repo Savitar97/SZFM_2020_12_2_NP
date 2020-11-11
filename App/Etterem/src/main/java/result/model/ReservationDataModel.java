@@ -1,6 +1,5 @@
 package result.model;
 
-import com.sun.javafx.binding.StringFormatter;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import lombok.AllArgsConstructor;
@@ -52,5 +51,21 @@ public class ReservationDataModel {
 
     public ObjectProperty<ZonedDateTime> getDateProperty() {
         return new SimpleObjectProperty<>(date);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Long getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public Long getAmountOfPeople() {
+        return amountOfPeople;
+    }
+
+    public ZonedDateTime getDate(){
+        return date;
     }
 }

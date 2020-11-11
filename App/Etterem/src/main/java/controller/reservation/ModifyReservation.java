@@ -45,6 +45,17 @@ public class ModifyReservation {
 
         this.reservation = selectedItem;
 
+        name.setText(reservation.getName());
+        phoneNumber.setText(reservation.getPhoneNumber().toString());
+        amountOfPeople.setText(reservation.getAmountOfPeople().toString());
+
+        ZonedDateTime date = reservation.getDate();
+
+        month.setValue(Long.valueOf(date.getMonthValue()));
+        day.setValue(Long.valueOf(date.getDayOfMonth()));
+        hour.setValue(Long.valueOf(date.getHour()));
+        minutes.setValue(Long.valueOf(date.getMinute()));
+
     }
 
     @FXML

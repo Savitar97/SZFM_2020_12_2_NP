@@ -39,4 +39,16 @@ public class IngredientDataModel {
     public void setUnit(String unit) {
         this.unit = unit;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Long getAmount() {
+        return amount;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
 }

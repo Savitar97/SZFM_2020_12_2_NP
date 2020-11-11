@@ -31,6 +31,10 @@ public class ModifyIngredient {
 
         this.ingredient = selectedItem;
 
+        newName.setText(ingredient.getName());
+        newAmount.setText(ingredient.getAmount().toString());
+        newUnit.setText(ingredient.getUnit());
+
     }
 
     public void returnToIngredients(MouseEvent mouseEvent) {

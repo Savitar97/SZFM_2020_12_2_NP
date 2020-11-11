@@ -1,5 +1,6 @@
 package controller.ingredient;
 
+import controller.reservation.Reservation;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.TextField;
@@ -7,6 +8,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import result.dao.IngredientDao;
 import result.model.IngredientDataModel;
+import result.model.ReservationDataModel;
 
 public class ModifyIngredient {
 
@@ -19,9 +21,17 @@ public class ModifyIngredient {
 
     private IngredientDao dao;
 
+    private static IngredientDataModel ingredient;
+
     public void initialize() {
 
         dao = IngredientDao.getInstance();
+
+    }
+
+    public void setDataModel (IngredientDataModel selectedItem){
+
+        this.ingredient = selectedItem;
 
     }
 
@@ -34,7 +44,7 @@ public class ModifyIngredient {
     public void modifyIngredient(MouseEvent mouseEvent) {
 
         try {
-            IngredientDataModel ingredient = new IngredientDataModel();
+
             ingredient.setName(newName.getText());
             ingredient.setAmount(Long.parseLong(newAmount.getText()));
             ingredient.setUnit(newUnit.getText());
@@ -44,7 +54,7 @@ public class ModifyIngredient {
             stage.close();
 
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println( e.getClass() + ": "+ e.getMessage());
             dao.getEntityManager().getTransaction().rollback();
         }
     }

@@ -1,5 +1,6 @@
 package controller.reservation;
 
+import controller.ingredient.ModifyIngredient;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -65,6 +66,7 @@ public class Reservation {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/modifyReservation.fxml"));
             Parent root = fxmlLoader.load();
+            fxmlLoader.<ModifyReservation>getController().setDataModel(reservationTable.getSelectionModel().getSelectedItem());
             Stage stage = new Stage();
             stage.setResizable(false);
             stage.initStyle(StageStyle.UNDECORATED);

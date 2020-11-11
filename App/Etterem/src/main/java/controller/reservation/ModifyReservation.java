@@ -32,10 +32,18 @@ public class ModifyReservation {
 
     private ReservationDao dao;
 
+    private ReservationDataModel reservation;
+
     public void initialize() {
 
         dao = ReservationDao.getInstance();
         initChoices();
+
+    }
+
+    public void setDataModel(ReservationDataModel selectedItem) {
+
+        this.reservation = selectedItem;
 
     }
 
@@ -67,7 +75,7 @@ public class ModifyReservation {
     public void modifyReservation(MouseEvent mouseEvent) {
 
         try {
-            ReservationDataModel reservation = new ReservationDataModel();
+
             reservation.setName(name.getText());
             reservation.setPhoneNumber(Long.parseLong(phoneNumber.getText()));
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
@@ -100,4 +108,5 @@ public class ModifyReservation {
         stage.close();
 
     }
+
 }

@@ -57,6 +57,7 @@ public class Ingredient {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/modifyIngredient.fxml"));
             Parent root = fxmlLoader.load();
+            fxmlLoader.<ModifyIngredient>getController().setDataModel(ingredientTable.getSelectionModel().getSelectedItem());
             Stage stage = new Stage();
             stage.setResizable(false);
             stage.initStyle(StageStyle.UNDECORATED);

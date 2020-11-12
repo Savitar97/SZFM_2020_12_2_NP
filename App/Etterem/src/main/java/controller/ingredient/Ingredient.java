@@ -7,6 +7,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -53,7 +55,7 @@ public class Ingredient {
 
     @FXML
     private void goToModify(MouseEvent mouseEvent) {
-
+        if(ingredientTable.getSelectionModel().getSelectedItem()!=null){
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/modifyIngredient.fxml"));
             Parent root = fxmlLoader.load();
@@ -70,6 +72,13 @@ public class Ingredient {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        }
+        else{
+            Alert alert = new Alert(Alert.AlertType.ERROR, "Nincs kiválasztott elem!", ButtonType.CANCEL);
+            alert.showAndWait();
+
+        }
+
     }
 
 

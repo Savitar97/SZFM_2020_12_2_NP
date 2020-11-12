@@ -4,6 +4,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
@@ -40,11 +42,18 @@ public class Launch {
     }
 
     public void navigation(MouseEvent mouseEvent,String filename) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(filename));
-        Parent root = fxmlLoader.load();
-        Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
-        stage.setScene(new Scene(root));
-        stage.show();
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(filename));
+            Parent root = fxmlLoader.load();
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.setScene(new Scene(root));
+            stage.show();
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            Alert alert = new Alert(Alert.AlertType.ERROR, "Nem sikerült csatlakozni az adatbázishoz!", ButtonType.CANCEL);
+            alert.showAndWait();
+        }
 
     }
 }

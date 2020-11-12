@@ -1,7 +1,9 @@
         <footer id="footer">
             <div class="container">
             <h3>Bambusz Étterem</h3>
-            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+            <p class="font-italic">"A vendéglátásban nemcsak az fontos, hogy jókat egyenek nálam - ez alapfeltétel -,
+                hanem az is, hogy otthon érezzék magukat, sok mosolyt, törődést, odafigyelést és megbecsülést kapjanak.
+                Nem fogadhatja a vendéget rosszkedvű tulajdonos, morcos pincér, haragos szakács és nekikeseredett séf."</p>
             
             <div class="copyright">
                 &copy; Copyright <strong><span>Bambusz Étterem</span></strong>. All Rights Reserved

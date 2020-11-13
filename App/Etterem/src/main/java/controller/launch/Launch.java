@@ -51,7 +51,7 @@ public class Launch {
         }
         catch (Exception e){
             e.printStackTrace();
-            Alert alert = new Alert(Alert.AlertType.ERROR, "Nem sikerült csatlakozni az adatbázishoz!", ButtonType.CANCEL);
+            Alert alert = new Alert(Alert.AlertType.ERROR, "Nem sikerült csatlakozni az adatbázishoz!", ButtonType.CLOSE);
             alert.showAndWait();
         }
 

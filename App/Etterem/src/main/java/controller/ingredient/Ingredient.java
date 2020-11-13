@@ -74,7 +74,7 @@ public class Ingredient {
         }
         }
         else{
-            Alert alert = new Alert(Alert.AlertType.ERROR, "Nincs kiválasztott elem!", ButtonType.CANCEL);
+            Alert alert = new Alert(Alert.AlertType.ERROR, "Nincs kiválasztott elem!", ButtonType.CLOSE);
             alert.showAndWait();
 
         }

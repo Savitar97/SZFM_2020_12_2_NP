@@ -37,6 +37,7 @@ public class Ingredient {
     private IngredientDao ingredientDao;
 
     public void initialize() {
+
         ingredientDao = IngredientDao.getInstance();
         value.setText("0");
         refreshTable();

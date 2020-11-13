@@ -511,7 +511,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*About*/
 .about {
-  background: #fffaf3;
+  background: #fffaf3 !important;
 }
 
 .about .content {
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about .content p {
   font-size: 15px;
-  color: #848484;
+  color: #848484 !important;
 }
 
 .about .content ul {

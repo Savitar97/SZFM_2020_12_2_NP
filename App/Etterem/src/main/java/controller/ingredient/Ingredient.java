@@ -7,10 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.*;
@@ -26,19 +23,23 @@ public class Ingredient {
     private TableView<IngredientDataModel> ingredientTable;
 
     @FXML
-    private TableColumn<IngredientDataModel,String> name;
+    private TableColumn<IngredientDataModel, String> name;
 
     @FXML
-    private TableColumn<IngredientDataModel,Long> amount;
+    private TableColumn<IngredientDataModel, Long> amount;
 
     @FXML
-    private TableColumn<IngredientDataModel,String> unit;
+    private TableColumn<IngredientDataModel, String> unit;
+
+    @FXML
+    private TextField value;
 
     private IngredientDao ingredientDao;
 
+    public void initialize() {
 
-    public void initialize(){
         ingredientDao = IngredientDao.getInstance();
+        value.setText("0");
         refreshTable();
     }
 
@@ -55,25 +56,26 @@ public class Ingredient {
 
     @FXML
     private void goToModify(MouseEvent mouseEvent) {
-        if(ingredientTable.getSelectionModel().getSelectedItem()!=null){
-        try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/modifyIngredient.fxml"));
-            Parent root = fxmlLoader.load();
-            fxmlLoader.<ModifyIngredient>getController().setDataModel(ingredientTable.getSelectionModel().getSelectedItem());
-            Stage stage = new Stage();
-            stage.setResizable(false);
-            stage.initStyle(StageStyle.UNDECORATED);
-            stage.setScene(new Scene(root, 450, 450));
-            stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
-            stage.initModality(Modality.WINDOW_MODAL);
-            stage.setOnHiding(event -> refreshTable());
-            stage.show();
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        }
-        else{
+        if (ingredientTable.getSelectionModel().getSelectedItem() != null) {
+
+            try {
+                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/modifyIngredient.fxml"));
+                Parent root = fxmlLoader.load();
+                fxmlLoader.<ModifyIngredient>getController().setDataModel(ingredientTable.getSelectionModel().getSelectedItem());
+                Stage stage = new Stage();
+                stage.setResizable(false);
+                stage.initStyle(StageStyle.UNDECORATED);
+                stage.setScene(new Scene(root, 450, 450));
+                stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
+                stage.initModality(Modality.WINDOW_MODAL);
+                stage.setOnHiding(event -> refreshTable());
+                stage.show();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else {
             Alert alert = new Alert(Alert.AlertType.ERROR, "Nincs kiválasztott elem!", ButtonType.CLOSE);
             alert.showAndWait();
 
@@ -114,9 +116,50 @@ public class Ingredient {
         refreshTable();
     }
 
+    public void decreaseAmount(MouseEvent mouseEvent) {
 
-    public void refreshTable(){
-        List<IngredientDataModel> datas= ingredientDao.findAll();
+        if (ingredientTable.getSelectionModel().getSelectedItem() != null) {
+
+            IngredientDataModel ingredient = ingredientTable.getSelectionModel().getSelectedItem();
+            Long dec = Long.parseLong(value.getText());
+
+            if (ingredient.getAmount().intValue() - dec.intValue() < 0) {
+
+                ingredient.setAmount(Long.valueOf(0));
+
+            } else ingredient.setAmount(Long.valueOf(ingredient.getAmount().intValue() - dec.intValue()));
+
+            ingredientDao.update(ingredient);
+            refreshTable();
+        } else {
+
+            Alert alert = new Alert(Alert.AlertType.ERROR, "Nincs kiválasztott elem!", ButtonType.CLOSE);
+            alert.showAndWait();
+
+        }
+
+    }
+
+    public void increaseAmount(MouseEvent mouseEvent) {
+
+        if (ingredientTable.getSelectionModel().getSelectedItem() != null) {
+
+            IngredientDataModel ingredient = ingredientTable.getSelectionModel().getSelectedItem();
+            Long inc = Long.parseLong(value.getText());
+            ingredient.setAmount(Long.valueOf(ingredient.getAmount().intValue() + inc.intValue()));
+
+            ingredientDao.update(ingredient);
+            refreshTable();
+        } else {
+            Alert alert = new Alert(Alert.AlertType.ERROR, "Nincs kiválasztott elem!", ButtonType.CLOSE);
+            alert.showAndWait();
+        }
+
+    }
+
+
+    public void refreshTable() {
+        List<IngredientDataModel> datas = ingredientDao.findAll();
         System.out.println(datas);
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
@@ -127,4 +170,5 @@ public class Ingredient {
         ingredientTable.setItems(observableResult);
         ingredientTable.refresh();
     }
+
 }

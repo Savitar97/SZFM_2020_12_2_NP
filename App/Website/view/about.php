@@ -23,7 +23,17 @@
               hanem a fennmaradás érdekében is.
               </p>
               <p>
-              Miért Bambusz Étterem a nevünk, hallhattuk már néhányszor ezt a kérdést. Sokat gondolkoztunk rajta mi is. Aztán jött az ötlet, hogy egyikünk imádja a pandákat. Na is mit fogyasztanak szívesen a pandák? Hát bambuszt! Szóval innen jött az ötlet, hogy mi legyen az étterem neve.
+              Miért Bambusz Étterem a nevünk, hallhattuk már néhányszor ezt a kérdést. Sokat gondolkoztunk rajta mi is. 
+              Aztán jött az ötlet, hogy egyikünk imádja a pandákat. Na is mit fogyasztanak szívesen a pandák? Hát bambuszt! 
+              Szóval innen jött az ötlet, hogy mi legyen az étterem neve.
+              </p>
+              <p>
+              Ételeink minőségével szintén a lehető legjobbra törekszünk! Ide persze írhatnám a szokásos reklám szöveget is, hogy ellenőrzött 
+              helyről származnak a termékeink stb... Valójában viszont, amikor lehetséges, akkor a helyi gazdáktól és termelőktől 
+              vásároljuk inkább az alapanyagokat, ezzel segítve a helyi gazdaságot. Na meg persze így a saját szemünkkel is láthatjuk, 
+              hogy nincs sem vegyszerezve, sem pedig tartósítószerezve egyik termék sem. A húsáru elletásunk egész évben helyből jön, 
+              azonban a téli időszakban kénytelenek vagyunk máshonnan rendelni. Ez persze nem tántorít el a célunktól, ezekből is a lehető legfinomabb 
+              ételeket szándékozzuk elkészíteni a vendégeink számára.
               </p>
 
             </div>

@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controller.meal.Meal"
-            prefHeight="720" prefWidth="1280">
+<AnchorPane prefHeight="720" prefWidth="1280" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.meal.Meal">
     <children>
         <Pane prefHeight="720.0" prefWidth="120.0" style="-fx-background-color: #172333;">
             <children>
-                <Button id="purple" layoutX="20.0" layoutY="304.0" mnemonicParsing="false"  prefHeight="40.0" prefWidth="80.0" text="Módosít" />
-                <Button id="green" layoutX="20.0" layoutY="194.0" mnemonicParsing="false"  prefHeight="40.0" prefWidth="80.0" text="Hozzáad" />
-                <Button id="red" layoutX="20.0" layoutY="250.0" mnemonicParsing="false"  prefHeight="40.0" prefWidth="80.0" text="Töröl" />
-                <Button id="exit" layoutX="19.0" layoutY="600.0" mnemonicParsing="false" onMouseClicked="#returnMainMenu" prefHeight="48.0" prefWidth="80.0" text="Vissza" />
+                <Button id="modify" layoutX="20.0" layoutY="304.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Módosít" />
+                <Button id="add" layoutX="20.0" layoutY="194.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Hozzáad" />
+                <Button id="remove" layoutX="20.0" layoutY="250.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Töröl" />
+                <Button id="return" layoutX="19.0" layoutY="600.0" mnemonicParsing="false" onMouseClicked="#returnMainMenu" prefHeight="48.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Vissza" />
             </children>
         </Pane>
         <Pane layoutX="117.0" prefHeight="98.0" prefWidth="1163.0" style="-fx-background-color: #172333;">

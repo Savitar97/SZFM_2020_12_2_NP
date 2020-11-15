@@ -22,6 +22,9 @@
               hogy itt az idő a házhozszállításos rendelések megkezdéséhez. Erre nem csak a vendégek elégedettsége miatt volt szükség sajnos, 
               hanem a fennmaradás érdekében is.
               </p>
+              <p>
+              Miért Bambusz Étterem a nevünk, hallhattuk már néhányszor ezt a kérdést. Sokat gondolkoztunk rajta mi is. Aztán jött az ötlet, hogy egyikünk imádja a pandákat. Na is mit fogyasztanak szívesen a pandák? Hát bambuszt! Szóval innen jött az ötlet, hogy mi legyen az étterem neve.
+              </p>
 
             </div>
 

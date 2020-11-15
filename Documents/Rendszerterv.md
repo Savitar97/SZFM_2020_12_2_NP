@@ -313,7 +313,7 @@ A weboldal terve egy letisztult, de mégis elegánsabb design. Bootstrappel megv
 
 #### Applikáció
 
-Az applikáció indulásakor a következő képernyő fogad minket:
+Az applikáció indulásakor a következő képernyő fogad minket ez a főképernyő innen vagyunk képesek elnavigálni a különböző view-okra:
 
 ![Weboldal](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/Képernyőterv2.png)
 

@@ -304,8 +304,34 @@ igénylőnek kell lennie. Egy főmenüt fogunk tervezni, amelyből eltudunk navi
 hanem egyszerű, megszokott gombokkal szövegmezőkkel fog találkozni.
 
 ### Képernyőtervek
+
 #### Weboldal
+
+![Weboldal](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/Képernyőterv1.png)
+
+A weboldal terve egy letisztult, de mégis elegánsabb design. Bootstrappel megvalósítva, hogy mind a számítógép, mind a mobiltelefon kijelzőjéhez illeszkedjen.
+
 #### Applikáció
+
+Az applikáció indulásakor a következő képernyő fogad minket ez a főképernyő innen vagyunk képesek elnavigálni a különböző view-okra:
+
+![Weboldal](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/Képernyőterv2.png)
+
+A gombok hover animációt kaptak. 
+
+Az információk minden nézetben hasonlóan jelennek meg a következő ablakban fogadnak minket egy táblázatban:
+
+![Weboldal](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/Képernyőterv3.png)
+
+A hozzáadás a következőképpen lett megvalósítva:
+
+![Weboldal](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/Képernyőterv4.png)
+
+A módosításnál az értékek a kiválasztott elem értékeivel töltődnek fel alapértelmezetten:
+
+![Weboldal](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/Képernyőterv5.png)
+
+A hozzáadás és módosítás viewenként eltérő. Viszont a törlés mindig hasonlóképp van megvalósítva. 
 
 ## Telepítési terv
 

@@ -10,7 +10,7 @@
         <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
           <div class="form-row">
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Név" data-rule="minlen:4" data-msg="A név legalább 4 karakterből álljon!" require>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Név" data-rule="minlen:4" data-msg="A név legalább 4 karakterből álljon!" required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
@@ -28,21 +28,10 @@
             <div class="col-lg-4 col-md-6 form-group">
               <select class="form-control" name="idopont" id="idopont" required>
               <option value="">Időpont</option>
-              <script>
-                  var x=document.getElementById("idopont")
-                  if(typeof x !== 'undefined' && x !== null) {
-                      for (let i = 11; i < 21; i++) {
-                        x.add(new Option(i+":00"));
-                        x.add(new Option(i+":15"));
-                        x.add(new Option(i+":30"));
-                        x.add(new Option(i+":45"));
-                      }
-                    }
-              </script>
               </select>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# személy" data-rule="min:1" data-msg="Legalább egy karakter hosszúnak kell lennie!" required pattern="[0-9]*">
+              <input type="number" class="form-control" name="people" id="people" placeholder="# személy" data-rule="min:1" data-msg="Legalább egy karakter hosszúnak kell lennie!" required pattern="[0-9][0-9]:[0-9][0-9]">
               <div class="validate"></div>
             </div>
           </div>

@@ -21,6 +21,8 @@ public class AddReservation {
     @FXML
     public TextField amountOfPeople;
     @FXML
+    public TextField email;
+    @FXML
     public ComboBox<Long> month;
     @FXML
     public ComboBox<Long> day;
@@ -52,7 +54,7 @@ public class AddReservation {
             day.getItems().add(Long.valueOf(i));
         }
 
-        for (int i = 8; i < 21; i++) {
+        for (int i = 11; i < 21; i++) {
 
             hour.getItems().add(Long.valueOf(i));
         }
@@ -69,6 +71,7 @@ public class AddReservation {
         try {
             ReservationDataModel reservation = new ReservationDataModel();
             reservation.setName(name.getText());
+            reservation.setEmail(email.getText());
             reservation.setPhoneNumber(Long.parseLong(phoneNumber.getText()));
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
 

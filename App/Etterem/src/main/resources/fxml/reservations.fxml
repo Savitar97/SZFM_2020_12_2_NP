@@ -17,10 +17,11 @@
         </Pane>
         <TableView fx:id="reservationTable" layoutX="120.0" layoutY="74.0" prefHeight="646.0" prefWidth="1160.0">
             <columns>
-                <TableColumn fx:id="name" prefWidth="308.0" text="Név" />
-                <TableColumn fx:id="phoneNumber" minWidth="0.0" prefWidth="293.0" text="Telefonszám" />
-                <TableColumn fx:id="amountOfPeople" maxWidth="677.0" minWidth="-1.0" prefWidth="142.0" text="Fő" />
-                <TableColumn fx:id="date" maxWidth="925.0" minWidth="-1.0" prefWidth="415.0" text="Időpont" />
+                <TableColumn fx:id="name" prefWidth="229.0" text="Név" />
+                <TableColumn fx:id="phoneNumber" minWidth="0.0" prefWidth="255.0" text="Telefonszám" />
+                <TableColumn fx:id="email" minWidth="0.0" prefWidth="297.0" text="E-mail" />
+                <TableColumn fx:id="amountOfPeople" maxWidth="677.0" minWidth="-1.0" prefWidth="102.0" text="Fő" />
+                <TableColumn fx:id="date" maxWidth="925.0" minWidth="-1.0" prefWidth="276.0" text="Időpont" />
             </columns>
         </TableView>
     </children>

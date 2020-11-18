@@ -21,6 +21,8 @@ public class ModifyReservation {
     @FXML
     public TextField amountOfPeople;
     @FXML
+    public TextField email;
+    @FXML
     public ComboBox<Long> month;
     @FXML
     public ComboBox<Long> day;
@@ -48,6 +50,7 @@ public class ModifyReservation {
         name.setText(reservation.getName());
         phoneNumber.setText(reservation.getPhoneNumber().toString());
         amountOfPeople.setText(reservation.getAmountOfPeople().toString());
+        email.setText(reservation.getEmail());
 
         ZonedDateTime date = reservation.getDate();
 
@@ -71,7 +74,7 @@ public class ModifyReservation {
             day.getItems().add(Long.valueOf(i));
         }
 
-        for (int i = 8; i < 21; i++) {
+        for (int i = 11; i < 21; i++) {
 
             hour.getItems().add(Long.valueOf(i));
         }
@@ -90,6 +93,7 @@ public class ModifyReservation {
             reservation.setName(name.getText());
             reservation.setPhoneNumber(Long.parseLong(phoneNumber.getText()));
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
+            reservation.setEmail(email.getText());
 
             ZonedDateTime reservationDate;
 

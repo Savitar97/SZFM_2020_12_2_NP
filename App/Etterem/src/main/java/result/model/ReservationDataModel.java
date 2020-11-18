@@ -27,6 +27,9 @@ public class ReservationDataModel {
     @Column(name="phone_number",nullable = false)
     private Long phoneNumber;
 
+    @Column(name="email")
+    private String email;
+
     @Column(name="amount_of_people")
     private Long amountOfPeople;
 
@@ -67,5 +70,13 @@ public class ReservationDataModel {
 
     public ZonedDateTime getDate(){
         return date;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

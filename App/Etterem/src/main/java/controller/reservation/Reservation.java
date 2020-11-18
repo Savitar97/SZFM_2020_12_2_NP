@@ -38,6 +38,9 @@ public class Reservation {
     private TableColumn<ReservationDataModel, Long> amountOfPeople;
 
     @FXML
+    private TableColumn<ReservationDataModel, String> email;
+
+    @FXML
     private TableColumn<ReservationDataModel, ZonedDateTime> date;
 
     private ReservationDao dao;
@@ -113,6 +116,7 @@ public class Reservation {
         System.out.println(data);
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         phoneNumber.setCellValueFactory(new PropertyValueFactory<>("phoneNumber"));
+        email.setCellValueFactory(new PropertyValueFactory<>("email"));
         amountOfPeople.setCellValueFactory(new PropertyValueFactory<>("amountOfPeople"));
         date.setCellValueFactory(cellData -> cellData.getValue().getDateProperty());
 

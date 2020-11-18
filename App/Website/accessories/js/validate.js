@@ -139,7 +139,6 @@
         if(!msg) {
           msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
         }
-        this_form.find('.error-message').slideDown().html(msg);
       }
     }).fail( function(data){
       console.log(data);

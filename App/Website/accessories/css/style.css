@@ -735,6 +735,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
 }
 
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .book-a-table .php-email-form .loading:before {
   content: "";
   display: inline-block;
@@ -742,10 +752,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #11afee;
   border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
 }
 
 .book-a-table .php-email-form input, .book-a-table .php-email-form textarea {

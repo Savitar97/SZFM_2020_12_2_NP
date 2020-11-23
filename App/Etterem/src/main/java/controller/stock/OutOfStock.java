@@ -54,7 +54,7 @@ public class OutOfStock {
 
     private void refreshTable() {
 
-        List<IngredientDataModel> datas = ingredientDao.findAll();
+        List<IngredientDataModel> datas = ingredientDao.findOutOfStock();
         System.out.println(datas);
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         amount.setCellValueFactory(new PropertyValueFactory<>("amount"));

@@ -5,6 +5,7 @@ import result.model.*;
 
 import javax.persistence.Persistence;
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Transactional
 public class IngredientDao extends GenericJPADao<IngredientDataModel> {
@@ -20,6 +21,11 @@ public class IngredientDao extends GenericJPADao<IngredientDataModel> {
             instance.setEntityManager(Persistence.createEntityManagerFactory("persistence").createEntityManager());
         }
         return instance;
+    }
+
+    public List<IngredientDataModel> findOutOfStock() {
+        return entityManager.createQuery("SELECT r FROM IngredientDataModel r WHERE r.amount<10", IngredientDataModel.class)
+                .getResultList();
     }
 
 }

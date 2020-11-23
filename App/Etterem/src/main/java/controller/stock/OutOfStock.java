@@ -1,5 +1,7 @@
 package controller.stock;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -8,12 +10,14 @@ import javafx.scene.Scene;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import result.dao.IngredientDao;
 import result.model.IngredientDataModel;
 
 import java.io.IOException;
+import java.util.List;
 
 public class OutOfStock {
 
@@ -29,10 +33,39 @@ public class OutOfStock {
     @FXML
     private TableColumn<IngredientDataModel, String> unit;
 
-    @FXML
-    private TextField value;
-
     private IngredientDao ingredientDao;
+
+    public void initialize() {
+
+        ingredientDao = IngredientDao.getInstance();
+        refreshTable();
+    }
+
+    public void removeSelected(MouseEvent mouseEvent) {
+
+        try {
+            ingredientDao.remove(ingredientTable.getSelectionModel().getSelectedItem());
+        } catch (Exception ex) {
+            System.err.println(ex.getMessage());
+        }
+        refreshTable();
+
+    }
+
+    private void refreshTable() {
+
+        List<IngredientDataModel> datas = ingredientDao.findAll();
+        System.out.println(datas);
+        name.setCellValueFactory(new PropertyValueFactory<>("name"));
+        amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
+        unit.setCellValueFactory(new PropertyValueFactory<>("unit"));
+
+        ObservableList<IngredientDataModel> observableResult = FXCollections.observableArrayList();
+        observableResult.addAll(datas);
+        ingredientTable.setItems(observableResult);
+        ingredientTable.refresh();
+
+    }
     
     public void returnMainMenu(MouseEvent mouseEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/launch.fxml"));
@@ -42,6 +75,4 @@ public class OutOfStock {
         stage.show();
     }
 
-    public void removeSelected(MouseEvent mouseEvent) {
-    }
 }

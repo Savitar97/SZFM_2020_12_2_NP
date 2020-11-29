@@ -32,7 +32,7 @@ public class Reservation {
     private TableColumn<ReservationDataModel, String> name;
 
     @FXML
-    private TableColumn<ReservationDataModel, Long> phoneNumber;
+    private TableColumn<ReservationDataModel, String> phoneNumber;
 
     @FXML
     private TableColumn<ReservationDataModel, Long> amountOfPeople;
@@ -50,6 +50,7 @@ public class Reservation {
     public void initialize() {
 
         dao = ReservationDao.getInstance();
+        refreshTable();
 
     }
 

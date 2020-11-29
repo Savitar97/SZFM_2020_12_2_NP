@@ -91,7 +91,7 @@ public class ModifyReservation {
         try {
 
             reservation.setName(name.getText());
-            reservation.setPhoneNumber(Long.parseLong(phoneNumber.getText()));
+            reservation.setPhoneNumber(phoneNumber.getText());
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
             reservation.setEmail(email.getText());
 

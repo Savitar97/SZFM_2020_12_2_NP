@@ -25,7 +25,7 @@ public class ReservationDataModel {
     private String name;
 
     @Column(name="phone_number",nullable = false)
-    private Long phoneNumber;
+    private String phoneNumber;
 
     @Column(name="email")
     private String email;
@@ -40,7 +40,7 @@ public class ReservationDataModel {
         this.name = name;
     }
 
-    public void setPhoneNumber(Long phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -60,7 +60,7 @@ public class ReservationDataModel {
         return name;
     }
 
-    public Long getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 

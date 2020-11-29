@@ -72,7 +72,7 @@ public class AddReservation {
             ReservationDataModel reservation = new ReservationDataModel();
             reservation.setName(name.getText());
             reservation.setEmail(email.getText());
-            reservation.setPhoneNumber(Long.parseLong(phoneNumber.getText()));
+            reservation.setPhoneNumber(phoneNumber.getText());
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
 
             ZonedDateTime reservationDate;

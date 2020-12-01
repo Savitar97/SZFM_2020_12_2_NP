@@ -2,6 +2,8 @@ package controller.reservation;
 
 import javafx.fxml.FXML;
 import javafx.scene.Node;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
@@ -89,7 +91,16 @@ public class ModifyReservation {
     public void modifyReservation(MouseEvent mouseEvent) {
 
         try {
-
+            if(!email.getText().matches("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$")){
+                Alert alert = new Alert(Alert.AlertType.ERROR, "Hibás emailcím!", ButtonType.CLOSE);
+                alert.showAndWait();
+                throw new IllegalArgumentException("Rossz emailcím!");
+            }
+            if(!phoneNumber.getText().matches("^(\\+36)?[0-9]{6,11}")){
+                Alert alert = new Alert(Alert.AlertType.ERROR, "A telefonszám csak számjegyeket tartalmazhat!", ButtonType.CLOSE);
+                alert.showAndWait();
+                throw new IllegalArgumentException("Rossz telefonszám!");
+            }
             reservation.setName(name.getText());
             reservation.setPhoneNumber(phoneNumber.getText());
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));

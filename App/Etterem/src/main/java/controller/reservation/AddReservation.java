@@ -2,15 +2,19 @@ package controller.reservation;
 
 import javafx.fxml.FXML;
 import javafx.scene.Node;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+import net.bytebuddy.implementation.bytecode.Throw;
 import result.dao.ReservationDao;
 import result.model.ReservationDataModel;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
+import java.util.regex.Pattern;
 
 public class AddReservation {
 
@@ -71,7 +75,17 @@ public class AddReservation {
         try {
             ReservationDataModel reservation = new ReservationDataModel();
             reservation.setName(name.getText());
+            if(!email.getText().matches("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$")){
+                Alert alert = new Alert(Alert.AlertType.ERROR, "Hibás emailcím!", ButtonType.CLOSE);
+                alert.showAndWait();
+                throw new IllegalArgumentException("Rossz emailcím!");
+            }
             reservation.setEmail(email.getText());
+            if(!phoneNumber.getText().matches("^(\\+36)?[0-9]{6,11}")){
+                Alert alert = new Alert(Alert.AlertType.ERROR, "A telefonszám csak számjegyeket tartalmazhat!", ButtonType.CLOSE);
+                alert.showAndWait();
+                throw new IllegalArgumentException("Rossz telefonszám!");
+            }
             reservation.setPhoneNumber(phoneNumber.getText());
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
 

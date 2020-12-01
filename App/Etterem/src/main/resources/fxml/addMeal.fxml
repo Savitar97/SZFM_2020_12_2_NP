@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: #172333;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.meal.AddMeal">
+    <Label id="title" layoutX="105.0" layoutY="50.0" stylesheets="@css/label.css" text="Étel felvétele" textAlignment="CENTER" textFill="#837a7a">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+    <Label layoutX="34.0" layoutY="138.0" text="Étel megnevezése:" textFill="WHITE">
+        <stylesheets>
+            <URL value="@css/label.css" />
+        </stylesheets>
+    </Label>
+    <TextField fx:id="name" layoutX="179.0" layoutY="131.0" />
+    <Label layoutX="80.0" layoutY="204.0" stylesheets="@css/label.css" text="Ár:" textFill="WHITE" />
+    <TextField fx:id="price" layoutX="179.0" layoutY="199.0" />
+    <Button id="add" layoutX="265.0" layoutY="353.0" mnemonicParsing="false" onMouseClicked="#addMeal" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Hozzáad" />
+    <Button id="return" layoutX="81.0" layoutY="353.0" mnemonicParsing="false" onMouseClicked="#returnToMeal" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
+
+</AnchorPane>

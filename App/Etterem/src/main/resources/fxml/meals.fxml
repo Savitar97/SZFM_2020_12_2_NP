@@ -7,13 +7,19 @@
     <children>
         <Pane prefHeight="720.0" prefWidth="120.0" style="-fx-background-color: #172333;">
             <children>
-                <Button id="modify" layoutX="20.0" layoutY="304.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Módosít" />
-                <Button id="add" layoutX="20.0" layoutY="194.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Hozzáad" />
-                <Button id="remove" layoutX="20.0" layoutY="250.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Töröl" />
+                <Button id="modify" layoutX="20.0" layoutY="304.0" mnemonicParsing="false" onMouseClicked="#goToModify" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Módosít" />
+                <Button id="add" layoutX="20.0" layoutY="194.0" mnemonicParsing="false" onMouseClicked="#goToAdd" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Hozzáad" />
+                <Button id="remove" layoutX="20.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#removeSelected" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Töröl" />
                 <Button id="return" layoutX="19.0" layoutY="600.0" mnemonicParsing="false" onMouseClicked="#returnMainMenu" prefHeight="48.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Vissza" />
             </children>
         </Pane>
         <Pane layoutX="117.0" prefHeight="98.0" prefWidth="1163.0" style="-fx-background-color: #172333;">
         </Pane>
+        <TableView fx:id="mealsTable" layoutX="120.0" layoutY="74.0" prefHeight="646.0" prefWidth="1160.0">
+            <columns>
+                <TableColumn fx:id="name" prefWidth="345.0" text="Megnevezés" />
+                <TableColumn fx:id="price" minWidth="0.0" prefWidth="384.0" text="Ár" />
+            </columns>
+        </TableView>
     </children>
 </AnchorPane>

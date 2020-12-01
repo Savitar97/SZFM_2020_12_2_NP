@@ -25,7 +25,7 @@ public class MealDataModel {
     private Long price;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="menu_id", nullable=false)
+    @JoinColumn(name="menu_id", nullable=true)
     private MenuDataModel menu;
 
     public void setName(String name) {
@@ -34,5 +34,13 @@ public class MealDataModel {
 
     public void setPrice(Long price) {
         this.price = price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Long getPrice() {
+        return price;
     }
 }

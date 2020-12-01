@@ -74,19 +74,31 @@ public class AddReservation {
 
         try {
             ReservationDataModel reservation = new ReservationDataModel();
+
+            if(!name.getText().matches("^[A-Z][a-zA-Z\\s]+")){
+                Alert alert = new Alert(Alert.AlertType.ERROR, "Hibás név!", ButtonType.CLOSE);
+                alert.showAndWait();
+                throw new IllegalArgumentException("Hibás név!");
+            }
+
             reservation.setName(name.getText());
+
             if(!email.getText().matches("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$")){
                 Alert alert = new Alert(Alert.AlertType.ERROR, "Hibás emailcím!", ButtonType.CLOSE);
                 alert.showAndWait();
                 throw new IllegalArgumentException("Rossz emailcím!");
             }
+
             reservation.setEmail(email.getText());
-            if(!phoneNumber.getText().matches("^(\\+36)?[0-9]{6,11}")){
+
+            if(!phoneNumber.getText().matches("^(\\+[0-9][0-9])?[0-9]{6,11}")){
                 Alert alert = new Alert(Alert.AlertType.ERROR, "A telefonszám csak számjegyeket tartalmazhat!", ButtonType.CLOSE);
                 alert.showAndWait();
                 throw new IllegalArgumentException("Rossz telefonszám!");
             }
+
             reservation.setPhoneNumber(phoneNumber.getText());
+
             reservation.setAmountOfPeople(Long.parseLong(amountOfPeople.getText()));
 
             ZonedDateTime reservationDate;

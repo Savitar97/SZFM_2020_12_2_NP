@@ -1,14 +1,10 @@
 package result.model;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
-@Builder
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -27,4 +23,19 @@ public class RecipeDataModel {
         this.amount = amount;
     }
 
+    public void setIngredient(IngredientDataModel ingredient){
+        this.id.setIngredient(ingredient);
+    }
+
+    public void setMeal(MealDataModel meal){
+        this.id.setMeal(meal);
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
+    }
 }

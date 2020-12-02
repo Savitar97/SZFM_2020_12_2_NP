@@ -14,4 +14,19 @@ public class RecipeCompositeKey implements Serializable {
     @JoinColumn(name = "ingredient_id",referencedColumnName = "name")
     private IngredientDataModel ingredient;
 
+    public MealDataModel getMeal() {
+        return meal;
+    }
+
+    public void setMeal(MealDataModel meal) {
+        this.meal = meal;
+    }
+
+    public IngredientDataModel getIngredient() {
+        return ingredient;
+    }
+
+    public void setIngredient(IngredientDataModel ingredient) {
+        this.ingredient = ingredient;
+    }
 }

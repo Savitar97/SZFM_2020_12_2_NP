@@ -9,7 +9,9 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import result.dao.MealDao;
 import result.dao.RecipeDao;
 import result.model.MealDataModel;
@@ -65,6 +67,25 @@ public class Recipe {
     }
 
     public void addIngredientToRecipe(MouseEvent mouseEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/recipeAdd.fxml"));
+            Parent root = fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setResizable(false);
+            stage.initStyle(StageStyle.UNDECORATED);
+            stage.setScene(new Scene(root));
+            stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
+            stage.initModality(Modality.WINDOW_MODAL);
+            stage.setOnHiding(event -> refreshTable());
+            stage.show();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void refreshTable() {
+
     }
 
     public void removeIngredientFromRecipe(MouseEvent mouseEvent) {

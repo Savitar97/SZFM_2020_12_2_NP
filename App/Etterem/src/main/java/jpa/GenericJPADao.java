@@ -1,5 +1,8 @@
 package jpa;
 
+import controller.ingredient.Ingredient;
+import result.model.IngredientDataModel;
+
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
@@ -49,4 +52,5 @@ public abstract class GenericJPADao<T> {
         entityManager.merge(entity);
         entityManager.getTransaction().commit();
     }
+
 }

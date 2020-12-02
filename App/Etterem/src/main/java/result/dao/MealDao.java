@@ -1,6 +1,7 @@
 package result.dao;
 
 import jpa.GenericJPADao;
+import result.model.IngredientDataModel;
 import result.model.MealDataModel;
 
 import javax.persistence.Persistence;
@@ -18,5 +19,9 @@ public class MealDao extends GenericJPADao<MealDataModel> {
             instance.setEntityManager(Persistence.createEntityManagerFactory("persistence").createEntityManager());
         }
         return instance;
+    }
+    public MealDataModel findByName(String name){
+
+        return entityManager.createQuery("SELECT r FROM MealDataModel r WHERE r.name=" + name, MealDataModel.class).getResultList().get(0);
     }
 }

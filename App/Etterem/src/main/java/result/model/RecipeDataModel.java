@@ -20,7 +20,11 @@ public class RecipeDataModel {
     @Column(name="amount",nullable = false)
     private Long amount;
 
+    @Column(name="amount",nullable = false)
+    private String unit;
+
     public void setAmount(Long amount) {
         this.amount = amount;
     }
+
 }

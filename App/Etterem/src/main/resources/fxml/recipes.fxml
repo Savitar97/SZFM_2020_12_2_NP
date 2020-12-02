@@ -15,7 +15,7 @@
         </Pane>
         <Pane layoutX="117.0" prefHeight="98.0" prefWidth="1163.0" style="-fx-background-color: #172333;">
          <children>
-            <ComboBox fx:id="recipeChoices" layoutX="71.0" layoutY="23.0" prefHeight="26.0" prefWidth="327.0" promptText="Válasszon ételt" />
+            <ComboBox fx:id="recipeChoices" layoutX="71.0" layoutY="23.0" prefHeight="26.0" prefWidth="327.0" promptText="Válasszon ételt" visibleRowCount="5" />
             <Button layoutX="436.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#recipeSelected" text="OK" />
          </children></Pane>
         <TableView fx:id="recipeTable" layoutX="119.0" layoutY="98.0" prefHeight="646.0" prefWidth="1160.0">

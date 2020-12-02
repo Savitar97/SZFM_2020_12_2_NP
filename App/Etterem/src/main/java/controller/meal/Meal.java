@@ -36,6 +36,7 @@ public class Meal {
 
     public void initialize() {
         dao = MealDao.getInstance();
+        refreshTable();
     }
 
 

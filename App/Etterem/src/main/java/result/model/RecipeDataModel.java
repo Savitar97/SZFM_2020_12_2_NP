@@ -20,7 +20,7 @@ public class RecipeDataModel {
     @Column(name="amount",nullable = false)
     private Long amount;
 
-    @Column(name="amount",nullable = false)
+    @Column(name="unit",nullable = false)
     private String unit;
 
     public void setAmount(Long amount) {

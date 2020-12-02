@@ -10,12 +10,14 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-import result.dao.ReservationDao;
-import result.model.ReservationDataModel;
+import result.dao.MealDao;
+import result.dao.RecipeDao;
+import result.model.MealDataModel;
+import result.model.RecipeDataModel;
 
 import java.io.IOException;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
+import java.util.List;
+
 
 public class Recipe {
 
@@ -23,25 +25,36 @@ public class Recipe {
     public ComboBox<String> recipeChoices;
 
     @FXML
-    private TableView<ReservationDataModel> recipeTable;
+    private TableView<RecipeDataModel> recipeTable;
 
     @FXML
-    private TableColumn<ReservationDataModel, String> name;
+    private TableColumn<RecipeDataModel, String> name;
 
     @FXML
-    private TableColumn<ReservationDataModel, Long> amount;
+    private TableColumn<RecipeDataModel, Long> amount;
 
     @FXML
-    private TableColumn<ReservationDataModel, String> unit;
+    private TableColumn<RecipeDataModel, String> unit;
 
+    private RecipeDao recipeDao;
 
     public void initialize() {
 
+        recipeDao = RecipeDao.getInstance();
         initChoices();
 
     }
 
+    @FXML
     public void initChoices(){
+
+        MealDao mealDao = MealDao.getInstance();
+        List<MealDataModel> meals = mealDao.findAll();
+
+        for (int i = 0; i<meals.size(); i++){
+            recipeChoices.getItems().add(meals.get(i).getName());
+            System.out.println(meals.get(i).getName());
+        }
 
     }
 

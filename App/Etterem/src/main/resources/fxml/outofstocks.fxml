@@ -9,7 +9,6 @@
     <children>
         <Pane prefHeight="720.0" prefWidth="120.0" style="-fx-background-color: #172333;">
             <children>
-                <Button id="remove" layoutX="20.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#removeSelected" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Töröl" />
                 <Button id="return" layoutX="19.0" layoutY="600.0" mnemonicParsing="false" onMouseClicked="#returnMainMenu" prefHeight="48.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Vissza" />
             </children>
         </Pane>

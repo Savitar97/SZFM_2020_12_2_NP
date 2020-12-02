@@ -41,17 +41,6 @@ public class OutOfStock {
         refreshTable();
     }
 
-    public void removeSelected(MouseEvent mouseEvent) {
-
-        try {
-            ingredientDao.remove(ingredientTable.getSelectionModel().getSelectedItem());
-        } catch (Exception ex) {
-            System.err.println(ex.getMessage());
-        }
-        refreshTable();
-
-    }
-
     private void refreshTable() {
 
         List<IngredientDataModel> datas = ingredientDao.findOutOfStock();

@@ -84,7 +84,7 @@ public class AddRecipe {
 
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.close();
-            
+
         }catch (Exception e) {
             System.out.println(e.getMessage());
             recipeDao.getEntityManager().getTransaction().rollback();

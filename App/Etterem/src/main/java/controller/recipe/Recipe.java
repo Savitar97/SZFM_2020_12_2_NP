@@ -1,5 +1,8 @@
 package controller.recipe;
 
+import javafx.beans.Observable;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -14,6 +17,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import result.dao.MealDao;
 import result.dao.RecipeDao;
+import result.model.IngredientDataModel;
 import result.model.MealDataModel;
 import result.model.RecipeDataModel;
 
@@ -40,9 +44,12 @@ public class Recipe {
 
     private RecipeDao recipeDao;
 
+    private MealDao mealDao;
+
     public void initialize() {
 
         recipeDao = RecipeDao.getInstance();
+        mealDao = MealDao.getInstance();
         initChoices();
 
     }
@@ -50,7 +57,7 @@ public class Recipe {
     @FXML
     public void initChoices(){
 
-        MealDao mealDao = MealDao.getInstance();
+
         List<MealDataModel> meals = mealDao.findAll();
 
         for (int i = 0; i<meals.size(); i++){

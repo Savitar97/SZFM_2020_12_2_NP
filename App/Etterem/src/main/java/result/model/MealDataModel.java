@@ -37,10 +37,10 @@ public class MealDataModel {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public Long getPrice() {
-        return price;
+        return this.price;
     }
 }

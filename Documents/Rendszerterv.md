@@ -370,6 +370,9 @@ Webtárhely:
 - Mindemellett a 000webhostnál alapból telepítve van a mysql adatbázis
 - Tehát az ingyenesek közül inkább a 000webhostot javasoljuk
 
+## Implementációs terv
+![Implementációs terv](https://github.com/Savitar97/SZFM_2020_12_2_NP/blob/main/Documents/Resources/ImplementationPlan.png)
+
 # Fogalomszótár
 
 ## Adatbázis fogalmai nagyvonalakban

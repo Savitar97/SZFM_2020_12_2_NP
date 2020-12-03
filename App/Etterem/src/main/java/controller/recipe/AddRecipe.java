@@ -57,7 +57,7 @@ public class AddRecipe {
         List<IngredientDataModel> ingredients = ingredientDao.findAll();
 
         for (int i = 0; i<ingredients.size(); i++){
-            mealChoices.getItems().add(ingredients.get(i).getName());
+            ingredientChoices.getItems().add(ingredients.get(i).getName());
             System.out.println(ingredients.get(i).getName());
         }
     }
@@ -72,9 +72,10 @@ public class AddRecipe {
         try {
 
             RecipeDataModel element = new RecipeDataModel();
-            IngredientDataModel ingredient = IngredientDao.getInstance().findByName(ingredientChoices.getValue());
-            MealDataModel meal = MealDao.getInstance().findByName(mealChoices.getValue());
+            IngredientDataModel ingredient = ingredientDao.findByName(ingredientChoices.getValue());
 
+            MealDataModel meal = mealDao.findByName(mealChoices.getValue());
+            System.out.println(meal);
             element.setIngredient(ingredient);
             element.setMeal(meal);
             element.setAmount(Long.parseLong(amount.getText()));

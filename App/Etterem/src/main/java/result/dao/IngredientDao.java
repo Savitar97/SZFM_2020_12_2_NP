@@ -31,7 +31,9 @@ public class IngredientDao extends GenericJPADao<IngredientDataModel> {
 
     public IngredientDataModel findByName(String name){
 
-       return entityManager.createQuery("SELECT r FROM IngredientDataModel r WHERE r.name=" + name, IngredientDataModel.class).getResultList().get(0);
+       return entityManager.createQuery("SELECT r FROM IngredientDataModel r WHERE r.name=:name" , IngredientDataModel.class)
+               .setParameter("name",name)
+               .getSingleResult();
     }
 
 }

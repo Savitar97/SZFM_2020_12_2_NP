@@ -22,6 +22,8 @@ public class MealDao extends GenericJPADao<MealDataModel> {
     }
     public MealDataModel findByName(String name){
 
-        return entityManager.createQuery("SELECT r FROM MealDataModel r WHERE r.name=" + name, MealDataModel.class).getResultList().get(0);
+        return entityManager.createQuery("SELECT r FROM MealDataModel r WHERE r.name=:name", MealDataModel.class)
+                .setParameter("name",name)
+                .getSingleResult();
     }
 }

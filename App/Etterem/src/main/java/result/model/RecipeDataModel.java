@@ -6,51 +6,40 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @Entity
-public class RecipeDataModel {
+public class RecipeDataModel implements Serializable {
 
+    /*
     @EmbeddedId
     private RecipeCompositeKey id;
+    */
+    /*
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    */
+    @Id
+    @ManyToOne(fetch = FetchType.EAGER,optional = false)
+    @MapsId("ingredientId")
+    @JoinColumn(name = "ingredient_id", nullable = false,referencedColumnName = "ID")
+    private IngredientDataModel ingredient;
+
+    @Id
+    @ManyToOne(fetch = FetchType.EAGER,optional = false)
+    @MapsId("mealId")
+    @JoinColumn(name = "meal_id", nullable = false,referencedColumnName = "ID")
+    private MealDataModel meal;
 
     @Column(name="amount",nullable = false)
     private Long amount;
 
     @Column(name="unit",nullable = false)
     private String unit;
-    /*
-    @ManyToOne(fetch = FetchType.LAZY)
-    @MapsId("ingredientId")
-    @JoinColumn(name = "ingredient_id")
-    private IngredientDataModel ingredient;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @MapsId("mealId")
-    @JoinColumn(name = "meal_id")
-    private MealDataModel meal;
-    */
-    public Long getAmount() {
-        return amount;
-    }
 
-    public void setAmount(Long amount) {
-        this.amount = amount;
-    }
-
-    public String getUnit() {
-        return unit;
-    }
-
-    public void setUnit(String unit) {
-        this.unit = unit;
-    }
-
-    public RecipeDataModel(Long amount, String unit, IngredientDataModel ingredient, MealDataModel meal) {
-        this.id=new RecipeCompositeKey(ingredient.getId(),meal.getId());
-        this.amount = amount;
-        this.unit = unit;
-    }
 }

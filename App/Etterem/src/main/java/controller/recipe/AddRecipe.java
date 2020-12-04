@@ -70,25 +70,28 @@ public class AddRecipe {
     public void add(MouseEvent mouseEvent) {
 
         try {
-
-
             IngredientDataModel ingredient = ingredientDao.findByName(ingredientChoices.getValue());
             System.out.println(ingredient);
             MealDataModel meal = mealDao.findByName(mealChoices.getValue());
             System.out.println(meal);
 
-
-            RecipeDataModel element = new RecipeDataModel(Long.parseLong(amount.getText()),unit.getText(),ingredient,meal);
-
+            RecipeDataModel element = new RecipeDataModel();
+            element.setAmount(Long.parseLong(amount.getText()));
+            element.setUnit(unit.getText());
+            element.setIngredient(ingredient);
+            element.setMeal(meal);
             recipeDao.persist(element);
+            /*
+
+
+             */
+
 
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.close();
-
         }catch (Exception e) {
             System.out.println(e.getMessage());
             recipeDao.getEntityManager().getTransaction().rollback();
         }
-
     }
 }

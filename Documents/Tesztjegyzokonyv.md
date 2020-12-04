@@ -1,5 +1,21 @@
 # Weboldal tesztelése
- 
+
+## Asztalfoglalás
+
+- Foglalás gombra kattintva (név mezőt üresen hagyva) megjelenik,hogy töltse ki a név mezőt => üresen hagyott mező kezelés működik
+- Foglalás gombra kattintva (email mezőt üresen hagyva) megjelenik,hogy töltse ki az email mezőt => üresen hagyott mező kezelés működik
+- Foglalás gombra kattintva (email mezőt hibásan kitöltve) megjelenik,hogy adjon meg egy email címet => hibásan beírt mező kezelése működik
+- Foglalás gombra kattintva (telefonszámot üresen hagyva) megjelenik,hogy töltse ki a telefonszám mezőt => üresen hagyott mező kezelés működik
+- Foglalás gombra kattintva (dátum üresen hagyva) megjelenik,hogy töltse ki a dátum mezőt => üresen hagyott mező kezelés működik
+- Foglalás gombra kattintva (időpontot nem kiválasztva) megjelenik,hogy jelöljön ki egy elemet a listából => nem kiválasztott mező kezelés működik
+- Foglalás gombra kattintva (főt üresen hagyva) megjelenik,hogy töltse ki a mezőt => üresen hagyott mező kezelés működik
+- Foglalás gombra kattintva (kevesebb mint 4 karakter hosszú nevet megadva) megjelenik, hogy "A név legalább 4 karakterből álljon!" => név validáció működik
+- Foglalás gombra kattintva (telefonszám kevesebb mint 9 karakter) megjelenik, hogy "Legalább 9 karakternek kell lennie a telefonszámnak!" => telefonszám 
+  validáció működik
+- Foglalás gombra kattintva (hibás dátum értéket megadva) megjelenik, hogy "YYYY.MM.DD formátumban add meg a dátumot!" => dátum validáció működik
+- Foglalás gombra kattintva (adatokat helyesen megadva) megjelenik egy loading gomb => loading animáció működik
+- Foglalás gombra kattintva (az adatokat helyesen kitöltve) az adat megjelenik az adatbázisban => adatbázis feltöltés sikeres
+
 # Asztali alkalmazás tesztelése
 
 ## Alapanyagok raktár tesztelése

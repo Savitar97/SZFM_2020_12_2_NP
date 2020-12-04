@@ -55,3 +55,11 @@ szeretne módosítani
 - Email cím helyes formátumban megadva a tovább gombra kattintva sikerül az asztalfoglalás => név validáció működik
 - Telefonszámhoz + karakteren és számokon kívül más karaktert megadva, a tovább gombra kattintva kivétel dobása => telefonszám validáció sikeres
 - Telefonszám jól megadva és a tovább gombra kattintva sikerül az asztalfoglalás => telefonszám validáció működik
+
+## Ételek lista tesztelése
+
+- Ételek gombra kattintva megjelenik a megfelelő ablak => navigáció működik;
+- Hozzáadás gombra új étel hozzáadása => adatbázisba történő felvétel működik;
+- Módosítás gombbal az adatok módosítása => adatbázisban helyesen módosulnak az adatok;
+- Törlés gombbal az adott étel törlése => adatbázisból helyesen törlődnek az adatok;
+- Ár kikötés: az ár csak számként adható meg => helyes működés, csak számot enged;

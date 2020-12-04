@@ -15,6 +15,8 @@
 - Foglalás gombra kattintva (hibás dátum értéket megadva) megjelenik, hogy "YYYY.MM.DD formátumban add meg a dátumot!" => dátum validáció működik
 - Foglalás gombra kattintva (adatokat helyesen megadva) megjelenik egy loading gomb => loading animáció működik
 - Foglalás gombra kattintva (az adatokat helyesen kitöltve) az adat megjelenik az adatbázisban => adatbázis feltöltés sikeres
+- Foglalás gombra kattintva (mindent jól kitöltve) megjelenik egy tájékoztató üzenet hogy sikerült a foglalás => jquerry ajax funkcionalitás működik
+- Foglalás gombra kattintva hiba esetén (például ha nem megy az adatbázis) tájékoztató üzenet jelenik meg => jquerry ajax funkcionalitás működik
 
 # Asztali alkalmazás tesztelése
 

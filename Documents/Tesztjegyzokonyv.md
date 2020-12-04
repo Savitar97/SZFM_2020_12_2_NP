@@ -44,3 +44,10 @@
 szeretne módosítani
 - Foglalás időpontjának kiválasztása legördülő listákkal működik => javaFX comboBox működik;
 - Asztalfoglalás időpontja sztringként jelenik meg a táblázatban => date formatting működik;
+- Név nem nagybetűvel kezdődik,hozzáad gombra kattintva kivétel jelenik meg => név validáció működik
+- Email cím rossz formátumban megadva hozzáadra kattintva kivétel jelenik meg => Email cím navigáció működik
+- Név nagybetűvel kezdődik de a hossza kisebb mint 4 karakter, hozzáad gombra kattintva kivétel jelenik meg => név validáció működik
+- Név nagybetűvel kezdődik 4 karakternél hosszabb tovább gombra kattintva sikerült az asztalfoglalás => név validáció működik
+- Email cím helyes formátumban megadva a tovább gombra kattintva sikerül az asztalfoglalás => név validáció működik
+- Telefonszámhoz + karakteren és számokon kívül más karaktert megadva, a tovább gombra kattintva kivétel dobása => telefonszám validáció sikeres
+- Telefonszám jól megadva és a tovább gombra kattintva sikerül az asztalfoglalás => telefonszám validáció működik

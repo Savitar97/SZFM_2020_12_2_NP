@@ -28,6 +28,8 @@
 - kattintással kiválasztható, adatbázisban levő alapanyag (név, mennyiség, mértékegység) módosítása => update működik;
 - kattintással kiválasztott alapanyag törlése => törlés gomb működik;
 - bármilyen módosítás esetén az alapanyagok táblázata frissül => refresh működik;
+- hozzáadás kikötés: mennyiség megadását csak számként fogad el => helyes műkökés;
+- módosítás kikötés: mennyiséget csak számként lehet megadni => helyes működés;
 
 ## Hiánycikkek lista tesztelése
 

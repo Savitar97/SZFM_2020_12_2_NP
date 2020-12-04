@@ -1,5 +1,5 @@
 <?php
-require_once './database/database.php';
+require_once(__ROOT__.'/database/database.php'); 
 class Reservation{
     private $amount_of_people;
     private $datetime;

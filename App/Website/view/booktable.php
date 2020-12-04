@@ -7,7 +7,7 @@
           <p>Foglalj asztalt gyorsan és egyszerűen a weben keresztül.</p>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+        <form action="forms/bookatable.php" method="post" role="form" class="php-email-form">
           <div class="form-row">
             <div class="col-lg-4 col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Név" data-rule="minlen:4" data-msg="A név legalább 4 karakterből álljon!" required>

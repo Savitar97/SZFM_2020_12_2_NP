@@ -92,7 +92,7 @@ public class AddReservation {
             reservation.setEmail(email.getText());
 
             if(!phoneNumber.getText().matches("^(\\+[0-9][0-9])?[0-9]{6,11}")){
-                Alert alert = new Alert(Alert.AlertType.ERROR, "A telefonszám csak számjegyeket tartalmazhat!", ButtonType.CLOSE);
+                Alert alert = new Alert(Alert.AlertType.ERROR, "Hibás telefonszám!", ButtonType.CLOSE);
                 alert.showAndWait();
                 throw new IllegalArgumentException("Rossz telefonszám!");
             }

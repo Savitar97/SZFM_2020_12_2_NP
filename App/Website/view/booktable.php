@@ -38,7 +38,7 @@
           <div class="mb-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+            <div class="sent-message">Sikeres volt a foglalásod köszönjük, hogy az éttermünket választottad!</div>
           </div>
           <div class="text-center"><button type="submit">Foglalás</button></div>
         </form>

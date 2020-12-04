@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Builder
 @Data
@@ -28,6 +30,7 @@ public class MealDataModel {
     @JoinColumn(name="menu_id", nullable=true)
     private MenuDataModel menu;
 
+
     public void setName(String name) {
         this.name = name;
     }
@@ -42,5 +45,10 @@ public class MealDataModel {
 
     public Long getPrice() {
         return this.price;
+    }
+
+
+    public Long getId() {
+        return id;
     }
 }

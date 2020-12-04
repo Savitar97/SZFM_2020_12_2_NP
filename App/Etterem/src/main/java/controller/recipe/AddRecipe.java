@@ -71,15 +71,14 @@ public class AddRecipe {
 
         try {
 
-            RecipeDataModel element = new RecipeDataModel();
-            IngredientDataModel ingredient = ingredientDao.findByName(ingredientChoices.getValue());
 
+            IngredientDataModel ingredient = ingredientDao.findByName(ingredientChoices.getValue());
+            System.out.println(ingredient);
             MealDataModel meal = mealDao.findByName(mealChoices.getValue());
             System.out.println(meal);
-            element.setIngredient(ingredient);
-            element.setMeal(meal);
-            element.setAmount(Long.parseLong(amount.getText()));
-            element.setUnit(unit.getText());
+
+
+            RecipeDataModel element = new RecipeDataModel(Long.parseLong(amount.getText()),unit.getText(),ingredient,meal);
 
             recipeDao.persist(element);
 

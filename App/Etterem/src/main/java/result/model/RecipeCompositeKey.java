@@ -1,32 +1,20 @@
 package result.model;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Objects;
 
 @Embeddable
+@AllArgsConstructor
+@NoArgsConstructor
 public class RecipeCompositeKey implements Serializable {
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "meal_id")
-    private MealDataModel meal;
+    @Column(name = "ingredient_id")
+    private Long ingredientId;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "ingredient_id",referencedColumnName = "name")
-    private IngredientDataModel ingredient;
-
-    public MealDataModel getMeal() {
-        return meal;
-    }
-
-    public void setMeal(MealDataModel meal) {
-        this.meal = meal;
-    }
-
-    public IngredientDataModel getIngredient() {
-        return ingredient;
-    }
-
-    public void setIngredient(IngredientDataModel ingredient) {
-        this.ingredient = ingredient;
-    }
+    @Column(name = "meal_id")
+    private Long mealId;
 }

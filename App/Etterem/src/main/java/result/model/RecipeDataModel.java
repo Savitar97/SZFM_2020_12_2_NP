@@ -1,12 +1,15 @@
 package result.model;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 
+@Getter
+@Setter
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 public class RecipeDataModel {
 
@@ -18,17 +21,23 @@ public class RecipeDataModel {
 
     @Column(name="unit",nullable = false)
     private String unit;
+    /*
+    @ManyToOne(fetch = FetchType.LAZY)
+    @MapsId("ingredientId")
+    @JoinColumn(name = "ingredient_id")
+    private IngredientDataModel ingredient;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @MapsId("mealId")
+    @JoinColumn(name = "meal_id")
+    private MealDataModel meal;
+    */
+    public Long getAmount() {
+        return amount;
+    }
 
     public void setAmount(Long amount) {
         this.amount = amount;
-    }
-
-    public void setIngredient(IngredientDataModel ingredient){
-        this.id.setIngredient(ingredient);
-    }
-
-    public void setMeal(MealDataModel meal){
-        this.id.setMeal(meal);
     }
 
     public String getUnit() {
@@ -36,6 +45,12 @@ public class RecipeDataModel {
     }
 
     public void setUnit(String unit) {
+        this.unit = unit;
+    }
+
+    public RecipeDataModel(Long amount, String unit, IngredientDataModel ingredient, MealDataModel meal) {
+        this.id=new RecipeCompositeKey(ingredient.getId(),meal.getId());
+        this.amount = amount;
         this.unit = unit;
     }
 }

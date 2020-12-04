@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Builder
 @Data
@@ -26,7 +28,6 @@ public class IngredientDataModel {
 
     @Column(name = "unit",nullable = false)
     private String unit;
-
 
     public void setName(String name) {
         this.name = name;
@@ -50,5 +51,10 @@ public class IngredientDataModel {
 
     public String getUnit() {
         return unit;
+    }
+
+
+    public Long getId() {
+        return id;
     }
 }

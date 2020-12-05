@@ -18,6 +18,16 @@
 - Foglalás gombra kattintva (mindent jól kitöltve) megjelenik egy tájékoztató üzenet hogy sikerült a foglalás => jquerry ajax funkcionalitás működik
 - Foglalás gombra kattintva hiba esetén (például ha nem megy az adatbázis) tájékoztató üzenet jelenik meg => jquerry ajax funkcionalitás működik
 
+## Nyitó oldal tesztelése
+
+- A kezdő lapon léptethetőség a bemutató lapok között a nyilakkal => a léptetés megtörténik;
+- A demó videó indul, amennyiben van a háttérben link megadva (felhasználási jogok miatt ez csak tesztelve) => indítás működik;
+- Az Asztalfoglalás lehetőségre kattintva átirányítás az asztalfoglaláshoz => átirányítás működik;
+- Az étterem nevére kattintva főoldalra irányítás => irányítás megtörténik;
+- Rólunk rovat megjelenítése => a megfelelő helyen jelenik meg;
+- A Rólunk gombra kattintva átirányítás a Rólunk rovatra => átirányítás megtörténik;
+- A Kezdőoldal gombra átirányítás a Kezdőoldalra => átirányítás működik;
+
 # Asztali alkalmazás tesztelése
 
 ## Alapanyagok raktár tesztelése

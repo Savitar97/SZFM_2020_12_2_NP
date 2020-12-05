@@ -1,6 +1,5 @@
 package controller.meal;
 
-import controller.ingredient.ModifyIngredient;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -18,8 +17,6 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import result.dao.MealDao;
-import result.dao.ReservationDao;
-import result.model.IngredientDataModel;
 import result.model.MealDataModel;
 
 import java.io.IOException;
@@ -103,13 +100,13 @@ public class Meal {
     }
 
     private void refreshTable() {
-        List<MealDataModel> datas = dao.findAll();
-        System.out.println(datas);
+        List<MealDataModel> data = dao.findAll();
+        System.out.println(data);
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         price.setCellValueFactory(new PropertyValueFactory<>("price"));
 
         ObservableList<MealDataModel> observableResult = FXCollections.observableArrayList();
-        observableResult.addAll(datas);
+        observableResult.addAll(data);
         mealsTable.setItems(observableResult);
         mealsTable.refresh();
     }

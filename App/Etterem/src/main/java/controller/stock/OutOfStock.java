@@ -9,7 +9,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
@@ -43,14 +42,14 @@ public class OutOfStock {
 
     private void refreshTable() {
 
-        List<IngredientDataModel> datas = ingredientDao.findOutOfStock();
-        System.out.println(datas);
+        List<IngredientDataModel> data = ingredientDao.findOutOfStock();
+        System.out.println(data);
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
         unit.setCellValueFactory(new PropertyValueFactory<>("unit"));
 
         ObservableList<IngredientDataModel> observableResult = FXCollections.observableArrayList();
-        observableResult.addAll(datas);
+        observableResult.addAll(data);
         ingredientTable.setItems(observableResult);
         ingredientTable.refresh();
 

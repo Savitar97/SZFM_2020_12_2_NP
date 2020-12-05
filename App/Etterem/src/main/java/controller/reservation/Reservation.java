@@ -121,20 +121,18 @@ public class Reservation {
         amountOfPeople.setCellValueFactory(new PropertyValueFactory<>("amountOfPeople"));
         date.setCellValueFactory(cellData -> cellData.getValue().getDateProperty());
 
-        date.setCellFactory(column -> {
-            return new TableCell<ReservationDataModel, ZonedDateTime>() {
-                @Override
-                protected void updateItem(ZonedDateTime item, boolean empty) {
-                    super.updateItem(item, empty);
+        date.setCellFactory(column -> new TableCell<>() {
+            @Override
+            protected void updateItem(ZonedDateTime item, boolean empty) {
+                super.updateItem(item, empty);
 
-                    if (item == null || empty) {
-                        setText(null);
-                    } else {
-                        setText(timeFormatter.format(item));
+                if (item == null || empty) {
+                    setText(null);
+                } else {
+                    setText(timeFormatter.format(item));
 
-                    }
                 }
-            };
+            }
         });
 
         ObservableList<ReservationDataModel> observableResult = FXCollections.observableArrayList();

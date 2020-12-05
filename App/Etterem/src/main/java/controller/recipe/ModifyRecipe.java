@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 import result.dao.IngredientDao;
 import result.dao.MealDao;
 import result.dao.RecipeDao;
+import result.model.IngredientDataModel;
 import result.model.MealDataModel;
 
 public class ModifyRecipe {
@@ -25,8 +26,14 @@ public class ModifyRecipe {
 
     private MealDataModel selectedMeal;
 
+    private IngredientDataModel selectedIngredient;
+
     public void setSelectedMeal(MealDataModel selectedMeal) {
         this.selectedMeal = selectedMeal;
+    }
+
+    public void setSelectedIngredient(IngredientDataModel selectedIngredient) {
+        this.selectedIngredient = selectedIngredient;
     }
 
     public void initialize(){
@@ -43,4 +50,5 @@ public class ModifyRecipe {
         Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
         stage.close();
     }
+
 }

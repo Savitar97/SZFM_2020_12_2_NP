@@ -7,7 +7,7 @@
     <children>
         <Pane prefHeight="744.0" prefWidth="120.0" style="-fx-background-color: #172333;">
             <children>
-                <Button id="modify" layoutX="19.0" layoutY="382.0" mnemonicParsing="false" onMouseClicked="#modifyAmount" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Módosít" />
+                <Button id="modify" layoutX="19.0" layoutY="382.0" mnemonicParsing="false" onMouseClicked="#modifyRecipe" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Módosít" />
                 <Button id="add" layoutX="19.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#addIngredientToRecipe" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Hozzáad" />
                 <Button id="remove" layoutX="20.0" layoutY="320.0" mnemonicParsing="false" onMouseClicked="#removeIngredientFromRecipe" prefHeight="40.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Töröl" />
                 <Button id="return" layoutX="19.0" layoutY="600.0" mnemonicParsing="false" onMouseClicked="#returnMainMenu" prefHeight="48.0" prefWidth="80.0" stylesheets="@css/buttons.css" text="Vissza" />

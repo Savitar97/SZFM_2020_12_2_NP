@@ -159,14 +159,14 @@ public class Ingredient {
 
 
     public void refreshTable() {
-        List<IngredientDataModel> datas = ingredientDao.findAll();
-        System.out.println(datas);
+        List<IngredientDataModel> data = ingredientDao.findAll();
+        System.out.println(data);
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
         unit.setCellValueFactory(new PropertyValueFactory<>("unit"));
 
         ObservableList<IngredientDataModel> observableResult = FXCollections.observableArrayList();
-        observableResult.addAll(datas);
+        observableResult.addAll(data);
         ingredientTable.setItems(observableResult);
         ingredientTable.refresh();
     }

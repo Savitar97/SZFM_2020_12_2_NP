@@ -44,7 +44,6 @@ public class AddRecipe {
         initIngredientChoices();
     }
 
-
     public void initIngredientChoices(){
 
         List<IngredientDataModel> ingredients = ingredientDao.findAll();
@@ -53,11 +52,6 @@ public class AddRecipe {
             ingredientChoices.getItems().add(ingredients.get(i).getName());
             System.out.println(ingredients.get(i).getName());
         }
-    }
-
-    public void returnToRecipes(MouseEvent mouseEvent) {
-        Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
-        stage.close();
     }
 
     public void add(MouseEvent mouseEvent) {
@@ -77,6 +71,11 @@ public class AddRecipe {
             System.out.println(e.getMessage());
             recipeDao.getEntityManager().getTransaction().rollback();
         }
+    }
+
+    public void returnToRecipes(MouseEvent mouseEvent) {
+        Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+        stage.close();
     }
 
 }

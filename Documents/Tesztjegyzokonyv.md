@@ -27,6 +27,8 @@
 - Rólunk rovat megjelenítése => a megfelelő helyen jelenik meg;
 - A Rólunk gombra kattintva átirányítás a Rólunk rovatra => átirányítás megtörténik;
 - A Kezdőoldal gombra átirányítás a Kezdőoldalra => átirányítás működik;
+- A menü csík görgetés során maradjon ugyan abban a pozícióban => pozíció tartás működik;
+- A léptehető menü minden lapjáról történjen átirányítás az Asztalfoglalás gombra => az átirányítás működik;
 
 # Asztali alkalmazás tesztelése
 

@@ -77,6 +77,7 @@ szeretne módosítani
 - Ár kikötés: az ár csak számként adható meg => helyes működés, csak számot enged;
 - Megnevezés szerinti rendezés abc szerinti csökkenő vagy növekvő sorrendbe => megtörténik a rendezés, helyes;
 - Ár szerinti rendezés csökkenő vagy növekvő sorrendbe => megtörténik a rendezés, helyes;
+- Megnevezés kitöltés: speciális karakter megengedett a különböző specialitások vagy fantázianevek lefedéséhez => megadás működik;
 
 ## Receptek listájának tesztelése
 

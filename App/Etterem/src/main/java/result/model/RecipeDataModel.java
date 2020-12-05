@@ -42,4 +42,39 @@ public class RecipeDataModel implements Serializable {
     private String unit;
 
 
+    public IngredientDataModel getIngredient() {
+        return ingredient;
+    }
+
+    public void setIngredient(IngredientDataModel ingredient) {
+        this.ingredient = ingredient;
+    }
+
+    public MealDataModel getMeal() {
+        return meal;
+    }
+
+    public void setMeal(MealDataModel meal) {
+        this.meal = meal;
+    }
+
+    public Long getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Long amount) {
+        this.amount = amount;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
+    }
+
+    public String getIngredientName(){
+        return this.ingredient.getName();
+    }
 }

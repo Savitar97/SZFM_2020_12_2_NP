@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="411.0" prefWidth="450.0" style="-fx-background-color: #172333;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.recipe.ModifyRecipe">
+    <Label id="title" layoutX="126.0" layoutY="51.0" stylesheets="@css/label.css" text="Módosítás" textAlignment="CENTER" textFill="#837a7a">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+
+    <Button id="add" layoutX="265.0" layoutY="312.0" mnemonicParsing="false" onMouseClicked="#modify" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Hozzáad" />
+    <Button id="return" layoutX="80.0" layoutY="312.0" mnemonicParsing="false" onMouseClicked="#returnToRecipes" prefHeight="38.0" prefWidth="103.0" stylesheets="@css/buttons.css" text="Vissza" />
+    <Label layoutX="88.0" layoutY="141.0" stylesheets="@css/label.css" text="Mennyiség:" />
+    <Label layoutX="75.0" layoutY="224.0" stylesheets="@css/label.css" text="Mértékegység:" />
+    <TextField fx:id="amount" layoutX="218.0" layoutY="136.0" prefHeight="26.0" prefWidth="150.0" />
+    <TextField fx:id="unit" layoutX="218.0" layoutY="219.0" prefHeight="26.0" prefWidth="150.0" />
+
+</AnchorPane>

@@ -18,8 +18,6 @@ import java.util.List;
 public class AddRecipe {
 
     @FXML
-    ComboBox<String> mealChoices;
-    @FXML
     ComboBox<String> ingredientChoices;
     @FXML
     TextField amount;
@@ -32,25 +30,20 @@ public class AddRecipe {
 
     private RecipeDao recipeDao;
 
+    private MealDataModel selectedMeal;
+
+    public void setSelectedMeal(MealDataModel selectedMeal) {
+        this.selectedMeal = selectedMeal;
+    }
 
     public void initialize(){
         ingredientDao = IngredientDao.getInstance();
         mealDao = MealDao.getInstance();
         recipeDao = RecipeDao.getInstance();
 
-        initMealChoices();
         initIngredientChoices();
     }
 
-    public void initMealChoices(){
-
-        List<MealDataModel> meals = mealDao.findAll();
-
-        for (int i = 0; i<meals.size(); i++){
-            mealChoices.getItems().add(meals.get(i).getName());
-            System.out.println(meals.get(i).getName());
-        }
-    }
 
     public void initIngredientChoices(){
 
@@ -71,21 +64,12 @@ public class AddRecipe {
 
         try {
             IngredientDataModel ingredient = ingredientDao.findByName(ingredientChoices.getValue());
-            System.out.println(ingredient);
-            MealDataModel meal = mealDao.findByName(mealChoices.getValue());
-            System.out.println(meal);
-
             RecipeDataModel element = new RecipeDataModel();
             element.setAmount(Long.parseLong(amount.getText()));
             element.setUnit(unit.getText());
             element.setIngredient(ingredient);
-            element.setMeal(meal);
+            element.setMeal(selectedMeal);
             recipeDao.persist(element);
-            /*
-
-
-             */
-
 
             Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
             stage.close();
@@ -94,4 +78,5 @@ public class AddRecipe {
             recipeDao.getEntityManager().getTransaction().rollback();
         }
     }
+
 }

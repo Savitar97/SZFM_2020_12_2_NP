@@ -1,5 +1,6 @@
 package controller.recipe;
 
+import controller.reservation.ModifyReservation;
 import javafx.beans.Observable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -8,9 +9,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -55,12 +55,12 @@ public class Recipe {
     }
 
     @FXML
-    public void initChoices(){
+    public void initChoices() {
 
 
         List<MealDataModel> meals = mealDao.findAll();
 
-        for (int i = 0; i<meals.size(); i++){
+        for (int i = 0; i < meals.size(); i++) {
             recipeChoices.getItems().add(meals.get(i).getName());
             System.out.println(meals.get(i).getName());
         }
@@ -68,15 +68,53 @@ public class Recipe {
     }
 
     public void recipeSelected(MouseEvent mouseEvent) {
+
+        if (!recipeChoices.getValue().isEmpty()) {
+            String mealName = recipeChoices.getValue();
+            MealDataModel selectedMeal = mealDao.findByName(mealName);
+
+            List<RecipeDataModel> datas = recipeDao.findRecipe(selectedMeal);
+            System.out.println(datas);
+            name.setCellValueFactory(new PropertyValueFactory<>("name"));
+            amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
+            unit.setCellValueFactory(new PropertyValueFactory<>("unit"));
+
+            ObservableList<RecipeDataModel> observableResult = FXCollections.observableArrayList();
+            observableResult.addAll(datas);
+            recipeTable.setItems(observableResult);
+            recipeTable.refresh();
+
+        } else {
+            Alert alert = new Alert(Alert.AlertType.ERROR, "Nincs kiválasztott elem!", ButtonType.CLOSE);
+            alert.showAndWait();
+        }
     }
 
     public void modifyAmount(MouseEvent mouseEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/recipeModify.fxml"));
+            Parent root = fxmlLoader.load();
+            fxmlLoader.<AddRecipe>getController().setSelectedMeal(mealDao.findByName(recipeChoices.getValue()));
+            Stage stage = new Stage();
+            stage.setResizable(false);
+            stage.initStyle(StageStyle.UNDECORATED);
+            stage.setScene(new Scene(root));
+            stage.initOwner(((Node) mouseEvent.getSource()).getScene().getWindow());
+            stage.initModality(Modality.WINDOW_MODAL);
+            stage.setOnHiding(event -> refreshTable());
+            stage.show();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void addIngredientToRecipe(MouseEvent mouseEvent) {
+
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/recipeAdd.fxml"));
             Parent root = fxmlLoader.load();
+            fxmlLoader.<AddRecipe>getController().setSelectedMeal(mealDao.findByName(recipeChoices.getValue()));
             Stage stage = new Stage();
             stage.setResizable(false);
             stage.initStyle(StageStyle.UNDECORATED);

@@ -5,11 +5,8 @@ import javafx.scene.Node;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-import result.dao.IngredientDao;
-import result.dao.MealDao;
 import result.dao.RecipeDao;
-import result.model.IngredientDataModel;
-import result.model.MealDataModel;
+import result.model.RecipeDataModel;
 
 public class ModifyRecipe {
 
@@ -18,32 +15,38 @@ public class ModifyRecipe {
     @FXML
     TextField unit;
 
-    private IngredientDao ingredientDao;
-
-    private MealDao mealDao;
-
     private RecipeDao recipeDao;
 
-    private MealDataModel selectedMeal;
+    private RecipeDataModel selectedRecipe;
 
-    private IngredientDataModel selectedIngredient;
+    public void setSelectedRecipe(RecipeDataModel selected) {
 
-    public void setSelectedMeal(MealDataModel selectedMeal) {
-        this.selectedMeal = selectedMeal;
-    }
-
-    public void setSelectedIngredient(IngredientDataModel selectedIngredient) {
-        this.selectedIngredient = selectedIngredient;
+        this.amount.setText(selected.getAmount().toString());
+        this.unit.setText(selected.getUnit());
+        this.selectedRecipe = selected;
     }
 
     public void initialize(){
-        ingredientDao = IngredientDao.getInstance();
-        mealDao = MealDao.getInstance();
+
         recipeDao = RecipeDao.getInstance();
 
     }
 
     public void modify(MouseEvent mouseEvent) {
+
+        try {
+
+            selectedRecipe.setAmount(Long.valueOf(amount.getText()));
+            selectedRecipe.setUnit(unit.getText());
+            recipeDao.update(selectedRecipe);
+
+            Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+            stage.close();
+
+        } catch (Exception e) {
+            System.out.println( e.getClass() + ": "+ e.getMessage());
+            recipeDao.getEntityManager().getTransaction().rollback();
+        }
     }
 
     public void returnToRecipes(MouseEvent mouseEvent) {

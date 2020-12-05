@@ -90,8 +90,7 @@ public class Recipe {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/recipeModify.fxml"));
                 Parent root = fxmlLoader.load();
-                fxmlLoader.<ModifyRecipe>getController().setSelectedMeal(mealDao.findByName(recipeChoices.getValue()));
-                fxmlLoader.<ModifyRecipe>getController().setSelectedIngredient(recipeTable.getSelectionModel().getSelectedItem().getIngredient());
+                fxmlLoader.<ModifyRecipe>getController().setSelectedRecipe(recipeTable.getSelectionModel().getSelectedItem());
                 Stage stage = new Stage();
                 stage.setResizable(false);
                 stage.initStyle(StageStyle.UNDECORATED);
@@ -152,15 +151,11 @@ public class Recipe {
 
     private void refreshTable() {
 
-        String mealName = recipeChoices.getValue();
-        MealDataModel selectedMeal = mealDao.findByName(mealName);
-
+        MealDataModel selectedMeal = mealDao.findByName(recipeChoices.getValue());
         List<RecipeDataModel> data = recipeDao.findAll();
-        data.stream().filter((recipeDataModel) -> recipeDataModel.getMeal().equals(selectedMeal)).collect(Collectors.toList());
-        System.out.println(data);
+        data = data.stream().filter((recipeDataModel) -> recipeDataModel.getMeal().equals(selectedMeal)).collect(Collectors.toList());
 
         name.setCellValueFactory(p -> p.getValue().getIngredient().getNameProperty());
-
         amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
         unit.setCellValueFactory(new PropertyValueFactory<>("unit"));
 

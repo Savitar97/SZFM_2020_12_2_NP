@@ -63,3 +63,5 @@ szeretne módosítani
 - Módosítás gombbal az adatok módosítása => adatbázisban helyesen módosulnak az adatok;
 - Törlés gombbal az adott étel törlése => adatbázisból helyesen törlődnek az adatok;
 - Ár kikötés: az ár csak számként adható meg => helyes működés, csak számot enged;
+- Megnevezés szerinti rendezés abc szerinti csökkenő vagy növekvő sorrendbe => megtörténik a rendezés, helyes;
+- Ár szerinti rendezés csökkenő vagy növekvő sorrendbe => megtörténik a rendezés, helyes;

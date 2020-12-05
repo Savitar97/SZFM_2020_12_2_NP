@@ -1,7 +1,6 @@
 package result.dao;
 
 import jpa.GenericJPADao;
-import result.model.IngredientDataModel;
 import result.model.MealDataModel;
 import result.model.RecipeDataModel;
 
@@ -23,8 +22,8 @@ public class RecipeDao extends GenericJPADao<RecipeDataModel> {
         return instance;
     }
 
-    public List<RecipeDataModel> findRecipe(MealDataModel meal){
-        return entityManager.createQuery("SELECT r FROM RecipeDataModel r WHERE r.meal:=meal", RecipeDataModel.class)
+   /* public List<RecipeDataModel> findRecipe(MealDataModel meal){
+        return entityManager.createQuery("SELECT r FROM RecipeDataModel r WHERE r.meal:=meal", RecipeDataModel.class).setParameter("meal", meal.getId())
                 .getResultList();
-    }
+    }*/
 }

@@ -2,6 +2,7 @@ package controller.recipe;
 
 import controller.reservation.ModifyReservation;
 import javafx.beans.Observable;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -15,6 +16,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.util.Callback;
 import result.dao.MealDao;
 import result.dao.RecipeDao;
 import result.model.IngredientDataModel;
@@ -23,6 +25,8 @@ import result.model.RecipeDataModel;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 
 public class Recipe {
@@ -73,9 +77,19 @@ public class Recipe {
             String mealName = recipeChoices.getValue();
             MealDataModel selectedMeal = mealDao.findByName(mealName);
 
-            List<RecipeDataModel> datas = recipeDao.findRecipe(selectedMeal);
+            List<RecipeDataModel> datas = recipeDao.findAll();
+            datas.stream().filter((recipeDataModel) -> {
+                return recipeDataModel.getMeal().equals(selectedMeal);
+            }).collect(Collectors.toList());
             System.out.println(datas);
-            name.setCellValueFactory(new PropertyValueFactory<>("name"));
+
+            name.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<RecipeDataModel, String>, ObservableValue<String>>() {
+                public ObservableValue<String> call(TableColumn.CellDataFeatures<RecipeDataModel, String> p) {
+                    return p.getValue().getIngredient().getNameProperty();
+                }
+            });
+
+
             amount.setCellValueFactory(new PropertyValueFactory<>("amount"));
             unit.setCellValueFactory(new PropertyValueFactory<>("unit"));
 

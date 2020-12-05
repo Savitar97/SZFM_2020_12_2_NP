@@ -1,5 +1,7 @@
 package result.model;
 
+import javafx.beans.property.SimpleObjectProperty;
+import javafx.beans.value.ObservableValue;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -59,4 +61,7 @@ public class IngredientDataModel {
         return id;
     }
 
+    public ObservableValue<String> getNameProperty() {
+        return new SimpleObjectProperty<>(name);
+    }
 }

@@ -33,7 +33,7 @@ public class ModifyRecipe {
         ingredientDao = IngredientDao.getInstance();
         mealDao = MealDao.getInstance();
         recipeDao = RecipeDao.getInstance();
-        
+
     }
 
     public void modify(MouseEvent mouseEvent) {

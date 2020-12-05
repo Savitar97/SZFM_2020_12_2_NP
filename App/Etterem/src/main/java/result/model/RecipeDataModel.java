@@ -74,7 +74,7 @@ public class RecipeDataModel implements Serializable {
         this.unit = unit;
     }
 
-    public String getIngredientName(){
-        return this.ingredient.getName();
+    public boolean isSelected(MealDataModel meal) {
+        return this.meal.equals(meal);
     }
 }
